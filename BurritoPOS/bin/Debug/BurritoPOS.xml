@@ -1,0 +1,957 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BurritoPOS</name>
+    </assembly>
+    <members>
+        <member name="T:BurritoPOS.domain.Customer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Customer.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Customer.#ctor(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="emailAddress"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Customer.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Customer.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Customer.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Factory">
+            <summary>
+            This class is a service Factory that provides concrete service implementations.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getService(System.String)">
+            <summary>
+            This method returns a concrete class based on current configuration
+            </summary>
+            <param name="name">Name of the service</param>
+            <returns>Concrete service class</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getImplName(System.String)">
+            <summary>
+            This method gets the required implementation name for service requested.
+            </summary>
+            <param name="name">Name of service</param>
+            <returns>Concrete class to instantiate</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getCustomerSvc">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getBurritoSvc">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getEmployeeSvc">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getInventorySvc">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getManagerSvc">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getOrderSvc">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.parse(System.String)">
+            <summary>
+            This method parses the configuration xml file
+            </summary>
+            <param name="filePath">File path to configuration xml</param>
+        </member>
+        <member name="T:BurritoPOS.domain.Burrito">
+            <summary>
+            This class represents a single delicious Burrito to be part of an Order
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Burrito.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Burrito.#ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Decimal)">
+            <summary>
+            Constructor sets burrito options
+            <param name="id">Unique ID of burrito</param>
+            <param name="flourTortilla">Has flour tortilla</param>
+            <param name="chiliTortilla">Has chili tortilla</param>
+            <param name="jalapenoCheddarTortilla">Has jalapeno cheddar tortilla</param>
+            <param name="tomatoBasilTortilla">Has tomato basil tortilla</param>
+            <param name="herbGarlicTortilla">Has herb garlic tortilla</param>
+            <param name="wheatTortilla">Has wheat tortilla</param>
+            <param name="whiteRice">Has white rice</param>
+            <param name="brownRice">Has brown rice</param>
+            <param name="blackBeans">Has black beans</param>
+            <param name="pintoBeans">Has pinto beans</param>
+            <param name="chicken">Has chicken</param>
+            <param name="beef">Has beef</param>
+            <param name="hummus">Has hummus</param>
+            <param name="salsaPico">Has pico salsa</param>
+            <param name="salsaVerde">Has salsa verde</param>
+            <param name="salsaSpecial">Has special salsa</param>
+            <param name="guacamole">Has guacamole</param>
+            <param name="lettuce">Has lettuce</param>
+            <param name="jalapenos">Has jalapenos</param>
+            <param name="tomatoes">Has tomatoes</param>
+            <param name="cucumber">Has cucumber</param>
+            <param name="onion">Has onion</param>
+            <param name="price">Price of burrito</param>
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Burrito.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Burrito.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Burrito.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="T:BurritoPOS.domain.Inventory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="FlourTortillaQty"></param>
+            <param name="ChiliTortillaQty"></param>
+            <param name="JalapenoCheddarTortillaQty"></param>
+            <param name="TomatoBasilTortillaQty"></param>
+            <param name="HerbGarlicTortillaQty"></param>
+            <param name="WheatTortillaQty"></param>
+            <param name="WhiteRiceQty"></param>
+            <param name="BrownRiceQty"></param>
+            <param name="BlackBeansQty"></param>
+            <param name="PintoBeansQty"></param>
+            <param name="ChickenQty"></param>
+            <param name="BeefQty"></param>
+            <param name="HummusQty"></param>
+            <param name="SalsaPicoQty"></param>
+            <param name="SalsaVerdeQty"></param>
+            <param name="SalsaSpecialQty"></param>
+            <param name="GuacamoleQty"></param>
+            <param name="LettuceQty"></param>
+            <param name="JalapenosQty"></param>
+            <param name="TomatoesQty"></param>
+            <param name="CucumberQty"></param>
+            <param name="OnionQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setFlourTortillaQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="flourTortillaQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setChiliTortillaQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="chiliTortillaQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setJalapenoCheddarTortillaQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="jalapenoCheddarTortillaQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setTomatoBasilTortillaQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="tomatoBasilTortillaQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setHerbGarlicTortillaQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="herbGarlicTortillaQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setWheatTortillaQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="wheatTortillaQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setWhiteRiceQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="whiteRiceQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setBrownRiceQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="brownRiceQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setBlackBeansQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="blackBeansQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setPintoBeansQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pintoBeansQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setChickenQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="chickenQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setBeefQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="beefQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setHummusQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="hummusQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setSalsaPicoQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="salsaPicoQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setSalsaVerdeQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="salsaVerdeQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setSalsaSpecialQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="salsaSpecialQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setGuacamoleQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="guacamoleQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setLettuceQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="lettuceQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setJalapenosQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="jalapenosQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setTomatoesQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="tomatoesQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setCucumberQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="cucumberQty"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Inventory.setOnionQty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="onionQty"></param>
+        </member>
+        <member name="T:BurritoPOS.domain.test.BurritoTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.BurritoTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.BurritoTestCase.tearDown">
+            <summary>
+            
+            </summary> 
+        </member>
+        <member name="T:BurritoPOS.domain.Order">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Order.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Order.#ctor(System.Int32,System.Collections.ArrayList,System.DateTime,System.Boolean,System.Boolean,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="orderID"></param>
+            <param name="burritos"></param>
+            <param name="orderDate"></param>
+            <param name="isSubmitted"></param>
+            <param name="isComplete"></param>
+            <param name="totalCost"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Order.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Order.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Order.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="P:BurritoPOS.domain.Order.orderID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Order.burritos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Order.orderDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Order.isSubmitted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Order.isComplete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Order.totalCost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.domain.Manager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Manager.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Manager.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="employeeID"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Manager.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Manager.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Manager.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="P:BurritoPOS.domain.Manager.firstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Manager.lastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Manager.employeeID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.domain.Manager.isManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BurritoPOS.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.domain.Employee">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Employee.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.Employee.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="employeeID"></param>
+        </member>
+        <member name="M:BurritoPOS.domain.Employee.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Employee.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.Employee.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="M:BurritoPOS.domain.test.CustomerTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.CustomerTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.EmployeeTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.EmployeeTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.InventoryTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.InventoryTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="T:BurritoPOS.domain.test.ManagerTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.ManagerTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.ManagerTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="T:BurritoPOS.domain.test.OrderTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testValidateOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testInvalidOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testEqualsOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testNotEqualsOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.Form1">
+            <summary>
+            Entry point for Burrito POS Application
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.Form1.#ctor">
+            <summary>
+            Entry point for Burrito POS Application
+            </summary>
+        </member>
+        <member name="F:BurritoPOS.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.BaseSvcHibernateImpl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.BurritoSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Burrito objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcFileImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcFileImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcFileImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.CustomerSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Customer objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcFileImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcFileImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcFileImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.EmployeeSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcFileImpl.getEmployee(System.Int32)">
+            <summary>
+            This method retrieves a employee.
+            </summary>
+            <param name="id">Unique ID of employee to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcFileImpl.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            This method stores a employee.
+            </summary>
+            <param name="e">The employee object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcFileImpl.deleteEmployee(System.Int32)">
+            <summary>
+            This method deletes a employee.
+            </summary>
+            <param name="id">Unique ID of the employee to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.InventorySvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Inventory objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcFileImpl.getInventory(System.Int32)">
+            <summary>
+            This method retrieves a inventory.
+            </summary>
+            <param name="id">Unique ID of inventory to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcFileImpl.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            This method stores a inventory.
+            </summary>
+            <param name="i">The inventory object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcFileImpl.deleteInventory(System.Int32)">
+            <summary>
+            This method deletes a inventory.
+            </summary>
+            <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.ManagerSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Manager objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcFileImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcFileImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcFileImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.OrderSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcFileImpl.getOrder(System.Int32)">
+            <summary>
+            This method retrieves a order.
+            </summary>
+            <param name="id">Unique ID of order to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcFileImpl.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            This method stores a order.
+            </summary>
+            <param name="o">The order object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcFileImpl.deleteOrder(System.Int32)">
+            <summary>
+            This method deletes a order.
+            </summary>
+            <param name="id">Unique ID of the order to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcFileImpl.getAllOrders">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BurritoPOS.service.test.BurritoSvcImplTestCase">
+            <summary>
+            Unit test fixture for burrito service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.testBurritoSvc">
+            <summary>
+            Unit test for burrito service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.CustomerSvcImplTestCase">
+            <summary>
+            Unit test fixture for customer service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.testCustomerSvc">
+            <summary>
+            Unit test for customer service implementation
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.testInvalidGetCustomer">
+            <summary>
+            Unit test for customer service implementation (invalid customer)
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.EmployeeSvcImplTestCase">
+            <summary>
+            Unit test fixture for employee service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.testStoreEmployee">
+            <summary>
+            Unit test for employee service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.InventorySvcImplTestCase">
+            <summary>
+            Unit test fixture for inventory service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.testStoreInventory">
+            <summary>
+            Unit test for inventory service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.ManagerSvcImplTestCase">
+            <summary>
+            Unit test fixture for manager service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.testStoreManager">
+            <summary>
+            Unit test for manager service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.OrderSvcImplTestCase">
+            <summary>
+            Unit test fixture for order service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

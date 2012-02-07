@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.burritopos.domain">
+   <class name="Order" table="orders">
+   	  <meta attribute="class-description">This class contains order object information.</meta>
+	  <id name="orderID" column="orderid" type="java.lang.Integer" >
+		<generator class="increment" />
+	  </id>
+          <property name="orderDate" column="orderDate" type="java.util.Date" />
+          <property name="isComplete" column="isComplete" type="java.lang.Boolean" />
+          <property name="isSubmitted" column="isSubmitted" type="java.lang.Boolean" />
+          <property name="totalCost" column="totalCost" type="java.math.BigDecimal" />
+          <list name="burritos" lazy="true" cascade="all">
+            <key column="id" />
+            <index column="orderid" />
+            <one-to-many class="com.burritopos.domain.Burrito" />
+          </list>
+   </class>
+</hibernate-mapping>

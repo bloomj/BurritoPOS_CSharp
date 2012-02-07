@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOSTests.nunit</TopNode>
+  <SelectedNode>[0-1045]BurritoPOS</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOSTests.nunit" Expanded="true" />
+    <Node UniqueName="[0-1044]C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.exe" Expanded="true" />
+    <Node UniqueName="[0-1045]BurritoPOS" Expanded="true" />
+    <Node UniqueName="[0-1046]BurritoPOS.domain" Expanded="true" />
+    <Node UniqueName="[0-1048]BurritoPOS.service" Expanded="true" />
+    <Node UniqueName="[0-1049]BurritoPOS.service.test" Expanded="true" />
+    <Node UniqueName="[0-1031]BurritoPOS.service.test.BurritoSvcImplTestCase" Expanded="true" />
+    <Node UniqueName="[0-1033]BurritoPOS.service.test.CustomerSvcImplTestCase" Expanded="true" />
+    <Node UniqueName="[0-1036]BurritoPOS.service.test.EmployeeSvcImplTestCase" Expanded="true" />
+    <Node UniqueName="[0-1038]BurritoPOS.service.test.InventorySvcImplTestCase" Expanded="true" />
+  </Nodes>
+</VisualState>

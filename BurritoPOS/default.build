@@ -1,0 +1,210 @@
+﻿<?xml version="1.0"?>
+<project name="BurritoPOS" default="generate-docs">
+  <property name="project.version" value="1.0" />
+  <property name="project.config" value="release" />
+  <property name="sandcastle.dir" value="C:\Program Files (x86)\Sandcastle" />
+  <property name="hhc.exe" overwrite="false" value="C:\Program Files (x86)\HTML Help Workshop\hhc.exe" />
+
+  <!-- Executables -->
+  <property name="sandcastle.mrefbuilder.exe"
+     value="${sandcastle.dir}\productiontools\mrefbuilder.exe" />
+  <property name="sandcastle.buildassembler.exe"
+     value="${sandcastle.dir}\productiontools\buildassembler.exe" />
+  <property name="sandcastle.xsltransform.exe"
+     value="${sandcastle.dir}\productiontools\xsltransform.exe" />
+  <property name="sandcastle.chmbuilder.exe"
+     value="${sandcastle.dir}\productiontools\chmbuilder.exe" />
+
+  <!-- Directories -->
+  <property name="sandcastle.workingdir" value="${project::get-base-directory()}\Help" />
+  <property name="sandcastle.html.dir"   value="${sandcastle.workingdir}\Html" />
+  <property name="sandcastle.chm.dir"    value="${sandcastle.workingdir}\Chm" />
+  <property name="sandcastle.chm.file"   value="${project::get-name()}"/>
+
+  <!-- Transformations -->
+  <property name="sandcastle.addoverloads.xsl"
+     value="${sandcastle.dir}\ProductionTransforms\ApplyVsDocModel.xsl" />
+  <property name="sandcastle.addfriendlyfilenames.xsl"
+     value="${sandcastle.dir}\ProductionTransforms\AddFriendlyFilenames.xsl" />
+  <property name="sandcastle.reflectiontomanifest.xsl"
+     value="${sandcastle.dir}\ProductionTransforms\ReflectionToManifest.xsl" />
+  <property name="sandcastle.createvstoc.xsl"
+     value="${sandcastle.dir}\ProductionTransforms\createvstoc.xsl"/>
+
+  <target name="clean" description="remove all build products">
+    <delete dir="${project.config"  if="${directory::exists(${project.config)}" />
+  </target>
+  
+  <target name="init">
+    <call target="${project.config}" />
+  </target>
+  
+  <target name="debug">
+    <property name="project.config" value="debug" />
+    <property name="build.debug" value="true" />
+    <property name="basedir.suffix" value="-debug" />
+  </target>
+  
+  <target name="release">
+    <property name="project.config" value="release" />
+    <property name="build.debug" value="false" />
+    <property name="basedir.suffix" value="-release" />
+  </target>
+  
+  <target name="build" depends="init" description="compiles the source code">
+    <property name="build.dir" value="${project::get-base-directory()}/${project::get-name()}_${project.version}${basedir.suffix}"/>
+    <mkdir dir="${build.dir}" />
+    <csc target="exe" output="${build.dir}/BurritoPOS.exe" debug="${build.debug}">
+      <sources>
+          <include name="**\*.cs"/>
+      </sources>
+
+      <references>
+        <include name="lib\*.dll"/>
+        <include name="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Numerics.dll"/>
+      </references>
+    </csc>
+    <property name="config.dir" value="${build.dir}\config" />
+    <mkdir dir="${config.dir}"  if="${not(directory::exists(config.dir))}" />
+
+    <copy todir="${config.dir}" includeemptydirs="true" overwrite="true" verbose="true">
+      <fileset basedir="${project::get-base-directory()}\config">
+        <include name="**/*.*" />
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="build-tests" description="build all test projects" depends="build">
+    <csc target="library" output="${build.dir}\BurritoPOS.exe" debug="true">
+      <sources basedir="${build.dir}">
+        <include name="**/*.cs" />
+      </sources>
+
+      <references>
+        <include name="lib\*.dll"/>
+        <include name="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Numerics.dll"/>
+      </references>
+    </csc>
+    <!-- this copies your App.config to a file that can be found by NUnit when testing 
+    <copy file="Project1.Tests\App.config" tofile="${build.dir}\Project1.Tests.dll.config" />-->
+  </target>
+
+     <target name="test" description="builds all and runs unit tests" depends="build-tests">
+       <exec workingdir="${build.dir}"
+         program="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\nunit-console.exe" verbose="true">
+         <arg value="BurritoPOS.exe" />
+         <arg value="/xml=BurritoPOS-results.xml" />
+       </exec>
+     </target>
+
+  <!-- Run existing SHFBProj to generate website documentation -->
+  <target name="generate-docs" depends="build">
+    <exec program="C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" workingdir="${project::get-base-directory()}" verbose="true">
+      <arg value="BurritoPOS.shfbproj" />
+    </exec>
+  </target>
+
+  <!--
+    ******************************************************
+    CREATE CHM DOCUMENTATION
+    ******************************************************  -->
+  <target name="generate-docsCHM" depends="build">
+
+    <!-- Check environment -->
+    <fail if="${not file::exists(hhc.exe)}"
+     message ="HTML Help Workshop not found at ${hhc.exe}"/>
+    <fail if="${not file::exists(sandcastle.mrefbuilder.exe)}"
+     message ="MRef Builder not found at ${sandcastle.mrefbuilder.exe}"/>
+    <fail if="${not file::exists(sandcastle.buildassembler.exe)}"
+     message ="Build Assembler not found at ${sandcastle.buildassembler.exe}"/>
+    <fail if="${not file::exists(sandcastle.xsltransform.exe)}"
+     message ="XSL Transform not found at ${sandcastle.xsltransform.exe}"/>
+    <fail if="${not file::exists(sandcastle.chmbuilder.exe)}"
+     message ="CHM Builder not found at ${sandcastle.chmbuilder.exe}"/>
+
+    <!-- Specifies the DLL file that we want to document -->
+    <property name="sandcastle.input.files"       value="${build.dir}"/>
+
+    <!-- Delete working directory -->
+    <delete dir="${sandcastle.workingdir}"/>
+
+    <!-- Copy configuration file, and hard code references -->
+    <copy file="${sandcastle.dir}/Presentation/vs2005/Configuration/Sandcastle.config"
+          tofile="${sandcastle.workingdir}/Sandcastle.config">
+      <filterchain>
+        <replacestring from="%DXROOT%" to="${sandcastle.dir}\" />
+        <replacestring from=".\comments.xml" to="${build.dir}" />
+        <replacestring from=".\Output\html" to=".\Html"/>
+      </filterchain>
+    </copy>
+
+    <!-- Create HTML Output Environment -->
+    <mkdir dir="${sandcastle.html.dir}" />
+
+    <!-- Create CHM Output Environment -->
+    <mkdir dir="${sandcastle.chm.dir}" />
+    <copy todir="${sandcastle.chm.dir}">
+      <fileset basedir="${sandcastle.dir}/Presentation/vs2005">
+        <include name="Scripts\*.*"/>
+        <include name="Icons\*.*"/>
+        <include name="Styles\*.*"/>
+      </fileset>
+    </copy>
+
+    <!-- Run MRefBuilder (introspection on assemblies) to create basic Reflection XML -->
+    <exec program="${sandcastle.mrefbuilder.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="${sandcastle.input.files}" />
+      <arg value="/out:reflection.org1.xml" />
+    </exec>
+
+    <!-- Create final Reflection XML -->
+    <!-- Regroup overloads -->
+    <exec program="${sandcastle.xsltransform.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="reflection.org1.xml" />
+      <arg value="/xsl:${sandcastle.addoverloads.xsl}" />
+      <arg value="/out:reflection.org2.xml" />
+    </exec>
+
+    <!-- Create filenames for html documents -->
+    <exec program="${sandcastle.xsltransform.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="reflection.org2.xml" />
+      <arg value="/xsl:${sandcastle.addfriendlyfilenames.xsl}" />
+      <arg value="/out:reflection.xml" />
+    </exec>
+
+    <!-- Create Manifest (list of Topics) -->
+    <exec program="${sandcastle.xsltransform.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="/xsl:${sandcastle.reflectiontomanifest.xsl}" />
+      <arg value="reflection.xml" />
+      <arg value="/out:manifest.xml" />
+    </exec>
+
+    <!-- Run BuildAssembler (create html topic files) -->
+    <exec program="${sandcastle.buildassembler.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="manifest.xml" />
+      <arg value="/config:Sandcastle.config" />
+    </exec>
+
+    <!-- Generate an intermediate Toc file that simulates the Whidbey TOC format. -->
+    <exec program="${sandcastle.xsltransform.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="/xsl:${sandcastle.createvstoc.xsl}" />
+      <arg value="reflection.xml" />
+      <arg value="/out:toc.xml" />
+    </exec>
+
+    <!-- Generate HHP File -->
+    <exec program="${sandcastle.chmbuilder.exe}" workingdir="${sandcastle.workingdir}" verbose="true">
+      <arg value="/project:${sandcastle.chm.file}" />
+      <arg value="/html:Html" />
+      <arg value="/lcid:1033" />
+      <arg value="/toc:toc.xml" />
+      <arg value="/out:Chm" />
+    </exec>
+
+    <!-- Generate CHM file -->
+    <exec program="${hhc.exe}"
+          commandline="${sandcastle.chm.file}.hhp"
+          workingdir="${sandcastle.chm.dir}"
+          failonerror="false" verbose="true"/>
+  </target>
+</project>

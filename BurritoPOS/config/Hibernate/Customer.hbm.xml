@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.burritopos.domain">
+   <class name="Customer" table="customer">
+   	  <meta attribute="class-description">This class contains customer object information.</meta>
+	  <id name="id" column="id" type="java.lang.Integer" >
+		<generator class="increment" />
+	  </id>
+          <property name="firstName" column="firstName" type="java.lang.String" />
+          <property name="lastName" column="lastName" type="java.lang.String" />
+          <property name="emailAddress" column="emailAddress" type="java.lang.String" />
+   </class>
+</hibernate-mapping>

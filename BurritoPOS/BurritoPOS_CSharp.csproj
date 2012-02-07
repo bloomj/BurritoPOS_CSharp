@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DE0450E-FB28-4F83-97DB-9BA461ACF23D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BurritoPOS</RootNamespace>
+    <AssemblyName>BurritoPOS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>BurritoPOS.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>BurritoPOS.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2543746CA9F374E3305C18D3B0842D1A8883F819</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BurritoPOS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\..\..\..\..\Jars\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\..\..\..\Jars\log4net-1.2.11\bin\net\4.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\..\..\..\..\Jars\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.mocks, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\nunit.mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="domain.test\AllTests.cs" />
+    <Compile Include="domain.test\BurritoTestCase.cs" />
+    <Compile Include="domain.test\CustomerTestCase.cs" />
+    <Compile Include="domain.test\EmployeeTestCase.cs" />
+    <Compile Include="domain.test\InventoryTestCase.cs" />
+    <Compile Include="domain.test\ManagerTestCase.cs" />
+    <Compile Include="domain.test\OrderTestCase.cs" />
+    <Compile Include="domain\Burrito.cs" />
+    <Compile Include="domain\Customer.cs" />
+    <Compile Include="domain\Employee.cs" />
+    <Compile Include="domain\Inventory.cs" />
+    <Compile Include="domain\Manager.cs" />
+    <Compile Include="domain\Order.cs" />
+    <Compile Include="exception\InsufficientInventoryException.cs" />
+    <Compile Include="exception\ServiceLoadException.cs" />
+    <Compile Include="service.test\AllTests.cs" />
+    <Compile Include="service.test\BurritoSvcImplTestCase.cs" />
+    <Compile Include="service.test\CustomerSvcImplTestCase.cs" />
+    <Compile Include="service.test\EmployeeSvcImplTestCase.cs" />
+    <Compile Include="service.test\InventorySvcImplTestCase.cs" />
+    <Compile Include="service.test\ManagerSvcImplTestCase.cs" />
+    <Compile Include="service.test\OrderSvcImplTestCase.cs" />
+    <Compile Include="service\BaseSvcHibernateImpl.cs" />
+    <Compile Include="service\BurritoSvcFileImpl.cs" />
+    <Compile Include="service\CustomerSvcFileImpl.cs" />
+    <Compile Include="service\EmployeeSvcFileImpl.cs" />
+    <Compile Include="service\Factory.cs" />
+    <Compile Include="service\IAuthenticationSvc.cs" />
+    <Compile Include="service\IBurritoSvc.cs" />
+    <Compile Include="application\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="application\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="application\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="service\ICustomerSvc.cs" />
+    <Compile Include="service\IEmployeeSvc.cs" />
+    <Compile Include="service\IInventorySvc.cs" />
+    <Compile Include="service\IManagerSvc.cs" />
+    <Compile Include="service\InventorySvcFileImpl.cs" />
+    <Compile Include="service\IOrderSvc.cs" />
+    <Compile Include="service\IService.cs" />
+    <Compile Include="service\ManagerSvcFileImpl.cs" />
+    <Compile Include="service\OrderSvcFileImpl.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="BurritoPOS_TemporaryKey.pfx" />
+    <None Include="default.build" />
+    <None Include="lib\nhibernate-configuration.xsd" />
+    <None Include="lib\nhibernate-mapping.xsd" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="application.test\" />
+    <Folder Include="business.test\" />
+    <Folder Include="business\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\Hibernate\Burrito.hbm.xml" />
+    <Content Include="config\Hibernate\Customer.hbm.xml" />
+    <Content Include="config\Hibernate\Employee.hbm.xml" />
+    <Content Include="config\Hibernate\hibernate.cfg.xml" />
+    <Content Include="config\Hibernate\Inventory.hbm.xml" />
+    <Content Include="config\Hibernate\Manager.hbm.xml" />
+    <Content Include="config\Hibernate\Order.hbm.xml" />
+    <Content Include="config\prices.txt" />
+    <Content Include="config\prices.xml" />
+    <Content Include="config\properties.txt" />
+    <Content Include="config\properties.xml" />
+    <Content Include="config\spring.cfg.xml" />
+    <Content Include="lib\Iesi.Collections.dll" />
+    <Content Include="lib\Iesi.Collections.pdb" />
+    <Content Include="lib\Iesi.Collections.xml" />
+    <Content Include="lib\log4net.dll" />
+    <Content Include="lib\log4net.xml" />
+    <Content Include="lib\NHibernate.dll" />
+    <Content Include="lib\NHibernate.pdb" />
+    <Content Include="lib\NHibernate.xml" />
+    <Content Include="lib\nunit.framework.dll" />
+    <Content Include="lib\nunit.framework.xml" />
+    <Content Include="lib\nunit.mocks.dll" />
+    <Content Include="NeatoBurrito_Schema%28MSSQLServer%29.sql" />
+    <None Include="config\log4net.properties" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>rmdir /s /q "$(TargetDir)config"
+mkdir "$(TargetDir)config"
+xcopy /s "$(ProjectDir)config" "$(TargetDir)config"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

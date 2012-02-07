@@ -1,0 +1,6 @@
+IBurritoSvc = BurritoPOS.service.BurritoSvcFileImpl
+ICustomerSvc = BurritoPOS.service.CustomerSvcFileImpl
+IEmployeeSvc = BurritoPOS.service.EmployeeSvcFileImpl
+IInventorySvc = BurritoPOS.service.InventorySvcFileImpl
+IManagerSvc = BurritoPOS.service.ManagerSvcFileImpl
+IOrderSvc = BurritoPOS.service.OrderSvcFileImpl

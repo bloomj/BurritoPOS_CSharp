@@ -119,10 +119,16 @@
   <HelpKINode Title="BurritoPOS.service.BaseSvcHibernateImpl class" Url="html/d63180e5-5d34-8ef5-aa62-35924ce6222f.htm" />
   <HelpKINode Title="BurritoPOS.service.BurritoSvcFileImpl class" Url="html/80447b77-59a7-7ef5-706e-7903f5f4394b.htm" />
   <HelpKINode Title="BurritoPOS.service.BurritoSvcFileImpl class" Url="html/ee02d75b-dedd-63dd-c6b4-18386db9a971.htm" />
+  <HelpKINode Title="BurritoPOS.service.BurritoSvcSQLImpl class" Url="html/a42380d8-425b-11ce-b65a-a5e7914fa5a0.htm" />
+  <HelpKINode Title="BurritoPOS.service.BurritoSvcSQLImpl class" Url="html/f2f5a425-4a68-02ec-866a-7792f99aa788.htm" />
   <HelpKINode Title="BurritoPOS.service.CustomerSvcFileImpl class" Url="html/8a790a38-dc6e-0491-df7f-88b6eb8fad5c.htm" />
   <HelpKINode Title="BurritoPOS.service.CustomerSvcFileImpl class" Url="html/a4303528-eb67-4ea9-a2a8-63d59ffc79ad.htm" />
+  <HelpKINode Title="BurritoPOS.service.CustomerSvcSQLImpl class" Url="html/56b8a179-531b-7a66-24e3-2c784e26f5ed.htm" />
+  <HelpKINode Title="BurritoPOS.service.CustomerSvcSQLImpl class" Url="html/f53ba8ae-4ccd-0785-f265-5043ddfddfe3.htm" />
   <HelpKINode Title="BurritoPOS.service.EmployeeSvcFileImpl class" Url="html/1db7b739-de81-8bb5-9281-cf812a4ace1f.htm" />
   <HelpKINode Title="BurritoPOS.service.EmployeeSvcFileImpl class" Url="html/a0dbd7b8-f286-fae1-8c39-f336164a1569.htm" />
+  <HelpKINode Title="BurritoPOS.service.EmployeeSvcSQLImpl class" Url="html/3ad94473-5193-274f-d4e9-d14e7995c764.htm" />
+  <HelpKINode Title="BurritoPOS.service.EmployeeSvcSQLImpl class" Url="html/8825d5e6-3197-a1d2-baf9-8e2e5183477a.htm" />
   <HelpKINode Title="BurritoPOS.service.Factory class" Url="html/0fb7252c-b13e-86bc-24c0-dcee8afe7406.htm" />
   <HelpKINode Title="BurritoPOS.service.Factory class" Url="html/80cad71d-876b-12ea-ccf2-9ec474f1be84.htm" />
   <HelpKINode Title="BurritoPOS.service.IAuthenticationSvc interface" Url="html/6a6dd58a-1a96-e39b-1b3a-1187b4b4f990.htm" />
@@ -139,13 +145,19 @@
   <HelpKINode Title="BurritoPOS.service.IManagerSvc interface" Url="html/fed506b9-6b67-ca49-a18b-2d832ce8a8a8.htm" />
   <HelpKINode Title="BurritoPOS.service.InventorySvcFileImpl class" Url="html/1e6235ec-9bc4-56c3-56c8-4477e8f94cab.htm" />
   <HelpKINode Title="BurritoPOS.service.InventorySvcFileImpl class" Url="html/e0bf7ea1-eb1f-ba37-24e2-299d6324a36e.htm" />
+  <HelpKINode Title="BurritoPOS.service.InventorySvcSQLImpl class" Url="html/0e144d3e-6269-3e2f-8771-f05ded728046.htm" />
+  <HelpKINode Title="BurritoPOS.service.InventorySvcSQLImpl class" Url="html/f71b5caa-2963-257c-fbe5-cfb37d2fdc90.htm" />
   <HelpKINode Title="BurritoPOS.service.IOrderSvc interface" Url="html/156ee10b-99ad-676a-2e16-7c681d4be907.htm" />
   <HelpKINode Title="BurritoPOS.service.IOrderSvc interface" Url="html/8d6391ca-b16c-d019-5f60-0a1b7be2842f.htm" />
   <HelpKINode Title="BurritoPOS.service.IService interface" Url="html/412b24a8-bfda-7420-2f25-1b9b848cce04.htm" />
   <HelpKINode Title="BurritoPOS.service.ManagerSvcFileImpl class" Url="html/2dcd7a43-13f1-df7b-c3ea-7c546ff650da.htm" />
   <HelpKINode Title="BurritoPOS.service.ManagerSvcFileImpl class" Url="html/f3fe3905-088e-0441-8749-4c5e6abb68c1.htm" />
+  <HelpKINode Title="BurritoPOS.service.ManagerSvcSQLImpl class" Url="html/6d9f8737-f698-5a0b-3239-900492d7a3dc.htm" />
+  <HelpKINode Title="BurritoPOS.service.ManagerSvcSQLImpl class" Url="html/8d0ef1d8-18ec-1129-fdbb-4a40ee5f8583.htm" />
   <HelpKINode Title="BurritoPOS.service.OrderSvcFileImpl class" Url="html/691da5d7-33b6-8ebe-d90b-95f1191063d1.htm" />
   <HelpKINode Title="BurritoPOS.service.OrderSvcFileImpl class" Url="html/ae879594-0d7a-02f8-9a66-f2690d52271d.htm" />
+  <HelpKINode Title="BurritoPOS.service.OrderSvcSQLImpl class" Url="html/532f85f8-97fc-178d-84fd-90870709a2bb.htm" />
+  <HelpKINode Title="BurritoPOS.service.OrderSvcSQLImpl class" Url="html/715c23e4-08e2-dae0-8784-c73aad30cd71.htm" />
   <HelpKINode Title="BurritoPOS.service.test namespace" Url="html/b69dedfa-866a-b560-5661-f80c43dd801c.htm" />
   <HelpKINode Title="BurritoPOS.service.test.AllTests class" Url="html/2ca6c44c-f9d0-4141-c1f1-de9e37464c1c.htm" />
   <HelpKINode Title="BurritoPOS.service.test.AllTests class" Url="html/52a50f35-8ca1-34e3-529f-627f7caba187.htm" />
@@ -186,6 +198,18 @@
   <HelpKINode Title="BurritoSvcImplTestCase.SetUp method" Url="html/af358d68-cbae-8439-3e6b-0cdc5341c616.htm" />
   <HelpKINode Title="BurritoSvcImplTestCase.tearDown method" Url="html/edb46a28-ad08-0b8d-7f7c-36754da05ca3.htm" />
   <HelpKINode Title="BurritoSvcImplTestCase.testBurritoSvc method" Url="html/3ef2c056-9aaa-23e9-c48a-665a4c1d1427.htm" />
+  <HelpKINode Title="BurritoSvcSQLImpl class" Url="html/a42380d8-425b-11ce-b65a-a5e7914fa5a0.htm" />
+  <HelpKINode Title="BurritoSvcSQLImpl class" Url="html/f2f5a425-4a68-02ec-866a-7792f99aa788.htm" />
+  <HelpKINode Title="BurritoSvcSQLImpl class">
+    <HelpKINode Title="about BurritoSvcSQLImpl class" Url="html/f2f5a425-4a68-02ec-866a-7792f99aa788.htm" />
+    <HelpKINode Title="all members" Url="html/a42380d8-425b-11ce-b65a-a5e7914fa5a0.htm" />
+    <HelpKINode Title="constructor" Url="html/c57b0516-2965-9040-5488-357c8e87a5f8.htm" />
+    <HelpKINode Title="methods" Url="html/bf11465e-1895-1285-5949-f046cf7d76f0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BurritoSvcSQLImpl.BurritoSvcSQLImpl constructor" Url="html/c57b0516-2965-9040-5488-357c8e87a5f8.htm" />
+  <HelpKINode Title="BurritoSvcSQLImpl.deleteBurrito method" Url="html/00ca6338-57b2-1f82-b4ed-ab3f85663d53.htm" />
+  <HelpKINode Title="BurritoSvcSQLImpl.getBurrito method" Url="html/1e5974f9-2f80-4b17-00ce-5c543d1b9bfa.htm" />
+  <HelpKINode Title="BurritoSvcSQLImpl.storeBurrito method" Url="html/de14eb8d-9e22-383d-dd49-049f4cf51fbe.htm" />
   <HelpKINode Title="BurritoTestCase class" Url="html/3e68a632-9eb0-a47f-ead4-2dc78f8047c8.htm" />
   <HelpKINode Title="BurritoTestCase class" Url="html/ce588018-fcbc-c92f-76c8-86c91a26dbf4.htm" />
   <HelpKINode Title="BurritoTestCase class">
@@ -249,6 +273,18 @@
   <HelpKINode Title="CustomerSvcImplTestCase.tearDown method" Url="html/5c95a2b3-3ca0-1886-7e3f-ac1c452fd6b3.htm" />
   <HelpKINode Title="CustomerSvcImplTestCase.testCustomerSvc method" Url="html/d27155e1-6878-1670-5a1b-67306e977349.htm" />
   <HelpKINode Title="CustomerSvcImplTestCase.testInvalidGetCustomer method" Url="html/91047e26-7d64-2d10-613f-95de9b828532.htm" />
+  <HelpKINode Title="CustomerSvcSQLImpl class" Url="html/56b8a179-531b-7a66-24e3-2c784e26f5ed.htm" />
+  <HelpKINode Title="CustomerSvcSQLImpl class" Url="html/f53ba8ae-4ccd-0785-f265-5043ddfddfe3.htm" />
+  <HelpKINode Title="CustomerSvcSQLImpl class">
+    <HelpKINode Title="about CustomerSvcSQLImpl class" Url="html/f53ba8ae-4ccd-0785-f265-5043ddfddfe3.htm" />
+    <HelpKINode Title="all members" Url="html/56b8a179-531b-7a66-24e3-2c784e26f5ed.htm" />
+    <HelpKINode Title="constructor" Url="html/edc77618-db2c-b28b-0708-fc2612443ffb.htm" />
+    <HelpKINode Title="methods" Url="html/27936ee9-304c-43bf-fb13-1c01ba9aedfe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomerSvcSQLImpl.CustomerSvcSQLImpl constructor" Url="html/edc77618-db2c-b28b-0708-fc2612443ffb.htm" />
+  <HelpKINode Title="CustomerSvcSQLImpl.deleteCustomer method" Url="html/de36cfb1-5c80-4c86-cff9-ddb596d74c44.htm" />
+  <HelpKINode Title="CustomerSvcSQLImpl.getCustomer method" Url="html/5c8e449f-43fa-8c54-9205-a3cb4d2ab053.htm" />
+  <HelpKINode Title="CustomerSvcSQLImpl.storeCustomer method" Url="html/2ccbb985-3fc8-dfbf-beb4-4ac5e7a85bb5.htm" />
   <HelpKINode Title="CustomerTestCase class" Url="html/89ed8346-7d17-137e-f8ae-7f786f03b86d.htm" />
   <HelpKINode Title="CustomerTestCase class" Url="html/cf336067-0be8-216f-a8b9-f71916ff1de1.htm" />
   <HelpKINode Title="CustomerTestCase class">
@@ -264,18 +300,24 @@
   <HelpKINode Title="CustomerTestCase.testInvalidCustomer method" Url="html/2ce8d777-47ae-e9a6-f2d8-8be57b6fc159.htm" />
   <HelpKINode Title="CustomerTestCase.testNotEqualsCustomer method" Url="html/0457987d-f816-9144-154b-f7ac18fd4014.htm" />
   <HelpKINode Title="CustomerTestCase.testValidate method" Url="html/016a24bc-c34f-e74a-bd1a-3ee06f3bb9f0.htm" />
+  <HelpKINode Title="deleteBurrito method" Url="html/00ca6338-57b2-1f82-b4ed-ab3f85663d53.htm" />
   <HelpKINode Title="deleteBurrito method" Url="html/5620031c-2452-12a4-4ec0-ac7e4a5687b2.htm" />
   <HelpKINode Title="deleteBurrito method" Url="html/cf0b37d5-1b2f-cc5a-a1b3-1dd735822911.htm" />
   <HelpKINode Title="deleteCustomer method" Url="html/70dfe771-8495-e6af-f4a7-fadfe819eec4.htm" />
   <HelpKINode Title="deleteCustomer method" Url="html/a816fed4-7fe5-ffee-9e98-e9ab6bb07aa5.htm" />
+  <HelpKINode Title="deleteCustomer method" Url="html/de36cfb1-5c80-4c86-cff9-ddb596d74c44.htm" />
   <HelpKINode Title="deleteEmployee method" Url="html/3ddb46a2-1005-2959-eea7-2d24d400dfe5.htm" />
   <HelpKINode Title="deleteEmployee method" Url="html/baeadb20-ed84-0d82-3c27-cbb7a95d0e6c.htm" />
+  <HelpKINode Title="deleteEmployee method" Url="html/bfe645d6-653b-1fd9-df3a-8aeddb1cfe94.htm" />
   <HelpKINode Title="deleteInventory method" Url="html/694c026b-aa60-6c76-c595-edb769fed75c.htm" />
   <HelpKINode Title="deleteInventory method" Url="html/7669d165-b2f5-cc38-b153-8544d2d84c3e.htm" />
+  <HelpKINode Title="deleteInventory method" Url="html/a5c72dcd-ce4c-efab-18f9-3bef3908f636.htm" />
   <HelpKINode Title="deleteManager method" Url="html/17efbc76-40c9-b3fc-6339-33b6430e5393.htm" />
   <HelpKINode Title="deleteManager method" Url="html/3a101481-a1bf-b822-29f4-c5b5698df243.htm" />
+  <HelpKINode Title="deleteManager method" Url="html/47599ccd-e749-3f51-a56f-17ab99db132e.htm" />
   <HelpKINode Title="deleteOrder method" Url="html/20723152-e844-20a2-18f0-29db1df478be.htm" />
   <HelpKINode Title="deleteOrder method" Url="html/4d14bf53-8bdc-12a0-7096-b313378f4bcd.htm" />
+  <HelpKINode Title="deleteOrder method" Url="html/b39a23fd-c7e2-bb56-260f-93cba9f93a40.htm" />
   <HelpKINode Title="Dispose method" Url="html/eb8d065b-a16d-0cc4-01e0-3aadc23f85a3.htm" />
   <HelpKINode Title="emailAddress property" Url="html/8e3036a3-40a5-0562-5b8f-42518385cfa5.htm" />
   <HelpKINode Title="Employee class" Url="html/13e4223d-f8ed-da11-db5d-1cd5c57e4b3d.htm" />
@@ -321,6 +363,18 @@
   <HelpKINode Title="EmployeeSvcImplTestCase.SetUp method" Url="html/d00f20d4-c1c6-3375-2e56-66c6a84fc232.htm" />
   <HelpKINode Title="EmployeeSvcImplTestCase.tearDown method" Url="html/4f997f8c-e0c8-c182-c221-814b6d56752e.htm" />
   <HelpKINode Title="EmployeeSvcImplTestCase.testStoreEmployee method" Url="html/988529d2-5207-f0a3-d316-7ac990366bec.htm" />
+  <HelpKINode Title="EmployeeSvcSQLImpl class" Url="html/3ad94473-5193-274f-d4e9-d14e7995c764.htm" />
+  <HelpKINode Title="EmployeeSvcSQLImpl class" Url="html/8825d5e6-3197-a1d2-baf9-8e2e5183477a.htm" />
+  <HelpKINode Title="EmployeeSvcSQLImpl class">
+    <HelpKINode Title="about EmployeeSvcSQLImpl class" Url="html/8825d5e6-3197-a1d2-baf9-8e2e5183477a.htm" />
+    <HelpKINode Title="all members" Url="html/3ad94473-5193-274f-d4e9-d14e7995c764.htm" />
+    <HelpKINode Title="constructor" Url="html/57dab9e5-2d5c-cc6b-f9d9-e8ce9b27cd3f.htm" />
+    <HelpKINode Title="methods" Url="html/98124684-0c9f-3c23-fbc9-22c2df181bf7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmployeeSvcSQLImpl.deleteEmployee method" Url="html/bfe645d6-653b-1fd9-df3a-8aeddb1cfe94.htm" />
+  <HelpKINode Title="EmployeeSvcSQLImpl.EmployeeSvcSQLImpl constructor" Url="html/57dab9e5-2d5c-cc6b-f9d9-e8ce9b27cd3f.htm" />
+  <HelpKINode Title="EmployeeSvcSQLImpl.getEmployee method" Url="html/97b94811-a5d4-5218-d8b6-45ebe444c28a.htm" />
+  <HelpKINode Title="EmployeeSvcSQLImpl.storeEmployee method" Url="html/427769d4-19d5-0d63-c7ba-218569236c34.htm" />
   <HelpKINode Title="EmployeeTestCase class" Url="html/27910fbe-afbb-afcc-dff7-8774db7311ff.htm" />
   <HelpKINode Title="EmployeeTestCase class" Url="html/8b5113d1-7489-b51d-d03a-e13034ed3ec5.htm" />
   <HelpKINode Title="EmployeeTestCase class">
@@ -394,14 +448,18 @@
   <HelpKINode Title="Form1.ValidateChildren method" Url="html/84988ded-c8f2-add3-d641-0caef4bcc98f.htm" />
   <HelpKINode Title="getAllOrders method" Url="html/0f59cc54-9c5a-cd4d-e6f4-fc9116034695.htm" />
   <HelpKINode Title="getAllOrders method" Url="html/749076e2-1b3b-8906-ac09-904f1dcad9e9.htm" />
+  <HelpKINode Title="getAllOrders method" Url="html/cfa169fd-2e8d-0cb6-c89d-4e7f99bb0be3.htm" />
   <HelpKINode Title="getBurrito method" Url="html/01f98556-b57f-3366-29df-7008179614a3.htm" />
+  <HelpKINode Title="getBurrito method" Url="html/1e5974f9-2f80-4b17-00ce-5c543d1b9bfa.htm" />
   <HelpKINode Title="getBurrito method" Url="html/f6a6db55-d0e5-dc1a-9e8f-60b150b21ad5.htm" />
   <HelpKINode Title="getBurritoSvc method" Url="html/af7d232b-a610-f212-4c3a-4e0e9045879a.htm" />
   <HelpKINode Title="GetChildAtPoint method" Url="html/ccf31f6b-15bd-b409-292d-79c810fe3635.htm" />
+  <HelpKINode Title="getCustomer method" Url="html/5c8e449f-43fa-8c54-9205-a3cb4d2ab053.htm" />
   <HelpKINode Title="getCustomer method" Url="html/be636052-6dd4-2cc7-775f-adc8a1b5cc79.htm" />
   <HelpKINode Title="getCustomer method" Url="html/f4acf085-93de-d62e-4a09-4f16de3a64ad.htm" />
   <HelpKINode Title="getCustomerSvc method" Url="html/53fe2cbe-6a32-7042-6a3b-2d7f88d5a948.htm" />
   <HelpKINode Title="getEmployee method" Url="html/677ca427-d352-64c1-29ff-675ac290dd62.htm" />
+  <HelpKINode Title="getEmployee method" Url="html/97b94811-a5d4-5218-d8b6-45ebe444c28a.htm" />
   <HelpKINode Title="getEmployee method" Url="html/cf2af257-f10d-82f1-46b3-651e970d7091.htm" />
   <HelpKINode Title="getEmployeeSvc method" Url="html/0dae7d6a-cb07-9fc2-cef1-c837ad792c99.htm" />
   <HelpKINode Title="GetHashCode method" Url="html/2a13bee3-4adf-bca1-62b6-85c6d1c6f2f5.htm" />
@@ -412,13 +470,16 @@
   <HelpKINode Title="GetHashCode method" Url="html/e0148c42-4b22-2217-1ebb-43f6f0bf0016.htm" />
   <HelpKINode Title="getInstance method" Url="html/dee3314e-b4ce-5694-67cd-50cd1356811d.htm" />
   <HelpKINode Title="getInventory method" Url="html/497f1657-8470-ed0a-25ac-079befad0239.htm" />
+  <HelpKINode Title="getInventory method" Url="html/73148cc9-9fcd-aa01-e13b-c45523f905e1.htm" />
   <HelpKINode Title="getInventory method" Url="html/e91b30df-a974-14e5-36b0-368ff09b0589.htm" />
   <HelpKINode Title="getInventorySvc method" Url="html/6ee57b74-c1c0-4073-b61c-ece2b8f5506f.htm" />
   <HelpKINode Title="getManager method" Url="html/3a6ba70a-4915-f3ca-fcf9-b6d463ea5845.htm" />
+  <HelpKINode Title="getManager method" Url="html/48e3d58f-1823-bc9c-729b-fea46c3a070d.htm" />
   <HelpKINode Title="getManager method" Url="html/c53a8c71-4c86-4c11-c334-05bd3b573492.htm" />
   <HelpKINode Title="getManagerSvc method" Url="html/e11696e7-7981-cd75-ce1d-10f73597dbca.htm" />
   <HelpKINode Title="getOrder method" Url="html/11209766-4cb7-3a19-8b32-f97b624bbf07.htm" />
   <HelpKINode Title="getOrder method" Url="html/5366b1f9-c703-179c-04fb-f4c945002463.htm" />
+  <HelpKINode Title="getOrder method" Url="html/ca156d84-aea2-b4c8-29af-3b921101e634.htm" />
   <HelpKINode Title="getOrderSvc method" Url="html/5e93c884-d6a7-7c9b-2f8a-34a00f78043c.htm" />
   <HelpKINode Title="getService method" Url="html/46fd963d-077f-4117-b5f6-40cd2060336f.htm" />
   <HelpKINode Title="getSession method" Url="html/732a3f67-28b4-b5ab-0851-12226a62a7bd.htm" />
@@ -596,6 +657,18 @@
   <HelpKINode Title="InventorySvcImplTestCase.SetUp method" Url="html/5e2f129f-e99b-0572-203c-fa0489249b58.htm" />
   <HelpKINode Title="InventorySvcImplTestCase.tearDown method" Url="html/b9b2a547-a244-9080-01dd-f3faf176a46e.htm" />
   <HelpKINode Title="InventorySvcImplTestCase.testStoreInventory method" Url="html/88314a25-4197-26da-c86d-fad582fb4c7e.htm" />
+  <HelpKINode Title="InventorySvcSQLImpl class" Url="html/0e144d3e-6269-3e2f-8771-f05ded728046.htm" />
+  <HelpKINode Title="InventorySvcSQLImpl class" Url="html/f71b5caa-2963-257c-fbe5-cfb37d2fdc90.htm" />
+  <HelpKINode Title="InventorySvcSQLImpl class">
+    <HelpKINode Title="about InventorySvcSQLImpl class" Url="html/0e144d3e-6269-3e2f-8771-f05ded728046.htm" />
+    <HelpKINode Title="all members" Url="html/f71b5caa-2963-257c-fbe5-cfb37d2fdc90.htm" />
+    <HelpKINode Title="constructor" Url="html/b83a0ccf-cbab-1dbe-0647-faf92e69461b.htm" />
+    <HelpKINode Title="methods" Url="html/e2367f29-0d1a-3234-c731-903f33ddb735.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventorySvcSQLImpl.deleteInventory method" Url="html/a5c72dcd-ce4c-efab-18f9-3bef3908f636.htm" />
+  <HelpKINode Title="InventorySvcSQLImpl.getInventory method" Url="html/73148cc9-9fcd-aa01-e13b-c45523f905e1.htm" />
+  <HelpKINode Title="InventorySvcSQLImpl.InventorySvcSQLImpl constructor" Url="html/b83a0ccf-cbab-1dbe-0647-faf92e69461b.htm" />
+  <HelpKINode Title="InventorySvcSQLImpl.storeInventory method" Url="html/3d3db07c-2057-8ae9-421f-bf476be1eeca.htm" />
   <HelpKINode Title="InventoryTestCase class" Url="html/3e0b7945-ffe5-d030-2bb8-530374d4cc9f.htm" />
   <HelpKINode Title="InventoryTestCase class" Url="html/50a8f45c-4071-54ca-e4f0-b48c836d9e8f.htm" />
   <HelpKINode Title="InventoryTestCase class">
@@ -684,6 +757,18 @@
   <HelpKINode Title="ManagerSvcImplTestCase.SetUp method" Url="html/9a2d2078-8ec1-000b-84a2-80c519636ad7.htm" />
   <HelpKINode Title="ManagerSvcImplTestCase.tearDown method" Url="html/7dbd5eb6-4772-7a66-8984-8d47d1f8cd9a.htm" />
   <HelpKINode Title="ManagerSvcImplTestCase.testStoreManager method" Url="html/7dd77b86-fdbd-7ca8-4347-8687e192c80d.htm" />
+  <HelpKINode Title="ManagerSvcSQLImpl class" Url="html/6d9f8737-f698-5a0b-3239-900492d7a3dc.htm" />
+  <HelpKINode Title="ManagerSvcSQLImpl class" Url="html/8d0ef1d8-18ec-1129-fdbb-4a40ee5f8583.htm" />
+  <HelpKINode Title="ManagerSvcSQLImpl class">
+    <HelpKINode Title="about ManagerSvcSQLImpl class" Url="html/6d9f8737-f698-5a0b-3239-900492d7a3dc.htm" />
+    <HelpKINode Title="all members" Url="html/8d0ef1d8-18ec-1129-fdbb-4a40ee5f8583.htm" />
+    <HelpKINode Title="constructor" Url="html/892f21a6-a20a-09d7-037c-3ecdd6847896.htm" />
+    <HelpKINode Title="methods" Url="html/34e60e32-28c4-91ef-baaf-03e115dd22e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ManagerSvcSQLImpl.deleteManager method" Url="html/47599ccd-e749-3f51-a56f-17ab99db132e.htm" />
+  <HelpKINode Title="ManagerSvcSQLImpl.getManager method" Url="html/48e3d58f-1823-bc9c-729b-fea46c3a070d.htm" />
+  <HelpKINode Title="ManagerSvcSQLImpl.ManagerSvcSQLImpl constructor" Url="html/892f21a6-a20a-09d7-037c-3ecdd6847896.htm" />
+  <HelpKINode Title="ManagerSvcSQLImpl.storeManager method" Url="html/69c0e2f2-75a8-9128-457e-1098810689cf.htm" />
   <HelpKINode Title="ManagerTestCase class" Url="html/5e5e9459-dc69-7223-e783-7908f56d0f93.htm" />
   <HelpKINode Title="ManagerTestCase class" Url="html/b05be6ac-9205-3658-0605-f4c417d4300f.htm" />
   <HelpKINode Title="ManagerTestCase class">
@@ -756,6 +841,19 @@
   <HelpKINode Title="OrderSvcImplTestCase.SetUp method" Url="html/ba7a5fa8-6952-6cee-7c99-e8c85b92c977.htm" />
   <HelpKINode Title="OrderSvcImplTestCase.tearDown method" Url="html/977ad1c1-c88e-e53f-00a2-c2890fb6054e.htm" />
   <HelpKINode Title="OrderSvcImplTestCase.testStoreOrder method" Url="html/7f01d7ac-2552-e723-7688-1633798fa30a.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl class" Url="html/532f85f8-97fc-178d-84fd-90870709a2bb.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl class" Url="html/715c23e4-08e2-dae0-8784-c73aad30cd71.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl class">
+    <HelpKINode Title="about OrderSvcSQLImpl class" Url="html/532f85f8-97fc-178d-84fd-90870709a2bb.htm" />
+    <HelpKINode Title="all members" Url="html/715c23e4-08e2-dae0-8784-c73aad30cd71.htm" />
+    <HelpKINode Title="constructor" Url="html/aa891840-e24f-a735-7f8a-fb5108ee7c9f.htm" />
+    <HelpKINode Title="methods" Url="html/c33dd94d-4485-b9c2-7b75-66a582a17baf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderSvcSQLImpl.deleteOrder method" Url="html/b39a23fd-c7e2-bb56-260f-93cba9f93a40.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl.getAllOrders method" Url="html/cfa169fd-2e8d-0cb6-c89d-4e7f99bb0be3.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl.getOrder method" Url="html/ca156d84-aea2-b4c8-29af-3b921101e634.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl.OrderSvcSQLImpl constructor" Url="html/aa891840-e24f-a735-7f8a-fb5108ee7c9f.htm" />
+  <HelpKINode Title="OrderSvcSQLImpl.storeOrder method" Url="html/ed133485-f3a0-5e19-7918-019418c05905.htm" />
   <HelpKINode Title="OrderTestCase class" Url="html/349db699-8f15-de11-7180-2008cf2a48d7.htm" />
   <HelpKINode Title="OrderTestCase class" Url="html/9840a2ac-5caa-6ac4-f7ec-d186218e49fe.htm" />
   <HelpKINode Title="OrderTestCase class">
@@ -839,17 +937,23 @@
   <HelpKINode Title="Show method" Url="html/b076de06-71f4-2dd9-4bdc-47da3ab984b9.htm" />
   <HelpKINode Title="ShowDialog method" Url="html/dda56dda-da54-cd89-37ce-554fe24c653f.htm" />
   <HelpKINode Title="storeBurrito method" Url="html/91d659a3-4c96-adb4-426f-61409d75fc6a.htm" />
+  <HelpKINode Title="storeBurrito method" Url="html/de14eb8d-9e22-383d-dd49-049f4cf51fbe.htm" />
   <HelpKINode Title="storeBurrito method" Url="html/ee0d96b5-a30c-214a-0abc-0aba8fcac144.htm" />
   <HelpKINode Title="storeCustomer method" Url="html/214e70cf-fed1-a808-2be9-673de74984a1.htm" />
+  <HelpKINode Title="storeCustomer method" Url="html/2ccbb985-3fc8-dfbf-beb4-4ac5e7a85bb5.htm" />
   <HelpKINode Title="storeCustomer method" Url="html/fed5855e-d1d0-9b08-17b6-19eb32ac0b68.htm" />
+  <HelpKINode Title="storeEmployee method" Url="html/427769d4-19d5-0d63-c7ba-218569236c34.htm" />
   <HelpKINode Title="storeEmployee method" Url="html/d8a28f13-9964-86cd-0f05-c701c97bac3f.htm" />
   <HelpKINode Title="storeEmployee method" Url="html/dd333229-e933-215d-7a60-384d0535224d.htm" />
   <HelpKINode Title="storeInventory method" Url="html/0e0135ec-8e32-aeb6-c195-70d32f27545d.htm" />
   <HelpKINode Title="storeInventory method" Url="html/17b54c01-bd22-899a-d622-6a2ada4cd53b.htm" />
+  <HelpKINode Title="storeInventory method" Url="html/3d3db07c-2057-8ae9-421f-bf476be1eeca.htm" />
   <HelpKINode Title="storeManager method" Url="html/501f1d8a-cb9c-6ca3-d5aa-d6b013e002b9.htm" />
+  <HelpKINode Title="storeManager method" Url="html/69c0e2f2-75a8-9128-457e-1098810689cf.htm" />
   <HelpKINode Title="storeManager method" Url="html/81785650-68d6-e2e1-2d93-3be787b206bf.htm" />
   <HelpKINode Title="storeOrder method" Url="html/1dbe69dd-bfa1-c951-79d3-601074b8c548.htm" />
   <HelpKINode Title="storeOrder method" Url="html/2b78a988-d9a9-edda-5f4a-4c2cd3c46d06.htm" />
+  <HelpKINode Title="storeOrder method" Url="html/ed133485-f3a0-5e19-7918-019418c05905.htm" />
   <HelpKINode Title="Suite property" Url="html/0481ef6b-68cf-8300-ac25-069a85ee7096.htm" />
   <HelpKINode Title="Suite property" Url="html/6986c6fd-13ee-30c8-7cad-febddc13dba5.htm" />
   <HelpKINode Title="tearDown method" Url="html/2c015872-c61f-c110-a5d5-f2f5efa79116.htm" />
@@ -903,10 +1007,10 @@
   <HelpKINode Title="UpdateBounds method" Url="html/e4cd4c8b-684b-c7b6-a213-fdec748ad48b.htm" />
   <HelpKINode Title="validate method" Url="html/2bd2f307-799c-89cf-4ff2-fd4736d159ae.htm" />
   <HelpKINode Title="validate method" Url="html/4a22e120-839e-caa0-ee66-c5a858d698b3.htm" />
+  <HelpKINode Title="Validate method" Url="html/a7d14063-cad1-f732-cdf6-5f4a954466f4.htm" />
   <HelpKINode Title="validate method" Url="html/4ddf92b5-af32-367a-5089-7ff9381d8f1a.htm" />
   <HelpKINode Title="validate method" Url="html/8a737b32-d80c-5afe-7b88-7b1016ba9f95.htm" />
   <HelpKINode Title="validate method" Url="html/9e33e114-51d4-cc76-c733-27424d9f82b5.htm" />
-  <HelpKINode Title="Validate method" Url="html/a7d14063-cad1-f732-cdf6-5f4a954466f4.htm" />
   <HelpKINode Title="validate method" Url="html/ace27eab-e295-5ef3-7683-c2da6d4af9ff.htm" />
   <HelpKINode Title="ValidateChildren method" Url="html/84988ded-c8f2-add3-d641-0caef4bcc98f.htm" />
   <HelpKINode Title="WheatTortilla property" Url="html/2b5f2001-77ea-29fc-19bf-756930c345a8.htm" />

@@ -60,9 +60,7 @@
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
-  </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
@@ -72,12 +70,16 @@
   <PropertyGroup>
     <ManifestKeyFile>BurritoPOS_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Iesi.Collections">
       <HintPath>..\..\..\..\..\..\..\Jars\Required_Bins\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
       <HintPath>..\..\..\..\..\..\..\Jars\log4net-1.2.11\bin\net\4.0\release\log4net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\..\..\..\..\..\..\Jars\Required_Bins\NHibernate.dll</HintPath>
@@ -91,6 +93,7 @@
       <HintPath>lib\nunit.mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
@@ -127,8 +130,11 @@
     <Compile Include="service.test\OrderSvcImplTestCase.cs" />
     <Compile Include="service\BaseSvcHibernateImpl.cs" />
     <Compile Include="service\BurritoSvcFileImpl.cs" />
+    <Compile Include="service\BurritoSvcSQLImpl.cs" />
     <Compile Include="service\CustomerSvcFileImpl.cs" />
+    <Compile Include="service\CustomerSvcSQLImpl.cs" />
     <Compile Include="service\EmployeeSvcFileImpl.cs" />
+    <Compile Include="service\EmployeeSvcSQLImpl.cs" />
     <Compile Include="service\Factory.cs" />
     <Compile Include="service\IAuthenticationSvc.cs" />
     <Compile Include="service\IBurritoSvc.cs" />
@@ -145,10 +151,13 @@
     <Compile Include="service\IInventorySvc.cs" />
     <Compile Include="service\IManagerSvc.cs" />
     <Compile Include="service\InventorySvcFileImpl.cs" />
+    <Compile Include="service\InventorySvcSQLImpl.cs" />
     <Compile Include="service\IOrderSvc.cs" />
     <Compile Include="service\IService.cs" />
     <Compile Include="service\ManagerSvcFileImpl.cs" />
+    <Compile Include="service\ManagerSvcSQLImpl.cs" />
     <Compile Include="service\OrderSvcFileImpl.cs" />
+    <Compile Include="service\OrderSvcSQLImpl.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -159,7 +168,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="app.config" />
+    <Resource Include="app.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <None Include="BurritoPOS_TemporaryKey.pfx" />
     <None Include="default.build" />
     <None Include="lib\nhibernate-configuration.xsd" />

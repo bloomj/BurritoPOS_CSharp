@@ -55,10 +55,12 @@ namespace BurritoPOS.service.test
 			    Assert.True(ics.storeManager(m));
 			
 			    // Then let's read it back in
-                //Console.WriteLine("here1");
-			    m = ics.getManager(m.employeeID);
-			    //Console.WriteLine("here2");
+                m = ics.getManager(m.employeeID);
 			    Assert.True(m.validate());
+
+                // Update Manager
+                m.lastName = "Smith";
+                Assert.True(ics.storeManager(m));
 			
 			    // Finally, let's cleanup the file that was created
 			    Assert.True(ics.deleteManager(m.employeeID));

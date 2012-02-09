@@ -59,6 +59,10 @@ namespace BurritoPOS.service.test
                 e = ics.getEmployee(e.employeeID);
                 Assert.True(e.validate());
 
+                // Update Employee
+                e.lastName = "Smith";
+                Assert.True(ics.storeEmployee(e));
+
                 // Finally, let's cleanup the file that was created
                 Assert.True(ics.deleteEmployee(e.employeeID));
 		    }

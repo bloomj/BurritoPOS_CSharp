@@ -19,7 +19,7 @@
             This method retrieves a burrito.
             </summary>
             <param name="id">Unique ID of burrito to retrieve</param>
-            <returns>Success/Failure</returns>
+            <returns>burrito object</returns>
         </member>
         <member name="M:BurritoPOS.service.BurritoSvcFileImpl.storeBurrito(BurritoPOS.domain.Burrito)">
             <summary>
@@ -83,7 +83,7 @@
         </member>
         <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder">
             <summary>
-            
+            Unit test for order service implementation
             </summary>
         </member>
         <member name="T:BurritoPOS.service.InventorySvcFileImpl">
@@ -115,6 +115,37 @@
             This method deletes a inventory.
             </summary>
             <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.BurritoSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Burrito objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcSQLImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcSQLImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.BurritoSvcSQLImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
             <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.service.test.CustomerSvcImplTestCase">
@@ -987,6 +1018,167 @@
             Returns base object GetHashCode
             </summary>
             <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="T:BurritoPOS.service.CustomerSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcSQLImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcSQLImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.CustomerSvcSQLImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.EmployeeSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcSQLImpl.getEmployee(System.Int32)">
+            <summary>
+            This method retrieves a employee.
+            </summary>
+            <param name="id">Unique ID of employee to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcSQLImpl.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            This method stores a employee.
+            </summary>
+            <param name="e">The employee object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.EmployeeSvcSQLImpl.deleteEmployee(System.Int32)">
+            <summary>
+            This method deletes a employee.
+            </summary>
+            <param name="id">Unique ID of the employee to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.InventorySvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Inventory objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcSQLImpl.getInventory(System.Int32)">
+            <summary>
+            This method retrieves a inventory.
+            </summary>
+            <param name="id">Unique ID of inventory to retrieve</param>
+            <returns>inventory object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcSQLImpl.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            This method stores a inventory.
+            </summary>
+            <param name="i">The inventory object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.InventorySvcSQLImpl.deleteInventory(System.Int32)">
+            <summary>
+            This method deletes a inventory.
+            </summary>
+            <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.ManagerSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Manager objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcSQLImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcSQLImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.ManagerSvcSQLImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.OrderSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcSQLImpl.getOrder(System.Int32)">
+            <summary>
+            This method retrieves a order.
+            </summary>
+            <param name="id">Unique ID of order to retrieve</param>
+            <returns>order object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcSQLImpl.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            This method stores a order.
+            </summary>
+            <param name="o">The order object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcSQLImpl.deleteOrder(System.Int32)">
+            <summary>
+            This method deletes a order.
+            </summary>
+            <param name="id">Unique ID of the order to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.OrderSvcSQLImpl.getAllOrders">
+            <summary>
+            This method returns all historical orders.
+            </summary>
+            <returns>ArrayList of order objects</returns>
         </member>
     </members>
 </doc>

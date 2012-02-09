@@ -22,5 +22,15 @@ namespace BurritoPOS.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("user id=root;password=admin;server=.\\JIMTEST;Trusted_Connection=yes;database=Neat" +
+            "oBurrito;connection timeout=30")]
+        public string NeatoBurritoDB {
+            get {
+                return ((string)(this["NeatoBurritoDB"]));
+            }
+        }
     }
 }

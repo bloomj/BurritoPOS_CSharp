@@ -1,486 +1,308 @@
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: com.burritopos.service.BurritoSvcMongoImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: com.burritopos.service.CustomerSvcMongoImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: com.burritopos.service.EmployeeSvcMongoImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: com.burritopos.service.InventorySvcMongoImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: com.burritopos.service.ManagerSvcMongoImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: com.burritopos.service.OrderSvcMongoImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: com.burritopos.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 1/1/0001 12:00:00 AM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: com.burritopos.service.BurritoSvcMongoImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: com.burritopos.service.CustomerSvcMongoImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: com.burritopos.service.EmployeeSvcMongoImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: com.burritopos.service.InventorySvcMongoImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: com.burritopos.service.ManagerSvcMongoImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: com.burritopos.service.OrderSvcMongoImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: com.burritopos.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 1/1/0001 12:00:00 AM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: com.burritopos.service.BurritoSvcMongoImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: com.burritopos.service.CustomerSvcMongoImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: com.burritopos.service.EmployeeSvcMongoImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: com.burritopos.service.InventorySvcMongoImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: com.burritopos.service.ManagerSvcMongoImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: com.burritopos.service.OrderSvcMongoImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: com.burritopos.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Got com.burritopos.service.BurritoSvcMongoImpl from properties.xml file for name: IBurritoSvc
-ERROR TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Exception in getService: Value cannot be null.
-Parameter name: type
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Got com.burritopos.service.BurritoSvcMongoImpl from properties.xml file for name: IBurritoSvc
-ERROR TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Exception in getService: Value cannot be null.
-Parameter name: type
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Got com.burritopos.service.BurritoSvcMongoImpl from properties.xml file for name: IBurritoSvc
-ERROR TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Exception in getService: Value cannot be null.
-Parameter name: type
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Got com.burritopos.service.BurritoSvcMongoImpl from properties.xml file for name: IBurritoSvc
-ERROR TestRunnerThread BurritoPOS.service.Factory - 1/1/0001 12:00:00 AM | Exception in getService: Value cannot be null.
-Parameter name: type
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: BurritoPOS.service.BurritoSvcFileImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: BurritoPOS.service.CustomerSvcFileImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: BurritoPOS.service.EmployeeSvcFileImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: BurritoPOS.service.InventorySvcFileImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: BurritoPOS.service.ManagerSvcFileImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: BurritoPOS.service.OrderSvcFileImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: BurritoPOS.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 1/1/0001 12:00:00 AM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 1/1/0001 12:00:00 AM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: BurritoPOS.service.BurritoSvcFileImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: BurritoPOS.service.CustomerSvcFileImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: BurritoPOS.service.EmployeeSvcFileImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: BurritoPOS.service.InventorySvcFileImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: BurritoPOS.service.ManagerSvcFileImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: BurritoPOS.service.OrderSvcFileImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: BurritoPOS.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:31:09 PM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:09 PM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:09 PM | Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:31:09 PM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 2/6/2012 2:31:09 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:31:31 PM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:31:31 PM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 2/6/2012 2:31:31 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - 2/6/2012 2:31:31 PM | Entering method storeCustomer | Customer ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - 2/6/2012 2:31:31 PM | Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - 2/6/2012 2:31:31 PM | Entering method storeEmployee | Employee ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - 2/6/2012 2:31:31 PM | Entering method storeInventory | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.ManagerSvcFileImpl from properties.xml file for name: IManagerSvc
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - 2/6/2012 2:31:31 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | In getService | name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:31:31 PM | Got BurritoPOS.service.OrderSvcFileImpl from properties.xml file for name: IOrderSvc
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - 2/6/2012 2:31:31 PM | Entering method storeOrder | Order ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: BurritoPOS.service.BurritoSvcFileImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: BurritoPOS.service.CustomerSvcFileImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: BurritoPOS.service.EmployeeSvcFileImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: BurritoPOS.service.InventorySvcFileImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: BurritoPOS.service.ManagerSvcFileImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: BurritoPOS.service.OrderSvcFileImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: BurritoPOS.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:33:05 PM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:33:05 PM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:33:05 PM | Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:33:05 PM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 2/6/2012 2:33:05 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: BurritoPOS.service.BurritoSvcFileImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: BurritoPOS.service.CustomerSvcFileImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: BurritoPOS.service.EmployeeSvcFileImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: BurritoPOS.service.InventorySvcFileImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: BurritoPOS.service.ManagerSvcFileImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: BurritoPOS.service.OrderSvcFileImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: BurritoPOS.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:33:52 PM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:33:52 PM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:33:52 PM | Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:33:52 PM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 2/6/2012 2:33:52 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: BurritoPOS.service.BurritoSvcFileImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: BurritoPOS.service.CustomerSvcFileImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: BurritoPOS.service.EmployeeSvcFileImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: BurritoPOS.service.InventorySvcFileImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: BurritoPOS.service.ManagerSvcFileImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: BurritoPOS.service.OrderSvcFileImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: BurritoPOS.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:34:33 PM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:34:33 PM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:34:33 PM | Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:34:33 PM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 2/6/2012 2:34:33 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvc | value: BurritoPOS.service.BurritoSvcFileImpl | hashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvc | value: BurritoPOS.service.CustomerSvcFileImpl | hashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvc | value: BurritoPOS.service.EmployeeSvcFileImpl | hashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvc | value: BurritoPOS.service.InventorySvcFileImpl | hashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvc | value: BurritoPOS.service.ManagerSvcFileImpl | hashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvc | value: BurritoPOS.service.OrderSvcFileImpl | hashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvc | value: BurritoPOS.service.AuthenticationSvcSocketImpl | hashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:36:25 PM | TEST | Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:36:25 PM | In getService | name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - 2/6/2012 2:36:25 PM | Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - 2/6/2012 2:36:25 PM | TEST | Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - 2/6/2012 2:36:25 PM | Entering method storeBurrito | Burrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
 DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurritoBurrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurritoBurrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurritoBurrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurritoID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - TESTGoing to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurritoBurrito ID:1
-ERROR TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Exception in deleteBurrito: deleteBurrito: no such file or directory: Burrito_1.txt
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurritoBurrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurritoID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurritoBurrito ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomerCustomer ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomerID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method deleteCustomer | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method deleteCustomer | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method storeEmployeeEmployee ID: 1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventoryBurrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcFileImpl from properties.xml file for name: IManagerSvc
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method storeBurritoBurrito ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcFileImpl from properties.xml file for name: IOrderSvc
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method storeOrderOrder ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method storeEmployeeEmployee ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
 DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method deleteCustomer | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method getEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method deleteEmployee | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method deleteInventory | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcFileImpl from properties.xml file for name: IManagerSvc
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method getManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method deleteManager | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcFileImpl from properties.xml file for name: IOrderSvc
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method deleteOrder | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+ERROR TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SqlException in storeOrder: Incorrect syntax near the keyword 'Order'.
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
 DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method deleteCustomer | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method getEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method deleteEmployee | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method deleteInventory | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcFileImpl from properties.xml file for name: IManagerSvc
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method getManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method deleteManager | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcFileImpl from properties.xml file for name: IOrderSvc
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method deleteOrder | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @totalCost)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.test.OrderSvcImplTestCase - TESTCASE o.totalcost: 17.00
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - total cost: 17.00
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
+ERROR TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SqlException in deleteOrder: Invalid column name 'id'.
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
 DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: -1 | burritos: 0 | isSubmitted: False | isComplete: False | totalCost: 0
 DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: True | isComplete: True | totalCost: 17.00
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method getBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Got the 24 fields of the record
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method deleteBurrito | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method deleteCustomer | ID: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Inserting customer into database
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: INSERT INTO Customer (EmailAddress, FirstName, LastName, id) VALUES (@EmailAddress, @FirstName, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method deleteCustomer | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1234
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1234
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method getEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method deleteEmployee | ID: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcSQLImpl from properties.xml file for name: IEmployeeSvc
+DEBUG TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Inserting employee into database
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method getEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method deleteEmployee | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method deleteInventory | ID: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcFileImpl from properties.xml file for name: IManagerSvc
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method getManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method deleteManager | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcSQLImpl from properties.xml file for name: IManagerSvc
+DEBUG TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Inserting manager into database
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method getManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method deleteManager | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcFileImpl from properties.xml file for name: IOrderSvc
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method storeOrder | ID: 1
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.00
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method getOrder | ID: 1
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.00
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method deleteOrder | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method deleteInventory | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method deleteInventory | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
 DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: -1 | burritos: 0 | isSubmitted: False | isComplete: False | totalCost: 0
 DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: True | isComplete: True | totalCost: 17.00
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcFileImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcFileImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcFileImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcFileImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcFileImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcFileImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
 DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcFileImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method storeBurrito | ID: 1
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Burrito object is valid, writing to file
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to create burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method getBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method getBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Got the 24 fields of the record
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to update burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
 DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcFileImpl - Entering method deleteBurrito | ID:1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method deleteBurrito | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method deleteCustomer | ID: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Inserting customer into database
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: INSERT INTO Customer (EmailAddress, FirstName, LastName, id) VALUES (@EmailAddress, @FirstName, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Updating customer in database
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: UPDATE Customer SET EmailAddress=@EmailAddress, FirstName=@FirstName, LastName=@LastName WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method deleteCustomer | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcFileImpl from properties.xml file for name: ICustomerSvc
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcFileImpl - Entering method getCustomer | ID: 1234
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1234
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcFileImpl from properties.xml file for name: IEmployeeSvc
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method getEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcFileImpl - Entering method deleteEmployee | ID: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcSQLImpl from properties.xml file for name: IEmployeeSvc
+DEBUG TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Inserting employee into database
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method getEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Updating employee in database
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: UPDATE Employee SET FirstName=@FirstName, isManager=@isManager, LastName=@LastName WHERE employeeID=@id
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method deleteEmployee | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcFileImpl from properties.xml file for name: IInventorySvc
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcFileImpl - Entering method deleteInventory | ID: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Updating inventory in database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: UPDATE Inventory SET BeefQty=@Beef, BlackBeansQty=@BlackBeans, BrownRiceQty=@BrownRice, ChickenQty=@Chicken, ChiliTortillaQty=@ChiliTortilla, CucumberQty=@Cucumber, FlourTortillaQty=@FlourTortilla, GuacamoleQty=@Guacamole, HerbGarlicTortillaQty=@HerbGarlicTortilla, HummusQty=@Hummus, JalapenoCheddarTortillaQty=@JalapenoCheddarTortilla, JalapenosQty=@Jalapenos, LettuceQty=@Lettuce, OnionQty=@Onion, PintoBeansQty=@PintoBeans, SalsaPicoQty=@SalsaPico, SalsaSpecialQty=@SalsaSpecial, SalsaVerdeQty=@SalsaVerde, TomatoBasilTortillaQty=@TomatoBasilTortilla, TomatoesQty=@Tomatoes, WheatTortillaQty=@WheatTortilla, WhiteRiceQty=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcFileImpl from properties.xml file for name: IManagerSvc
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method getManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcFileImpl - Entering method deleteManager | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcSQLImpl from properties.xml file for name: IManagerSvc
+DEBUG TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Inserting manager into database
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method getManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Updating manager in database
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: UPDATE Employee SET FirstName=@FirstName, isManager=@isManager, LastName=@LastName WHERE employeeID=@id
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method deleteManager | ID:1
 DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcFileImpl from properties.xml file for name: IOrderSvc
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method storeOrder | ID: 1
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.00
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method getOrder | ID: 1
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.00
-INFO TestRunnerThread BurritoPOS.service.OrderSvcFileImpl - Entering method deleteOrder | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1

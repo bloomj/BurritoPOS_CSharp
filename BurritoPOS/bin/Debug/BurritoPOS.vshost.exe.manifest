@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>If3Ac/MjztYt6pWbS/l1UIj5Qmg=</dsig:DigestValue>
+        <dsig:DigestValue>EjwvZ+r+ptJMUj6lu+PMPz6U0bc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -327,6 +327,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>+DnC1RtqRdituVVVJiJP1VE2Sg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NeatoBurrito_Schema(MSSQLServer).sql" size="3138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>18Ux84cAwWKqnbJ+O4RXKhYLW+Y=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

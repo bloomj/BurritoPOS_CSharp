@@ -43,7 +43,7 @@ namespace BurritoPOS.service.test
         }
 
         /// <summary>
-        /// 
+        /// Unit test for order service implementation
         /// </summary>
         [Test]
         public void testStoreOrder()
@@ -61,6 +61,11 @@ namespace BurritoPOS.service.test
                 // Then let's read it back in
                 o = ics.getOrder(o.orderID);
                 Assert.True(o.validate());
+
+                // Update the Order
+                o.isComplete = true;
+                o.isSubmitted = true;
+                Assert.True(ics.storeOrder(o));
 
                 // Finally, let's cleanup the file that was created
                 Assert.True(ics.deleteOrder(o.orderID));

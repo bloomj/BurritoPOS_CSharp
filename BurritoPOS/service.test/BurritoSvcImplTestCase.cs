@@ -53,7 +53,7 @@ namespace BurritoPOS.service.test
                 dLog.Debug("Going to get the service implementation");
 			    IBurritoSvc ics = (IBurritoSvc) factory.getService("IBurritoSvc");
 
-                dLog.Debug("Going to store burrito");
+                dLog.Debug("Going to create burrito");
 			    // First let's store the Burrito
                 Assert.True(ics.storeBurrito(b));
 
@@ -61,6 +61,12 @@ namespace BurritoPOS.service.test
 			    // Then let's read it back in
 			    b = ics.getBurrito(b.id);
                 Assert.True(b.validate());
+
+                // Update burrito
+                dLog.Debug("Going to update burrito");
+                b.Beef = false;
+                b.Hummus = true;
+                Assert.True(ics.storeBurrito(b));
 
                 dLog.Debug("Going to delete burrito");
 			    // Finally, let's cleanup the file that was created

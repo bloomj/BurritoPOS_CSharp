@@ -1,4 +1,3 @@
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.exe.config
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.exe.manifest
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.application
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.exe
@@ -24,3 +23,4 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.application
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.exe
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.pdb
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.g.resources

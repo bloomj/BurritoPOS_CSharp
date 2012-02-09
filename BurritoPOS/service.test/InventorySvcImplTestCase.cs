@@ -59,6 +59,12 @@ namespace BurritoPOS.service.test
                 i = ics.getInventory(i.id);
                 Assert.True(i.validate());
 
+                // Update Inventory
+                i.BlackBeansQty = 3;
+                i.CucumberQty = 17;
+                i.SalsaVerdeQty = 12;
+                Assert.True(ics.storeInventory(i));
+
                 // Finally, let's cleanup the file that was created
                 Assert.True(ics.deleteInventory(i.id));
 		    }

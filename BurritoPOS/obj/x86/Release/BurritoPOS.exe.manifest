@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="54784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="84480">
       <assemblyIdentity name="BurritoPOS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EjwvZ+r+ptJMUj6lu+PMPz6U0bc=</dsig:DigestValue>
+        <dsig:DigestValue>h7HkchJ5ZqxTKb4yp/Qoz+gIBg0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -113,15 +113,6 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="BurritoPOS.exe.config" size="144">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>cpzNzlRjZspwKGLNlX6RAlU3880=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="config\Hibernate\Burrito.hbm.xml" size="2470" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
@@ -212,13 +203,13 @@
       <dsig:DigestValue>TanDWYxddYMXkE46N3OWkb293oE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\properties.xml" size="702" writeableType="applicationData">
+  <file name="config\properties.xml" size="696" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>h4QlNr6/pdPpe+Ygi3B8R7P8FZQ=</dsig:DigestValue>
+      <dsig:DigestValue>Mv5zCqWvDYyB8dZQS1cIXvHoJ98=</dsig:DigestValue>
     </hash>
   </file>
   <file name="config\spring.cfg.xml" size="950" writeableType="applicationData">
@@ -329,13 +320,13 @@
       <dsig:DigestValue>+DnC1RtqRdituVVVJiJP1VE2Sg8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NeatoBurrito_Schema(MSSQLServer).sql" size="3138">
+  <file name="NeatoBurrito_Schema(MSSQLServer).sql" size="8573">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>18Ux84cAwWKqnbJ+O4RXKhYLW+Y=</dsig:DigestValue>
+      <dsig:DigestValue>xOF4IHCumPllpnCxIIQXN6nGQuU=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

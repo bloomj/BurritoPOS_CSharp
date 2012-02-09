@@ -34,7 +34,7 @@ namespace BurritoPOS.service
         /// This method retrieves a burrito.
         /// </summary>
         /// <param name="id">Unique ID of burrito to retrieve</param>
-        /// <returns>Success/Failure</returns>
+        /// <returns>burrito object</returns>
 	    public Burrito getBurrito(Int32 id) {
 		    dLog.Info("Entering method getBurrito | ID: " + id);
 		    Burrito b = null;

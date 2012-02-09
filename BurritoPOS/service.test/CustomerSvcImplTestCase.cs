@@ -57,6 +57,10 @@ namespace BurritoPOS.service.test
 			    // Then let's read it back in
 			    c = ics.getCustomer(c.id);
                 Assert.True(c.validate());
+
+                // Update customer
+                c.emailAddress = "jim2@gmail.com";
+                Assert.True(ics.storeCustomer(c));
 			
 			    // Finally, let's cleanup the file that was created
                 Assert.True(ics.deleteCustomer(c.id));

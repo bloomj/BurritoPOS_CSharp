@@ -9,7 +9,7 @@ Currently demonstrates:
   - NUnit
   - NHibernate
   - Spring.net
-  - MS SQL Server 2005
+  - MS SQL Server 2008
   - Factory Pattern
   - N-tier architecture
   - client/server comms

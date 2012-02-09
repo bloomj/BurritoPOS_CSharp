@@ -2,11 +2,11 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>Service Providers</comment>
-<entry key="IBurritoSvc">BurritoPOS.service.BurritoSvcFileImpl</entry>
-<entry key="ICustomerSvc">BurritoPOS.service.CustomerSvcFileImpl</entry>
-<entry key="IEmployeeSvc">BurritoPOS.service.EmployeeSvcFileImpl</entry>
-<entry key="IInventorySvc">BurritoPOS.service.InventorySvcFileImpl</entry>
-<entry key="IManagerSvc">BurritoPOS.service.ManagerSvcFileImpl</entry>
-<entry key="IOrderSvc">BurritoPOS.service.OrderSvcFileImpl</entry>
+<entry key="IBurritoSvc">BurritoPOS.service.BurritoSvcSQLImpl</entry>
+<entry key="ICustomerSvc">BurritoPOS.service.CustomerSvcSQLImpl</entry>
+<entry key="IEmployeeSvc">BurritoPOS.service.EmployeeSvcSQLImpl</entry>
+<entry key="IInventorySvc">BurritoPOS.service.InventorySvcSQLImpl</entry>
+<entry key="IManagerSvc">BurritoPOS.service.ManagerSvcSQLImpl</entry>
+<entry key="IOrderSvc">BurritoPOS.service.OrderSvcSQLImpl</entry>
 <entry key="IAuthenticationSvc">BurritoPOS.service.AuthenticationSvcSocketImpl</entry>
 </properties>

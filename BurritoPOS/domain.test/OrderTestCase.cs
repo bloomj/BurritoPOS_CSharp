@@ -41,12 +41,12 @@ namespace BurritoPOS.domain.test
         public void testValidateOrder() {
 		    try {
 			    Order o = new Order();
-			    o.burritos = new ArrayList();
+			    o.burritos = new List<Burrito>();
                 o.burritos.Add(new Burrito(1, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, Decimal.Parse("0.00")));
 			    o.orderDate = DateTime.Now;
 			    o.isComplete = true;
 			    o.isSubmitted = true;
-			    o.orderID = 1;
+			    o.id = 1;
 			    o.totalCost = Decimal.Parse("17.00");
 
                 Assert.True(o.validate());
@@ -79,7 +79,7 @@ namespace BurritoPOS.domain.test
         [Test]
 	    public void testEqualsOrder() {
 		    try {
-			    Order o = new Order(1,new ArrayList(),DateTime.Now, false,false,Decimal.Parse("17.00"));
+			    Order o = new Order(1,new List<Burrito>(),DateTime.Now, false,false,Decimal.Parse("17.00"));
 			    Order p = o;
 
                 Assert.True(o.Equals(p));
@@ -96,7 +96,7 @@ namespace BurritoPOS.domain.test
         [Test]
 	    public void testNotEqualsOrder() {
 		    try {
-			    Order o = new Order(1,new ArrayList(),DateTime.Now, false,false,Decimal.Parse("17.00"));
+			    Order o = new Order(1,new List<Burrito>(),DateTime.Now, false,false,Decimal.Parse("17.00"));
 			    Order p= new Order();
 
                 Assert.False(o.Equals(p));

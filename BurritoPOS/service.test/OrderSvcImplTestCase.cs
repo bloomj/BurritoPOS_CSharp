@@ -28,7 +28,7 @@ namespace BurritoPOS.service.test
         protected void SetUp()
         {
             factory = Factory.getInstance();
-            o = new Order(1, new ArrayList(), DateTime.Now, false, false, Decimal.Parse("17.00"));
+            o = new Order(1, new List<Burrito>(), DateTime.Now, false, false, Decimal.Parse("17.00"));
             b = new Burrito(1, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, Decimal.Parse("3.00"));
             o.burritos.Add(b);
         }
@@ -59,7 +59,7 @@ namespace BurritoPOS.service.test
                 Assert.True(ics.storeOrder(o));
 
                 // Then let's read it back in
-                o = ics.getOrder(o.orderID);
+                o = ics.getOrder(o.id);
                 Assert.True(o.validate());
 
                 // Update the Order
@@ -68,7 +68,7 @@ namespace BurritoPOS.service.test
                 Assert.True(ics.storeOrder(o));
 
                 // Finally, let's cleanup the file that was created
-                Assert.True(ics.deleteOrder(o.orderID));
+                Assert.True(ics.deleteOrder(o.id));
 		    }
 		    catch(Exception e) {
                 Console.WriteLine("Exception in testStoreOrder: " + e.Message + "\n" + e.StackTrace);

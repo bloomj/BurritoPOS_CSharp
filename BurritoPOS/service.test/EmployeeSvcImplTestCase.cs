@@ -56,7 +56,7 @@ namespace BurritoPOS.service.test
                 Assert.True(ics.storeEmployee(e));
 
                 // Then let's read it back in
-                e = ics.getEmployee(e.employeeID);
+                e = ics.getEmployee(e.id);
                 Assert.True(e.validate());
 
                 // Update Employee
@@ -64,7 +64,7 @@ namespace BurritoPOS.service.test
                 Assert.True(ics.storeEmployee(e));
 
                 // Finally, let's cleanup the file that was created
-                Assert.True(ics.deleteEmployee(e.employeeID));
+                Assert.True(ics.deleteEmployee(e.id));
 		    }
 		    catch(Exception e) {
                 Console.WriteLine("Exception in testStoreEmployee: " + e.Message + "\n" + e.StackTrace);

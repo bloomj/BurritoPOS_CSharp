@@ -17,45 +17,45 @@ namespace BurritoPOS.domain
     {
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+        #region Properties
         /// <summary>
-        /// 
+        /// Unique ID of Order
         /// </summary>
-        public Int32 orderID { get; set; }
+        public virtual Int32 id { get; set; }
 
-	    //changing a generic array out for an ArrayList here to dynamically and easily add/subtract the burritos
 	    //don't need Vector because Orders will not need to by synchronized (i.e. only one person should be modifying at a time)
-	    //private Burrito[] burritos;
         /// <summary>
-        /// 
+        /// Burritos in order
         /// </summary>
-        public ArrayList burritos { get; set; }
+        public virtual List<Burrito> burritos { get; set; }
         
         /// <summary>
-        /// 
+        /// Date of Order
         /// </summary>
-        public DateTime orderDate { get; set; }
+        public virtual DateTime orderDate { get; set; }
 
         /// <summary>
-        /// 
+        /// Has order been submitted to kitchen?
         /// </summary>
-        public Boolean isSubmitted { get; set; }
+        public virtual Boolean isSubmitted { get; set; }
 
         /// <summary>
-        /// 
+        /// Has order been completed?
         /// </summary>
-        public Boolean isComplete { get; set; }
+        public virtual Boolean isComplete { get; set; }
 
         /// <summary>
-        /// 
+        /// Total cost of order
         /// </summary>
-        public Decimal totalCost { get; set; }
+        public virtual Decimal totalCost { get; set; }
+        #endregion
 
         /// <summary>
         /// Default constructor
         /// </summary>
 	    public Order() {
-            orderID = -1;
-            burritos = new ArrayList();
+            id = -1;
+            burritos = new List<Burrito>();
 	    }
 	
 	    /// <summary>
@@ -67,8 +67,8 @@ namespace BurritoPOS.domain
 	    /// <param name="isSubmitted"></param>
 	    /// <param name="isComplete"></param>
 	    /// <param name="totalCost"></param>
-	    public Order(Int32 orderID, ArrayList burritos, DateTime orderDate, Boolean isSubmitted, Boolean isComplete, Decimal totalCost) {
-		    this.orderID = orderID;
+	    public Order(Int32 orderID, List<Burrito> burritos, DateTime orderDate, Boolean isSubmitted, Boolean isComplete, Decimal totalCost) {
+		    this.id = orderID;
 		    this.burritos = burritos;
 		    this.orderDate = orderDate;
 		    this.isSubmitted = isSubmitted;
@@ -80,9 +80,10 @@ namespace BurritoPOS.domain
         /// validates the object
         /// </summary>
         /// <returns>success or failure</returns>
-	    public Boolean validate() {
-            dLog.Debug("orderID: " + this.orderID + " | burritos: " + this.burritos.Count + " | isSubmitted: " + this.isSubmitted + " | isComplete: " + this.isComplete + " | totalCost: " + this.totalCost);
-            if (this.orderID > -1 && this.burritos.Count > 0 && Decimal.Floor(this.totalCost) > 0)
+        public virtual Boolean validate()
+        {
+            dLog.Debug("orderID: " + this.id + " | burritos: " + this.burritos.Count + " | isSubmitted: " + this.isSubmitted + " | isComplete: " + this.isComplete + " | totalCost: " + this.totalCost);
+            if (this.id > -1 && this.burritos.Count > 0 && Decimal.Floor(this.totalCost) > 0)
 			    return true;
 		    else
 			    return false;
@@ -101,7 +102,7 @@ namespace BurritoPOS.domain
                 return false;
 		
 	        Order other = (Order) obj;
-	        if (this.orderID != other.orderID || this.burritos != other.burritos || this.orderDate != other.orderDate || this.isSubmitted != other.isSubmitted || this.isComplete != other.isComplete || this.totalCost != other.totalCost)
+	        if (this.id != other.id || this.burritos != other.burritos || this.orderDate != other.orderDate || this.isSubmitted != other.isSubmitted || this.isComplete != other.isComplete || this.totalCost != other.totalCost)
 	    	    return false;
 	    
 	        return true;

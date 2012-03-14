@@ -1,35 +1,31 @@
-<?xml version="1.0"?>
-<!DOCTYPE hibernate-mapping PUBLIC
-"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<hibernate-mapping package="com.burritopos.domain">
-   <class name="Burrito" table="burrito">
-  	  <meta attribute="class-description">This class contains burrito object information.</meta>
-	  <id name="id" column="id" type="java.lang.Integer" >
-		<generator class="increment" />
-	  </id>
-          <property name="FlourTortilla" column="FlourTortilla" type="java.lang.Boolean" />
-          <property name="ChiliTortilla" column="chiliTortilla" type="java.lang.Boolean" />
-          <property name="JalapenoCheddarTortilla" column="JalapenoCheddarTortilla" type="java.lang.Boolean" />
-          <property name="TomatoBasilTortilla" column="TomatoBasilTortilla" type="java.lang.Boolean" />
-          <property name="HerbGarlicTortilla" column="HerbGarlicTortilla" type="java.lang.Boolean" />
-          <property name="WheatTortilla" column="WheatTortilla" type="java.lang.Boolean" />
-          <property name="WhiteRice" column="WhiteRice" type="java.lang.Boolean" />
-          <property name="BrownRice" column="BrownRice" type="java.lang.Boolean" />
-          <property name="BlackBeans" column="BlackBeans" type="java.lang.Boolean" />
-          <property name="PintoBeans" column="PintoBeans" type="java.lang.Boolean" />
-          <property name="Chicken" column="Chicken" type="java.lang.Boolean" />
-          <property name="Beef" column="Beef" type="java.lang.Boolean" />
-          <property name="Hummus" column="Hummus" type="java.lang.Boolean" />
-          <property name="SalsaPico" column="SalsaPico" type="java.lang.Boolean" />
-          <property name="SalsaVerde" column="SalsaVerde" type="java.lang.Boolean" />
-          <property name="SalsaSpecial" column="SalsaSpecial" type="java.lang.Boolean" />
-          <property name="Guacamole" column="Guacamole" type="java.lang.Boolean" />
-          <property name="Lettuce" column="Lettuce" type="java.lang.Boolean" />
-          <property name="Jalapenos" column="Jalapenos" type="java.lang.Boolean" />
-          <property name="Tomatoes" column="Tomatoes" type="java.lang.Boolean" />
-          <property name="Cucumber" column="Cucumber" type="java.lang.Boolean" />
-          <property name="Onion" column="Onion" type="java.lang.Boolean" />
-          <property name="Price" column="Price" type="java.math.BigDecimal" />
-   </class>
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true">
+  <class name="BurritoPOS.domain, BurritoPOS" lazy="true">
+    <id name="id">
+      <generator class="increment" />
+    </id>
+    <property name="FlourTortilla" column="FlourTortilla" />
+    <property name="ChiliTortilla" column="chiliTortilla" />
+    <property name="JalapenoCheddarTortilla" column="JalapenoCheddarTortilla" />
+    <property name="TomatoBasilTortilla" column="TomatoBasilTortilla" />
+    <property name="HerbGarlicTortilla" column="HerbGarlicTortilla" />
+    <property name="WheatTortilla" column="WheatTortilla" />
+    <property name="WhiteRice" column="WhiteRice" />
+    <property name="BrownRice" column="BrownRice" />
+    <property name="BlackBeans" column="BlackBeans" />
+    <property name="PintoBeans" column="PintoBeans" />
+    <property name="Chicken" column="Chicken" />
+    <property name="Beef" column="Beef" />
+    <property name="Hummus" column="Hummus" />
+    <property name="SalsaPico" column="SalsaPico" />
+    <property name="SalsaVerde" column="SalsaVerde" />
+    <property name="SalsaSpecial" column="SalsaSpecial" />
+    <property name="Guacamole" column="Guacamole" />
+    <property name="Lettuce" column="Lettuce" />
+    <property name="Jalapenos" column="Jalapenos" />
+    <property name="Tomatoes" column="Tomatoes" />
+    <property name="Cucumber" column="Cucumber" />
+    <property name="Onion" column="Onion" />
+    <property name="Price" column="Price" />
+  </class>
 </hibernate-mapping>

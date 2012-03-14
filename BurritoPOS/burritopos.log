@@ -1,308 +1,279 @@
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-ERROR TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SqlException in storeOrder: Incorrect syntax near the keyword 'Order'.
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @totalCost)
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.OrderSvcImplTestCase - TESTCASE o.totalcost: 17.00
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - total cost: 17.00
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
-ERROR TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SqlException in deleteOrder: Invalid column name 'id'.
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: -1 | burritos: 0 | isSubmitted: False | isComplete: False | totalCost: 0
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: True | isComplete: True | totalCost: 17.00
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method getBurrito | ID: 1
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Got the 24 fields of the record
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method deleteBurrito | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Inserting customer into database
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: INSERT INTO Customer (EmailAddress, FirstName, LastName, id) VALUES (@EmailAddress, @FirstName, @LastName, @id)
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Got the 3 fields of the record
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method deleteCustomer | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcSQLImpl from properties.xml file for name: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Inserting employee into database
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method getEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Got the 3 fields of the record
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method deleteEmployee | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcSQLImpl from properties.xml file for name: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Inserting manager into database
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method getManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Got the 3 fields of the record
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method deleteManager | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost)
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: -1 | burritos: 0 | isSubmitted: False | isComplete: False | totalCost: 0
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: True | isComplete: True | totalCost: 17.00
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
-DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc
-DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to create burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method getBurrito | ID: 1
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Got the 24 fields of the record
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to update burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
-DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
-INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method deleteBurrito | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Inserting customer into database
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: INSERT INTO Customer (EmailAddress, FirstName, LastName, id) VALUES (@EmailAddress, @FirstName, @LastName, @id)
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Got the 3 fields of the record
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Updating customer in database
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: UPDATE Customer SET EmailAddress=@EmailAddress, FirstName=@FirstName, LastName=@LastName WHERE id=@id
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method deleteCustomer | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
-DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1234
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcSQLImpl from properties.xml file for name: IEmployeeSvc
-DEBUG TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Inserting employee into database
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method getEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Got the 3 fields of the record
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Updating employee in database
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: UPDATE Employee SET FirstName=@FirstName, isManager=@isManager, LastName=@LastName WHERE employeeID=@id
-INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method deleteEmployee | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
-DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Updating inventory in database
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: UPDATE Inventory SET BeefQty=@Beef, BlackBeansQty=@BlackBeans, BrownRiceQty=@BrownRice, ChickenQty=@Chicken, ChiliTortillaQty=@ChiliTortilla, CucumberQty=@Cucumber, FlourTortillaQty=@FlourTortilla, GuacamoleQty=@Guacamole, HerbGarlicTortillaQty=@HerbGarlicTortilla, HummusQty=@Hummus, JalapenoCheddarTortillaQty=@JalapenoCheddarTortilla, JalapenosQty=@Jalapenos, LettuceQty=@Lettuce, OnionQty=@Onion, PintoBeansQty=@PintoBeans, SalsaPicoQty=@SalsaPico, SalsaSpecialQty=@SalsaSpecial, SalsaVerdeQty=@SalsaVerde, TomatoBasilTortillaQty=@TomatoBasilTortilla, TomatoesQty=@Tomatoes, WheatTortillaQty=@WheatTortilla, WhiteRiceQty=@WhiteRice WHERE id=@id
-INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcSQLImpl from properties.xml file for name: IManagerSvc
-DEBUG TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Inserting manager into database
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method getManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Got the 3 fields of the record
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Updating manager in database
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: UPDATE Employee SET FirstName=@FirstName, isManager=@isManager, LastName=@LastName WHERE employeeID=@id
-INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method deleteManager | ID:1
-DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
-DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost)
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
-DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
-INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
+DEBUG 2012-03-13 15:50:06,025 [TestRunnerThread] - executing flush : (:0) 
+DEBUG 2012-03-13 15:50:06,035 [TestRunnerThread] - registering flush begin : (:0) 
+DEBUG 2012-03-13 15:50:06,036 [TestRunnerThread] - Deleting entity: [BurritoPOS.domain.Inventory#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,037 [TestRunnerThread] - Opened new IDbCommand, open IDbCommands: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,038 [TestRunnerThread] - Building an IDbCommand object for the SqlString: DELETE FROM [Inventory] WHERE id = ? : (:0) 
+DEBUG 2012-03-13 15:50:06,038 [TestRunnerThread] - binding '2' to parameter: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,039 [TestRunnerThread] - DELETE FROM [Inventory] WHERE id = @p0;@p0 = 2 [Type: Int32 (0)] : (:0) 
+DEBUG 2012-03-13 15:50:06,040 [TestRunnerThread] - Enlist Command : (:0) 
+DEBUG 2012-03-13 15:50:06,042 [TestRunnerThread] - ExecuteNonQuery took 1 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,043 [TestRunnerThread] - ExecuteBatch for 1 statements took 0 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,043 [TestRunnerThread] - Closed IDbCommand, open IDbCommands: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,044 [TestRunnerThread] - registering flush end : (:0) 
+DEBUG 2012-03-13 15:50:06,044 [TestRunnerThread] - post flush : (:0) 
+DEBUG 2012-03-13 15:50:06,045 [TestRunnerThread] - before transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,046 [TestRunnerThread] - IDbTransaction Committed : (:0) 
+DEBUG 2012-03-13 15:50:06,047 [TestRunnerThread] - transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,047 [TestRunnerThread] - aggressively releasing database connection : (:0) 
+DEBUG 2012-03-13 15:50:06,047 [TestRunnerThread] - Closing connection : (:0) 
+DEBUG 2012-03-13 15:50:06,048 [TestRunnerThread] - IDbTransaction disposed. : (:0) 
+DEBUG 2012-03-13 15:50:06,048 [TestRunnerThread] - [session-id=acdf95b1-ba91-4db1-9668-31ab3d88ab17] running ISession.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,049 [TestRunnerThread] - [session-id=acdf95b1-ba91-4db1-9668-31ab3d88ab17] executing real Dispose(True) : (:0) 
+DEBUG 2012-03-13 15:50:06,049 [TestRunnerThread] - closing session : (:0) 
+DEBUG 2012-03-13 15:50:06,049 [TestRunnerThread] - running BatcherImpl.Dispose(true) : (:0) 
+DEBUG 2012-03-13 15:50:06,124 [TestRunnerThread] - In getServicename: IManagerSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:51) 
+DEBUG 2012-03-13 15:50:06,140 [TestRunnerThread] - Got BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl from properties.xml file for name: IManagerSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:78) 
+ INFO 2012-03-13 15:50:06,148 [TestRunnerThread] - Entering method storeManager | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Hibernate\ManagerSvcHibernateImpl.cs:80) 
+DEBUG 2012-03-13 15:50:06,156 [TestRunnerThread] - [session-id=f2a00e21-7ef9-49d0-a340-e08c83986aaf] opened session at timestamp: 634672506061, for session factory: [/d26037cfda0141b1939df3f24543cde1] : (:0) 
+DEBUG 2012-03-13 15:50:06,157 [TestRunnerThread] - Begin (Unspecified) : (:0) 
+DEBUG 2012-03-13 15:50:06,157 [TestRunnerThread] - Obtaining IDbConnection from Driver : (:0) 
+DEBUG 2012-03-13 15:50:06,162 [TestRunnerThread] - saving transient instance : (:0) 
+DEBUG 2012-03-13 15:50:06,163 [TestRunnerThread] - saving [BurritoPOS.domain.Manager#<null>] : (:0) 
+DEBUG 2012-03-13 15:50:06,164 [TestRunnerThread] - executing insertions : (:0) 
+DEBUG 2012-03-13 15:50:06,164 [TestRunnerThread] - executing identity-insert immediately : (:0) 
+DEBUG 2012-03-13 15:50:06,165 [TestRunnerThread] - Inserting entity: BurritoPOS.domain.Manager (native id) : (:0) 
+DEBUG 2012-03-13 15:50:06,166 [TestRunnerThread] - Opened new IDbCommand, open IDbCommands: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,166 [TestRunnerThread] - Building an IDbCommand object for the SqlString: INSERT INTO [Manager] (firstName, lastName, isManager) VALUES (?, ?, ?); select SCOPE_IDENTITY() : (:0) 
+DEBUG 2012-03-13 15:50:06,167 [TestRunnerThread] - Dehydrating entity: [BurritoPOS.domain.Manager#<null>] : (:0) 
+DEBUG 2012-03-13 15:50:06,168 [TestRunnerThread] - binding 'Jim' to parameter: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,169 [TestRunnerThread] - binding 'Bloom' to parameter: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,169 [TestRunnerThread] - binding 'True' to parameter: 2 : (:0) 
+DEBUG 2012-03-13 15:50:06,170 [TestRunnerThread] - INSERT INTO [Manager] (firstName, lastName, isManager) VALUES (@p0, @p1, @p2); select SCOPE_IDENTITY();@p0 = 'Jim' [Type: String (4000)], @p1 = 'Bloom' [Type: String (4000)], @p2 = True [Type: Boolean (0)] : (:0) 
+DEBUG 2012-03-13 15:50:06,171 [TestRunnerThread] - Enlist Command : (:0) 
+DEBUG 2012-03-13 15:50:06,177 [TestRunnerThread] - ExecuteReader took 5 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,178 [TestRunnerThread] - Opened IDataReader, open IDataReaders: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,179 [TestRunnerThread] - returning '1' as column:  : (:0) 
+DEBUG 2012-03-13 15:50:06,180 [TestRunnerThread] - Natively generated identity: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,180 [TestRunnerThread] - running NHybridDataReader.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,181 [TestRunnerThread] - Closed IDataReader, open IDataReaders :0 : (:0) 
+DEBUG 2012-03-13 15:50:06,182 [TestRunnerThread] - DataReader was closed after 10 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,183 [TestRunnerThread] - Closed IDbCommand, open IDbCommands: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,183 [TestRunnerThread] - Start Commit : (:0) 
+DEBUG 2012-03-13 15:50:06,184 [TestRunnerThread] - flushing session : (:0) 
+DEBUG 2012-03-13 15:50:06,184 [TestRunnerThread] - processing flush-time cascades : (:0) 
+DEBUG 2012-03-13 15:50:06,184 [TestRunnerThread] - dirty checking collections : (:0) 
+DEBUG 2012-03-13 15:50:06,185 [TestRunnerThread] - Flushing entities and processing referenced collections : (:0) 
+DEBUG 2012-03-13 15:50:06,185 [TestRunnerThread] - Processing unreferenced collections : (:0) 
+DEBUG 2012-03-13 15:50:06,186 [TestRunnerThread] - Scheduling collection removes/(re)creates/updates : (:0) 
+DEBUG 2012-03-13 15:50:06,186 [TestRunnerThread] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects : (:0) 
+DEBUG 2012-03-13 15:50:06,186 [TestRunnerThread] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections : (:0) 
+DEBUG 2012-03-13 15:50:06,187 [TestRunnerThread] - listing entities: : (:0) 
+DEBUG 2012-03-13 15:50:06,187 [TestRunnerThread] - BurritoPOS.domain.Manager{'id'='1', 'firstName'='Jim', 'lastName'='Bloom', 'isManager'='True'} : (:0) 
+DEBUG 2012-03-13 15:50:06,188 [TestRunnerThread] - executing flush : (:0) 
+DEBUG 2012-03-13 15:50:06,188 [TestRunnerThread] - registering flush begin : (:0) 
+DEBUG 2012-03-13 15:50:06,189 [TestRunnerThread] - registering flush end : (:0) 
+DEBUG 2012-03-13 15:50:06,189 [TestRunnerThread] - post flush : (:0) 
+DEBUG 2012-03-13 15:50:06,189 [TestRunnerThread] - before transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,230 [TestRunnerThread] - IDbTransaction Committed : (:0) 
+DEBUG 2012-03-13 15:50:06,234 [TestRunnerThread] - transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,236 [TestRunnerThread] - aggressively releasing database connection : (:0) 
+DEBUG 2012-03-13 15:50:06,236 [TestRunnerThread] - Closing connection : (:0) 
+DEBUG 2012-03-13 15:50:06,237 [TestRunnerThread] - IDbTransaction disposed. : (:0) 
+DEBUG 2012-03-13 15:50:06,240 [TestRunnerThread] - [session-id=f2a00e21-7ef9-49d0-a340-e08c83986aaf] running ISession.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,240 [TestRunnerThread] - [session-id=f2a00e21-7ef9-49d0-a340-e08c83986aaf] executing real Dispose(True) : (:0) 
+DEBUG 2012-03-13 15:50:06,242 [TestRunnerThread] - closing session : (:0) 
+DEBUG 2012-03-13 15:50:06,243 [TestRunnerThread] - running BatcherImpl.Dispose(true) : (:0) 
+ INFO 2012-03-13 15:50:06,247 [TestRunnerThread] - Entering method getManager | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Hibernate\ManagerSvcHibernateImpl.cs:42) 
+DEBUG 2012-03-13 15:50:06,247 [TestRunnerThread] - [session-id=c6a85dbe-c4ff-489a-ab2c-38d476ac2549] opened session at timestamp: 634672506062, for session factory: [/d26037cfda0141b1939df3f24543cde1] : (:0) 
+DEBUG 2012-03-13 15:50:06,251 [TestRunnerThread] - Begin (Unspecified) : (:0) 
+DEBUG 2012-03-13 15:50:06,251 [TestRunnerThread] - Obtaining IDbConnection from Driver : (:0) 
+DEBUG 2012-03-13 15:50:06,333 [TestRunnerThread] - unable to locate HQL query plan in cache; generating (FROM Manager WHERE id = :id) : (:0) 
+DEBUG 2012-03-13 15:50:06,334 [TestRunnerThread] - parse() - HQL: FROM Manager WHERE id = :id : (:0) 
+DEBUG 2012-03-13 15:50:06,334 [TestRunnerThread] - throwQueryException() : no errors : (:0) 
+DEBUG 2012-03-13 15:50:06,335 [TestRunnerThread] - select << begin [level=1, statement=select] : (:0) 
+DEBUG 2012-03-13 15:50:06,336 [TestRunnerThread] - FromClause{level=1} :  Manager (no alias) -> manager0_ : (:0) 
+ INFO 2012-03-13 15:50:06,337 [TestRunnerThread] - attempting to resolve property [id] as a non-qualified ref : (:0) 
+DEBUG 2012-03-13 15:50:06,338 [TestRunnerThread] - Resolved :  {synthetic-alias} -> {synthetic-alias} : (:0) 
+ INFO 2012-03-13 15:50:06,339 [TestRunnerThread] - handling property dereference [BurritoPOS.domain.Manager () -> id (Class)] : (:0) 
+DEBUG 2012-03-13 15:50:06,340 [TestRunnerThread] - getDataType() : id -> NHibernate.Type.Int32Type : (:0) 
+DEBUG 2012-03-13 15:50:06,342 [TestRunnerThread] - Resolved :  {synthetic-alias}.id -> manager0_.id : (:0) 
+DEBUG 2012-03-13 15:50:06,343 [TestRunnerThread] - select : finishing up [level=1, statement=select] : (:0) 
+DEBUG 2012-03-13 15:50:06,343 [TestRunnerThread] - processQuery() : ( SELECT ( FromClause{level=1} [Manager] manager0_ ) ( WHERE ( = ( manager0_.id {synthetic-alias} id ) ? ) ) ) : (:0) 
+DEBUG 2012-03-13 15:50:06,344 [TestRunnerThread] - Derived SELECT clause created. : (:0) 
+DEBUG 2012-03-13 15:50:06,360 [TestRunnerThread] - Using FROM fragment [[Manager] manager0_] : (:0) 
+DEBUG 2012-03-13 15:50:06,361 [TestRunnerThread] - select >> end [level=1, statement=select] : (:0) 
+DEBUG 2012-03-13 15:50:06,362 [TestRunnerThread] - throwQueryException() : no errors : (:0) 
+DEBUG 2012-03-13 15:50:06,362 [TestRunnerThread] - SQL: select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=? : (:0) 
+DEBUG 2012-03-13 15:50:06,363 [TestRunnerThread] - throwQueryException() : no errors : (:0) 
+DEBUG 2012-03-13 15:50:06,365 [TestRunnerThread] - located HQL query plan in cache (FROM Manager WHERE id = :id) : (:0) 
+DEBUG 2012-03-13 15:50:06,365 [TestRunnerThread] - find: FROM Manager WHERE id = :id : (:0) 
+DEBUG 2012-03-13 15:50:06,366 [TestRunnerThread] - named parameters: {'id'='1'} : (:0) 
+DEBUG 2012-03-13 15:50:06,366 [TestRunnerThread] - Opened new IDbCommand, open IDbCommands: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,367 [TestRunnerThread] - Building an IDbCommand object for the SqlString: select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=? : (:0) 
+DEBUG 2012-03-13 15:50:06,368 [TestRunnerThread] - BindParameters(name_id:NHibernate.Type.Int32Type) 1 -> [0] : (:0) 
+DEBUG 2012-03-13 15:50:06,368 [TestRunnerThread] - binding '1' to parameter: 0 : (:0) 
+ INFO 2012-03-13 15:50:06,369 [TestRunnerThread] - select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=@p0 : (:0) 
+DEBUG 2012-03-13 15:50:06,370 [TestRunnerThread] - select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=@p0;@p0 = 1 [Type: Int32 (0)] : (:0) 
+DEBUG 2012-03-13 15:50:06,370 [TestRunnerThread] - Enlist Command : (:0) 
+DEBUG 2012-03-13 15:50:06,389 [TestRunnerThread] - ExecuteReader took 17 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,390 [TestRunnerThread] - Opened IDataReader, open IDataReaders: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,393 [TestRunnerThread] - processing result set : (:0) 
+DEBUG 2012-03-13 15:50:06,394 [TestRunnerThread] - result set row: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,396 [TestRunnerThread] - returning '1' as column: id4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,396 [TestRunnerThread] - result row: EntityKey[BurritoPOS.domain.Manager#1] : (:0) 
+DEBUG 2012-03-13 15:50:06,401 [TestRunnerThread] - Initializing object from DataReader: [BurritoPOS.domain.Manager#1] : (:0) 
+DEBUG 2012-03-13 15:50:06,402 [TestRunnerThread] - Hydrating entity: [BurritoPOS.domain.Manager#1] : (:0) 
+DEBUG 2012-03-13 15:50:06,403 [TestRunnerThread] - returning 'Jim' as column: firstName4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,403 [TestRunnerThread] - returning 'Bloom' as column: lastName4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,404 [TestRunnerThread] - returning 'True' as column: isManager4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,405 [TestRunnerThread] - done processing result set (1 rows) : (:0) 
+DEBUG 2012-03-13 15:50:06,406 [TestRunnerThread] - running NHybridDataReader.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,406 [TestRunnerThread] - Closed IDataReader, open IDataReaders :0 : (:0) 
+DEBUG 2012-03-13 15:50:06,407 [TestRunnerThread] - DataReader was closed after 36 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,408 [TestRunnerThread] - Closed IDbCommand, open IDbCommands: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,409 [TestRunnerThread] - total objects hydrated: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,409 [TestRunnerThread] - resolving associations for [BurritoPOS.domain.Manager#1] : (:0) 
+DEBUG 2012-03-13 15:50:06,411 [TestRunnerThread] - done materializing entity [BurritoPOS.domain.Manager#1] : (:0) 
+DEBUG 2012-03-13 15:50:06,411 [TestRunnerThread] - initializing non-lazy collections : (:0) 
+DEBUG 2012-03-13 15:50:06,412 [TestRunnerThread] - IDbTransaction disposed. : (:0) 
+DEBUG 2012-03-13 15:50:06,412 [TestRunnerThread] - transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,413 [TestRunnerThread] - aggressively releasing database connection : (:0) 
+DEBUG 2012-03-13 15:50:06,413 [TestRunnerThread] - Closing connection : (:0) 
+DEBUG 2012-03-13 15:50:06,414 [TestRunnerThread] - [session-id=c6a85dbe-c4ff-489a-ab2c-38d476ac2549] running ISession.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,414 [TestRunnerThread] - [session-id=c6a85dbe-c4ff-489a-ab2c-38d476ac2549] executing real Dispose(True) : (:0) 
+DEBUG 2012-03-13 15:50:06,415 [TestRunnerThread] - closing session : (:0) 
+DEBUG 2012-03-13 15:50:06,415 [TestRunnerThread] - running BatcherImpl.Dispose(true) : (:0) 
+ INFO 2012-03-13 15:50:06,415 [TestRunnerThread] - Entering method storeManager | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Hibernate\ManagerSvcHibernateImpl.cs:80) 
+DEBUG 2012-03-13 15:50:06,416 [TestRunnerThread] - [session-id=b74664bf-7947-44e1-b76c-9097d56deb1b] opened session at timestamp: 634672506064, for session factory: [/d26037cfda0141b1939df3f24543cde1] : (:0) 
+DEBUG 2012-03-13 15:50:06,416 [TestRunnerThread] - Begin (Unspecified) : (:0) 
+DEBUG 2012-03-13 15:50:06,417 [TestRunnerThread] - Obtaining IDbConnection from Driver : (:0) 
+DEBUG 2012-03-13 15:50:06,417 [TestRunnerThread] - saving transient instance : (:0) 
+DEBUG 2012-03-13 15:50:06,418 [TestRunnerThread] - saving [BurritoPOS.domain.Manager#<null>] : (:0) 
+DEBUG 2012-03-13 15:50:06,419 [TestRunnerThread] - executing insertions : (:0) 
+DEBUG 2012-03-13 15:50:06,419 [TestRunnerThread] - executing identity-insert immediately : (:0) 
+DEBUG 2012-03-13 15:50:06,420 [TestRunnerThread] - Inserting entity: BurritoPOS.domain.Manager (native id) : (:0) 
+DEBUG 2012-03-13 15:50:06,421 [TestRunnerThread] - Opened new IDbCommand, open IDbCommands: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,421 [TestRunnerThread] - Building an IDbCommand object for the SqlString: INSERT INTO [Manager] (firstName, lastName, isManager) VALUES (?, ?, ?); select SCOPE_IDENTITY() : (:0) 
+DEBUG 2012-03-13 15:50:06,422 [TestRunnerThread] - Dehydrating entity: [BurritoPOS.domain.Manager#<null>] : (:0) 
+DEBUG 2012-03-13 15:50:06,423 [TestRunnerThread] - binding 'Jim' to parameter: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,424 [TestRunnerThread] - binding 'Smith' to parameter: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,424 [TestRunnerThread] - binding 'True' to parameter: 2 : (:0) 
+DEBUG 2012-03-13 15:50:06,425 [TestRunnerThread] - INSERT INTO [Manager] (firstName, lastName, isManager) VALUES (@p0, @p1, @p2); select SCOPE_IDENTITY();@p0 = 'Jim' [Type: String (4000)], @p1 = 'Smith' [Type: String (4000)], @p2 = True [Type: Boolean (0)] : (:0) 
+DEBUG 2012-03-13 15:50:06,426 [TestRunnerThread] - Enlist Command : (:0) 
+DEBUG 2012-03-13 15:50:06,427 [TestRunnerThread] - ExecuteReader took 0 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,428 [TestRunnerThread] - Opened IDataReader, open IDataReaders: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,429 [TestRunnerThread] - returning '2' as column:  : (:0) 
+DEBUG 2012-03-13 15:50:06,430 [TestRunnerThread] - Natively generated identity: 2 : (:0) 
+DEBUG 2012-03-13 15:50:06,430 [TestRunnerThread] - running NHybridDataReader.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,431 [TestRunnerThread] - Closed IDataReader, open IDataReaders :0 : (:0) 
+DEBUG 2012-03-13 15:50:06,432 [TestRunnerThread] - DataReader was closed after 5 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,432 [TestRunnerThread] - Closed IDbCommand, open IDbCommands: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,433 [TestRunnerThread] - Start Commit : (:0) 
+DEBUG 2012-03-13 15:50:06,433 [TestRunnerThread] - flushing session : (:0) 
+DEBUG 2012-03-13 15:50:06,434 [TestRunnerThread] - processing flush-time cascades : (:0) 
+DEBUG 2012-03-13 15:50:06,434 [TestRunnerThread] - dirty checking collections : (:0) 
+DEBUG 2012-03-13 15:50:06,435 [TestRunnerThread] - Flushing entities and processing referenced collections : (:0) 
+DEBUG 2012-03-13 15:50:06,435 [TestRunnerThread] - Processing unreferenced collections : (:0) 
+DEBUG 2012-03-13 15:50:06,436 [TestRunnerThread] - Scheduling collection removes/(re)creates/updates : (:0) 
+DEBUG 2012-03-13 15:50:06,436 [TestRunnerThread] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects : (:0) 
+DEBUG 2012-03-13 15:50:06,436 [TestRunnerThread] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections : (:0) 
+DEBUG 2012-03-13 15:50:06,437 [TestRunnerThread] - listing entities: : (:0) 
+DEBUG 2012-03-13 15:50:06,437 [TestRunnerThread] - BurritoPOS.domain.Manager{'id'='2', 'firstName'='Jim', 'lastName'='Smith', 'isManager'='True'} : (:0) 
+DEBUG 2012-03-13 15:50:06,438 [TestRunnerThread] - executing flush : (:0) 
+DEBUG 2012-03-13 15:50:06,438 [TestRunnerThread] - registering flush begin : (:0) 
+DEBUG 2012-03-13 15:50:06,439 [TestRunnerThread] - registering flush end : (:0) 
+DEBUG 2012-03-13 15:50:06,440 [TestRunnerThread] - post flush : (:0) 
+DEBUG 2012-03-13 15:50:06,440 [TestRunnerThread] - before transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,460 [TestRunnerThread] - IDbTransaction Committed : (:0) 
+DEBUG 2012-03-13 15:50:06,468 [TestRunnerThread] - transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,472 [TestRunnerThread] - aggressively releasing database connection : (:0) 
+DEBUG 2012-03-13 15:50:06,473 [TestRunnerThread] - Closing connection : (:0) 
+DEBUG 2012-03-13 15:50:06,494 [TestRunnerThread] - IDbTransaction disposed. : (:0) 
+DEBUG 2012-03-13 15:50:06,499 [TestRunnerThread] - [session-id=b74664bf-7947-44e1-b76c-9097d56deb1b] running ISession.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,500 [TestRunnerThread] - [session-id=b74664bf-7947-44e1-b76c-9097d56deb1b] executing real Dispose(True) : (:0) 
+DEBUG 2012-03-13 15:50:06,500 [TestRunnerThread] - closing session : (:0) 
+DEBUG 2012-03-13 15:50:06,500 [TestRunnerThread] - running BatcherImpl.Dispose(true) : (:0) 
+ INFO 2012-03-13 15:50:06,502 [TestRunnerThread] - Entering method deleteManager | ID:2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Hibernate\ManagerSvcHibernateImpl.cs:119) 
+DEBUG 2012-03-13 15:50:06,502 [TestRunnerThread] - [session-id=1858d443-8f8c-4097-b63f-648ec83cbe5f] opened session at timestamp: 634672506065, for session factory: [/d26037cfda0141b1939df3f24543cde1] : (:0) 
+DEBUG 2012-03-13 15:50:06,503 [TestRunnerThread] - Begin (Unspecified) : (:0) 
+DEBUG 2012-03-13 15:50:06,503 [TestRunnerThread] - Obtaining IDbConnection from Driver : (:0) 
+DEBUG 2012-03-13 15:50:06,504 [TestRunnerThread] - located HQL query plan in cache (FROM Manager WHERE id = :id) : (:0) 
+DEBUG 2012-03-13 15:50:06,505 [TestRunnerThread] - located HQL query plan in cache (FROM Manager WHERE id = :id) : (:0) 
+DEBUG 2012-03-13 15:50:06,505 [TestRunnerThread] - find: FROM Manager WHERE id = :id : (:0) 
+DEBUG 2012-03-13 15:50:06,506 [TestRunnerThread] - named parameters: {'id'='2'} : (:0) 
+DEBUG 2012-03-13 15:50:06,506 [TestRunnerThread] - Opened new IDbCommand, open IDbCommands: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,507 [TestRunnerThread] - Building an IDbCommand object for the SqlString: select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=? : (:0) 
+DEBUG 2012-03-13 15:50:06,508 [TestRunnerThread] - BindParameters(name_id:NHibernate.Type.Int32Type) 2 -> [0] : (:0) 
+DEBUG 2012-03-13 15:50:06,508 [TestRunnerThread] - binding '2' to parameter: 0 : (:0) 
+ INFO 2012-03-13 15:50:06,509 [TestRunnerThread] - select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=@p0 : (:0) 
+DEBUG 2012-03-13 15:50:06,510 [TestRunnerThread] - select manager0_.id as id4_, manager0_.firstName as firstName4_, manager0_.lastName as lastName4_, manager0_.isManager as isManager4_ from [Manager] manager0_ where manager0_.id=@p0;@p0 = 2 [Type: Int32 (0)] : (:0) 
+DEBUG 2012-03-13 15:50:06,510 [TestRunnerThread] - Enlist Command : (:0) 
+DEBUG 2012-03-13 15:50:06,511 [TestRunnerThread] - ExecuteReader took 0 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,512 [TestRunnerThread] - Opened IDataReader, open IDataReaders: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,513 [TestRunnerThread] - processing result set : (:0) 
+DEBUG 2012-03-13 15:50:06,513 [TestRunnerThread] - result set row: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,514 [TestRunnerThread] - returning '2' as column: id4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,515 [TestRunnerThread] - result row: EntityKey[BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,516 [TestRunnerThread] - Initializing object from DataReader: [BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,517 [TestRunnerThread] - Hydrating entity: [BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,517 [TestRunnerThread] - returning 'Jim' as column: firstName4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,518 [TestRunnerThread] - returning 'Smith' as column: lastName4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,519 [TestRunnerThread] - returning 'True' as column: isManager4_ : (:0) 
+DEBUG 2012-03-13 15:50:06,520 [TestRunnerThread] - done processing result set (1 rows) : (:0) 
+DEBUG 2012-03-13 15:50:06,520 [TestRunnerThread] - running NHybridDataReader.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,521 [TestRunnerThread] - Closed IDataReader, open IDataReaders :0 : (:0) 
+DEBUG 2012-03-13 15:50:06,521 [TestRunnerThread] - DataReader was closed after 10 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,522 [TestRunnerThread] - Closed IDbCommand, open IDbCommands: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,523 [TestRunnerThread] - total objects hydrated: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,523 [TestRunnerThread] - resolving associations for [BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,524 [TestRunnerThread] - done materializing entity [BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,525 [TestRunnerThread] - initializing non-lazy collections : (:0) 
+DEBUG 2012-03-13 15:50:06,526 [TestRunnerThread] - deleting a persistent instance : (:0) 
+DEBUG 2012-03-13 15:50:06,526 [TestRunnerThread] - deleting [BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,527 [TestRunnerThread] - setting cache mode to: Get : (:0) 
+DEBUG 2012-03-13 15:50:06,527 [TestRunnerThread] - setting cache mode to: Normal : (:0) 
+DEBUG 2012-03-13 15:50:06,528 [TestRunnerThread] - setting cache mode to: Get : (:0) 
+DEBUG 2012-03-13 15:50:06,528 [TestRunnerThread] - setting cache mode to: Normal : (:0) 
+DEBUG 2012-03-13 15:50:06,528 [TestRunnerThread] - Start Commit : (:0) 
+DEBUG 2012-03-13 15:50:06,529 [TestRunnerThread] - flushing session : (:0) 
+DEBUG 2012-03-13 15:50:06,529 [TestRunnerThread] - processing flush-time cascades : (:0) 
+DEBUG 2012-03-13 15:50:06,530 [TestRunnerThread] - dirty checking collections : (:0) 
+DEBUG 2012-03-13 15:50:06,530 [TestRunnerThread] - Flushing entities and processing referenced collections : (:0) 
+DEBUG 2012-03-13 15:50:06,531 [TestRunnerThread] - Processing unreferenced collections : (:0) 
+DEBUG 2012-03-13 15:50:06,531 [TestRunnerThread] - Scheduling collection removes/(re)creates/updates : (:0) 
+DEBUG 2012-03-13 15:50:06,531 [TestRunnerThread] - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects : (:0) 
+DEBUG 2012-03-13 15:50:06,532 [TestRunnerThread] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections : (:0) 
+DEBUG 2012-03-13 15:50:06,532 [TestRunnerThread] - listing entities: : (:0) 
+DEBUG 2012-03-13 15:50:06,533 [TestRunnerThread] - BurritoPOS.domain.Manager{'id'='2', 'firstName'='Jim', 'lastName'='Smith', 'isManager'='True'} : (:0) 
+DEBUG 2012-03-13 15:50:06,533 [TestRunnerThread] - executing flush : (:0) 
+DEBUG 2012-03-13 15:50:06,533 [TestRunnerThread] - registering flush begin : (:0) 
+DEBUG 2012-03-13 15:50:06,534 [TestRunnerThread] - Deleting entity: [BurritoPOS.domain.Manager#2] : (:0) 
+DEBUG 2012-03-13 15:50:06,537 [TestRunnerThread] - Opened new IDbCommand, open IDbCommands: 1 : (:0) 
+DEBUG 2012-03-13 15:50:06,538 [TestRunnerThread] - Building an IDbCommand object for the SqlString: DELETE FROM [Manager] WHERE id = ? : (:0) 
+DEBUG 2012-03-13 15:50:06,538 [TestRunnerThread] - binding '2' to parameter: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,539 [TestRunnerThread] - DELETE FROM [Manager] WHERE id = @p0;@p0 = 2 [Type: Int32 (0)] : (:0) 
+DEBUG 2012-03-13 15:50:06,540 [TestRunnerThread] - Enlist Command : (:0) 
+DEBUG 2012-03-13 15:50:06,542 [TestRunnerThread] - ExecuteNonQuery took 1 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,543 [TestRunnerThread] - ExecuteBatch for 1 statements took 0 ms : (:0) 
+DEBUG 2012-03-13 15:50:06,543 [TestRunnerThread] - Closed IDbCommand, open IDbCommands: 0 : (:0) 
+DEBUG 2012-03-13 15:50:06,544 [TestRunnerThread] - registering flush end : (:0) 
+DEBUG 2012-03-13 15:50:06,544 [TestRunnerThread] - post flush : (:0) 
+DEBUG 2012-03-13 15:50:06,545 [TestRunnerThread] - before transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,553 [TestRunnerThread] - IDbTransaction Committed : (:0) 
+DEBUG 2012-03-13 15:50:06,553 [TestRunnerThread] - transaction completion : (:0) 
+DEBUG 2012-03-13 15:50:06,554 [TestRunnerThread] - aggressively releasing database connection : (:0) 
+DEBUG 2012-03-13 15:50:06,554 [TestRunnerThread] - Closing connection : (:0) 
+DEBUG 2012-03-13 15:50:06,555 [TestRunnerThread] - IDbTransaction disposed. : (:0) 
+DEBUG 2012-03-13 15:50:06,555 [TestRunnerThread] - [session-id=1858d443-8f8c-4097-b63f-648ec83cbe5f] running ISession.Dispose() : (:0) 
+DEBUG 2012-03-13 15:50:06,555 [TestRunnerThread] - [session-id=1858d443-8f8c-4097-b63f-648ec83cbe5f] executing real Dispose(True) : (:0) 
+DEBUG 2012-03-13 15:50:06,556 [TestRunnerThread] - closing session : (:0) 
+DEBUG 2012-03-13 15:50:06,556 [TestRunnerThread] - running BatcherImpl.Dispose(true) : (:0) 
+DEBUG 2012-03-13 15:50:06,591 [TestRunnerThread] - In getServicename: IOrderSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:51) 
+DEBUG 2012-03-13 15:50:06,594 [TestRunnerThread] - Got BurritoPOS.service.SQL.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:78) 
+DEBUG 2012-03-13 15:50:06,601 [TestRunnerThread] - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:35) 
+ INFO 2012-03-13 15:50:06,618 [TestRunnerThread] - Entering method storeOrder | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:163) 
+ INFO 2012-03-13 15:50:06,619 [TestRunnerThread] - Inserting order into database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:188) 
+ INFO 2012-03-13 15:50:06,619 [TestRunnerThread] - SQL Statement: INSERT INTO Orders (id, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost) : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:193) 
+ INFO 2012-03-13 15:50:06,650 [TestRunnerThread] - Trying to insert: 1 burritos : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:207) 
+ INFO 2012-03-13 15:50:06,651 [TestRunnerThread] - Validating burrito object : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:210) 
+ INFO 2012-03-13 15:50:06,653 [TestRunnerThread] - Updating burrito in database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:224) 
+ INFO 2012-03-13 15:50:06,653 [TestRunnerThread] - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:245) 
+ INFO 2012-03-13 15:50:06,658 [TestRunnerThread] - Entering method getOrder | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:45) 
+ INFO 2012-03-13 15:50:06,676 [TestRunnerThread] - Got the 29 fields of the record  : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:66) 
+DEBUG 2012-03-13 15:50:06,676 [TestRunnerThread] - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\domain\Order.cs:86) 
+ INFO 2012-03-13 15:50:06,679 [TestRunnerThread] - Entering method storeOrder | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:163) 
+ INFO 2012-03-13 15:50:06,680 [TestRunnerThread] - Updating order in database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:181) 
+ INFO 2012-03-13 15:50:06,680 [TestRunnerThread] - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE id=@id : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:193) 
+ INFO 2012-03-13 15:50:06,682 [TestRunnerThread] - Trying to insert: 1 burritos : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:207) 
+ INFO 2012-03-13 15:50:06,683 [TestRunnerThread] - Validating burrito object : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:210) 
+ INFO 2012-03-13 15:50:06,683 [TestRunnerThread] - Entering method deleteOrder | ID:1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\SQL\OrderSvcSQLImpl.cs:305) 

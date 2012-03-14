@@ -1,6 +1,6 @@
-IBurritoSvc = BurritoPOS.service.BurritoSvcFileImpl
-ICustomerSvc = BurritoPOS.service.CustomerSvcFileImpl
-IEmployeeSvc = BurritoPOS.service.EmployeeSvcFileImpl
-IInventorySvc = BurritoPOS.service.InventorySvcFileImpl
-IManagerSvc = BurritoPOS.service.ManagerSvcFileImpl
-IOrderSvc = BurritoPOS.service.OrderSvcFileImpl
+IBurritoSvc = BurritoPOS.service.Serializable.BurritoSvcFileImpl
+ICustomerSvc = BurritoPOS.service.Serializable.CustomerSvcFileImpl
+IEmployeeSvc = BurritoPOS.service.Serializable.EmployeeSvcFileImpl
+IInventorySvc = BurritoPOS.service.Serializable.InventorySvcFileImpl
+IManagerSvc = BurritoPOS.service.Serializable.ManagerSvcFileImpl
+IOrderSvc = BurritoPOS.service.Serializable.OrderSvcFileImpl

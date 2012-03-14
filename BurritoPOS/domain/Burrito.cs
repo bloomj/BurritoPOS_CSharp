@@ -10,50 +10,143 @@ namespace BurritoPOS.domain
     /// This class represents a single delicious Burrito to be part of an Order
     /// </summary>
     [Serializable]
-    class Burrito
+    public class Burrito
     {
+        #region Properties
         // UUID
-        public Int32 id {get; set;}
-        public Int32 orderID { get; set; }
+        /// <summary>
+        /// Unique ID of burrito
+        /// </summary>
+        public virtual Int32 id {get; set;}
+
+        /// <summary>
+        /// Unique ID of order burrito is part of
+        /// </summary>
+        public virtual Int32 orderID { get; set; }
 
         // tortillas
-        public Boolean FlourTortilla { get; set; }
-        public Boolean ChiliTortilla { get; set; }
-        public Boolean JalapenoCheddarTortilla { get; set; }
-        public Boolean TomatoBasilTortilla { get; set; }
-        public Boolean HerbGarlicTortilla { get; set; }
-        public Boolean WheatTortilla { get; set; }
+        /// <summary>
+        /// Burrito has flour tortilla
+        /// </summary>
+        public virtual Boolean FlourTortilla { get; set; }
+        
+        /// <summary>
+        /// Burrito has chilli tortilla
+        /// </summary>
+        public virtual Boolean ChiliTortilla { get; set; }
+        
+        /// <summary>
+        /// Burrito has jalapeno cheddar tortilla
+        /// </summary>
+        public virtual Boolean JalapenoCheddarTortilla { get; set; }
+        
+        /// <summary>
+        /// Burrito has tomato basil tortilla
+        /// </summary>
+        public virtual Boolean TomatoBasilTortilla { get; set; }
+        
+        /// <summary>
+        /// Burrito has herb garlic tortilla
+        /// </summary>
+        public virtual Boolean HerbGarlicTortilla { get; set; }
+        
+        /// <summary>
+        /// Burrito has wheat tortilla
+        /// </summary>
+        public virtual Boolean WheatTortilla { get; set; }
 
         // rice
-        public Boolean WhiteRice { get; set; }
-        public Boolean BrownRice { get; set; }
+        /// <summary>
+        /// Burrito has white rice
+        /// </summary>
+        public virtual Boolean WhiteRice { get; set; }
+        
+        /// <summary>
+        /// Burrito has brown rice
+        /// </summary>
+        public virtual Boolean BrownRice { get; set; }
 
         // beans
-        public Boolean BlackBeans { get; set; }
-        public Boolean PintoBeans { get; set; }
+        /// <summary>
+        /// Burrito has black beans
+        /// </summary>
+        public virtual Boolean BlackBeans { get; set; }
+        
+        /// <summary>
+        /// Burrito has pinto beans
+        /// </summary>
+        public virtual Boolean PintoBeans { get; set; }
 
         // meat or meat substitute
-        public Boolean Chicken { get; set; }
-        public Boolean Beef { get; set; }
-        public Boolean Hummus { get; set; }
+        /// <summary>
+        /// Burrito has chicken
+        /// </summary>
+        public virtual Boolean Chicken { get; set; }
+        
+        /// <summary>
+        /// Burrito has beef
+        /// </summary>
+        public virtual Boolean Beef { get; set; }
+        
+        /// <summary>
+        /// Burrito has hummus
+        /// </summary>
+        public virtual Boolean Hummus { get; set; }
 
         // salsas
-        public Boolean SalsaPico { get; set; }
-        public Boolean SalsaVerde { get; set; }
-        public Boolean SalsaSpecial { get; set; }
+        /// <summary>
+        /// Burrito has pico salsa
+        /// </summary>
+        public virtual Boolean SalsaPico { get; set; }
+        
+        /// <summary>
+        /// Burrito has salsa verde
+        /// </summary>
+        public virtual Boolean SalsaVerde { get; set; }
+        
+        /// <summary>
+        /// Burrito has salsa of the day
+        /// </summary>
+        public virtual Boolean SalsaSpecial { get; set; }
 
         // guacamole
-        public Boolean Guacamole { get; set; }
+        /// <summary>
+        /// Burrito has guacamole
+        /// </summary>
+        public virtual Boolean Guacamole { get; set; }
 
         // toppings
-        public Boolean Lettuce { get; set; }
-        public Boolean Jalapenos { get; set; }
-        public Boolean Tomatoes { get; set; }
-        public Boolean Cucumber { get; set; }
-        public Boolean Onion { get; set; }
+        /// <summary>
+        /// Burrito has lettuce
+        /// </summary>
+        public virtual Boolean Lettuce { get; set; }
+        
+        /// <summary>
+        /// Burrito has jalapenos
+        /// </summary>
+        public virtual Boolean Jalapenos { get; set; }
+        
+        /// <summary>
+        /// Burrito has tomatoes
+        /// </summary>
+        public virtual Boolean Tomatoes { get; set; }
+        
+        /// <summary>
+        /// Burrito has cucumber
+        /// </summary>
+        public virtual Boolean Cucumber { get; set; }
+        
+        /// <summary>
+        /// Burrito has onion
+        /// </summary>
+        public virtual Boolean Onion { get; set; }
 
         //price
-        public Decimal Price { get; set; }
+        /// <summary>
+        /// Burrito has price
+        /// </summary>
+        public virtual Decimal Price { get; set; }
+        #endregion
 
         /// <summary>
         /// Default constructor
@@ -129,7 +222,7 @@ namespace BurritoPOS.domain
         /// validates the object
         /// </summary>
         /// <returns>success or failure</returns>
-        public Boolean validate()
+        public virtual Boolean validate()
         {
             // C# bools/int/decimals will not be null
             if (this.id > -1 && Decimal.Floor(this.Price) > 0)

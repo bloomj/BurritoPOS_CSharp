@@ -1,0 +1,597 @@
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+ERROR TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SqlException in storeOrder: Incorrect syntax near the keyword 'Order'.
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @totalCost)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.test.OrderSvcImplTestCase - TESTCASE o.totalcost: 17.00
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - total cost: 17.00
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
+ERROR TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SqlException in deleteOrder: Invalid column name 'id'.
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: -1 | burritos: 0 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: True | isComplete: True | totalCost: 17.00
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to store burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method getBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Got the 24 fields of the record
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method deleteBurrito | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Inserting customer into database
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: INSERT INTO Customer (EmailAddress, FirstName, LastName, id) VALUES (@EmailAddress, @FirstName, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method deleteCustomer | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1234
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcSQLImpl from properties.xml file for name: IEmployeeSvc
+DEBUG TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Inserting employee into database
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method getEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method deleteEmployee | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcSQLImpl from properties.xml file for name: IManagerSvc
+DEBUG TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Inserting manager into database
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method getManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method deleteManager | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: -1 | burritos: 0 | isSubmitted: False | isComplete: False | totalCost: 0
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: True | isComplete: True | totalCost: 17.00
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6
+DEBUG TestRunnerThread BurritoPOS.service.Factory - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to get the service implementation
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc
+DEBUG TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to create burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to read burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method getBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Got the 24 fields of the record
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to update burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method storeBurrito | ID: 1
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Updating burrito in database
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id
+DEBUG TestRunnerThread BurritoPOS.service.test.BurritoSvcImplTestCase - Going to delete burrito
+INFO TestRunnerThread BurritoPOS.service.BurritoSvcSQLImpl - Entering method deleteBurrito | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Inserting customer into database
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: INSERT INTO Customer (EmailAddress, FirstName, LastName, id) VALUES (@EmailAddress, @FirstName, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method storeCustomer | ID: 1
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Updating customer in database
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - SQL Statement: UPDATE Customer SET EmailAddress=@EmailAddress, FirstName=@FirstName, LastName=@LastName WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method deleteCustomer | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.CustomerSvcSQLImpl from properties.xml file for name: ICustomerSvc
+DEBUG TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.CustomerSvcSQLImpl - Entering method getCustomer | ID: 1234
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IEmployeeSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.EmployeeSvcSQLImpl from properties.xml file for name: IEmployeeSvc
+DEBUG TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Inserting employee into database
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method getEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method storeEmployee | ID: 1
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Updating employee in database
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - SQL Statement: UPDATE Employee SET FirstName=@FirstName, isManager=@isManager, LastName=@LastName WHERE employeeID=@id
+INFO TestRunnerThread BurritoPOS.service.EmployeeSvcSQLImpl - Entering method deleteEmployee | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.InventorySvcSQLImpl from properties.xml file for name: IInventorySvc
+DEBUG TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Inserting inventory into database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: INSERT INTO Inventory (BeefQty, BlackBeansQty, BrownRiceQty, ChickenQty, ChiliTortillaQty, CucumberQty,FlourTortillaQty, GuacamoleQty, HerbGarlicTortillaQty, HummusQty, JalapenoCheddarTortillaQty, JalapenosQty,LettuceQty, OnionQty, PintoBeansQty, SalsaPicoQty, SalsaSpecialQty, SalsaVerdeQty, TomatoBasilTortillaQty,TomatoesQty, WheatTortillaQty, WhiteRiceQty, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @PintoBeans, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method getInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Got the 22 fields of the record
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method storeInventory | ID: 1
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Updating inventory in database
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - SQL Statement: UPDATE Inventory SET BeefQty=@Beef, BlackBeansQty=@BlackBeans, BrownRiceQty=@BrownRice, ChickenQty=@Chicken, ChiliTortillaQty=@ChiliTortilla, CucumberQty=@Cucumber, FlourTortillaQty=@FlourTortilla, GuacamoleQty=@Guacamole, HerbGarlicTortillaQty=@HerbGarlicTortilla, HummusQty=@Hummus, JalapenoCheddarTortillaQty=@JalapenoCheddarTortilla, JalapenosQty=@Jalapenos, LettuceQty=@Lettuce, OnionQty=@Onion, PintoBeansQty=@PintoBeans, SalsaPicoQty=@SalsaPico, SalsaSpecialQty=@SalsaSpecial, SalsaVerdeQty=@SalsaVerde, TomatoBasilTortillaQty=@TomatoBasilTortilla, TomatoesQty=@Tomatoes, WheatTortillaQty=@WheatTortilla, WhiteRiceQty=@WhiteRice WHERE id=@id
+INFO TestRunnerThread BurritoPOS.service.InventorySvcSQLImpl - Entering method deleteInventory | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IManagerSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.ManagerSvcSQLImpl from properties.xml file for name: IManagerSvc
+DEBUG TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Inserting manager into database
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: INSERT INTO Employee (FirstName,isManager, LastName, employeeID) VALUES (@FirstName, @isManager, @LastName, @id)
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method getManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Got the 3 fields of the record
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method storeManager | ID: 1
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Updating manager in database
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - SQL Statement: UPDATE Employee SET FirstName=@FirstName, isManager=@isManager, LastName=@LastName WHERE employeeID=@id
+INFO TestRunnerThread BurritoPOS.service.ManagerSvcSQLImpl - Entering method deleteManager | ID:1
+DEBUG TestRunnerThread BurritoPOS.service.Factory - In getServicename: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.Factory - Got BurritoPOS.service.OrderSvcSQLImpl from properties.xml file for name: IOrderSvc
+DEBUG TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting order into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Orders (orderID, isComplete, isSubmitted, orderDate, totalCost) VALUES (@id, @isComplete, @isSubmitted, @orderDate, @TotalCost)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Inserting burrito into database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id)
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method getOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Got the 29 fields of the record 
+DEBUG TestRunnerThread BurritoPOS.domain.Order - orderID: 1 | burritos: 1 | isSubmitted: False | isComplete: False | totalCost: 17.0000
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method storeOrder | ID: 1
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Updating order in database
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - SQL Statement: UPDATE Orders SET isComplete=@isComplete, isSubmitted=@isSubmitted, orderDate=@orderDate, totalCost=@TotalCost WHERE orderID=@id
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Trying to insert: 1 burritos
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Validating burrito object
+INFO TestRunnerThread BurritoPOS.service.OrderSvcSQLImpl - Entering method deleteOrder | ID:1
+DEBUG 2012-02-10 11:14:43,399 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,425 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,425 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,426 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,426 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,426 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,427 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:14:43,432 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:14:43,433 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:14:43,434 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:14:43,439 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:14:43,791 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ INFO 2012-02-10 11:14:45,117 [TestRunnerThread] - NHibernate 3.2.0.4000 (3.2.0.4000) : (:0) 
+ INFO 2012-02-10 11:14:45,296 [TestRunnerThread] - hibernate-configuration section not found in application configuration file : (:0) 
+ INFO 2012-02-10 11:14:45,332 [TestRunnerThread] - Bytecode provider name : lcg : (:0) 
+ INFO 2012-02-10 11:14:45,334 [TestRunnerThread] - Using reflection optimizer : (:0) 
+ WARN 2012-02-10 11:14:45,348 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:14:45,354 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:14:45,355 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:14:45,356 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:14:45,356 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:14:45,357 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:14:45,383 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:14:45,404 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:17:21,530 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,556 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,557 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,557 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,557 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,557 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,557 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:21,563 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:17:21,563 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:17:21,564 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:17:21,569 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:17:21,805 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ INFO 2012-02-10 11:17:22,710 [TestRunnerThread] - NHibernate 3.2.0.4000 (3.2.0.4000) : (:0) 
+ INFO 2012-02-10 11:17:22,741 [TestRunnerThread] - hibernate-configuration section not found in application configuration file : (:0) 
+ INFO 2012-02-10 11:17:22,742 [TestRunnerThread] - Bytecode provider name : lcg : (:0) 
+ INFO 2012-02-10 11:17:22,744 [TestRunnerThread] - Using reflection optimizer : (:0) 
+ WARN 2012-02-10 11:17:22,759 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:17:22,764 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:17:22,765 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:17:22,765 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:17:22,766 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:17:22,766 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:17:22,793 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:17:22,793 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:17:52,299 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,326 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,326 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,326 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,326 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,327 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,327 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:17:52,332 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:17:52,333 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:17:52,334 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:17:52,338 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:17:52,563 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ INFO 2012-02-10 11:17:53,490 [TestRunnerThread] - NHibernate 3.2.0.4000 (3.2.0.4000) : (:0) 
+ INFO 2012-02-10 11:17:53,521 [TestRunnerThread] - hibernate-configuration section not found in application configuration file : (:0) 
+ INFO 2012-02-10 11:17:53,522 [TestRunnerThread] - Bytecode provider name : lcg : (:0) 
+ INFO 2012-02-10 11:17:53,524 [TestRunnerThread] - Using reflection optimizer : (:0) 
+ WARN 2012-02-10 11:17:53,538 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:17:53,544 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:17:53,544 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:17:53,545 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:17:53,545 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:17:53,546 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:17:53,571 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:17:53,572 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:18:09,692 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:18:09,693 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:18:09,693 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:18:09,700 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:18:09,700 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ WARN 2012-02-10 11:18:09,701 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:18:09,701 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:18:09,701 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:18:09,702 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:18:09,702 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:18:09,703 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:18:09,704 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:18:09,704 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:18:25,331 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:18:25,332 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:18:25,332 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:18:25,339 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:18:25,340 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ WARN 2012-02-10 11:18:25,340 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:18:25,341 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:18:25,341 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:18:25,342 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:18:25,342 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:18:25,342 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:18:25,343 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:18:25,344 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:18:44,525 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,551 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,551 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,551 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,552 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,552 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,552 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:18:44,557 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:18:44,558 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:18:44,559 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:18:44,565 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:18:44,887 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ INFO 2012-02-10 11:18:46,161 [TestRunnerThread] - NHibernate 3.2.0.4000 (3.2.0.4000) : (:0) 
+ INFO 2012-02-10 11:18:46,192 [TestRunnerThread] - hibernate-configuration section not found in application configuration file : (:0) 
+ INFO 2012-02-10 11:18:46,193 [TestRunnerThread] - Bytecode provider name : lcg : (:0) 
+ INFO 2012-02-10 11:18:46,195 [TestRunnerThread] - Using reflection optimizer : (:0) 
+ WARN 2012-02-10 11:18:46,210 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:18:46,215 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:18:46,216 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:18:46,216 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:18:46,217 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:18:46,217 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:18:46,243 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:18:46,244 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:19:53,322 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,356 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,356 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,360 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,361 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,363 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,363 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:19:53,367 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:19:53,369 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:19:53,370 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:19:53,380 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:19:53,597 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ INFO 2012-02-10 11:19:54,511 [TestRunnerThread] - NHibernate 3.2.0.4000 (3.2.0.4000) : (:0) 
+ INFO 2012-02-10 11:19:54,542 [TestRunnerThread] - hibernate-configuration section not found in application configuration file : (:0) 
+ INFO 2012-02-10 11:19:54,543 [TestRunnerThread] - Bytecode provider name : lcg : (:0) 
+ INFO 2012-02-10 11:19:54,545 [TestRunnerThread] - Using reflection optimizer : (:0) 
+ WARN 2012-02-10 11:19:54,561 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:19:54,566 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:19:54,568 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:19:54,568 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:19:54,569 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:19:54,569 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:19:54,599 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:19:54,600 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:21:39,543 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,591 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,592 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,592 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,593 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,593 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,594 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:21:39,597 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:21:39,598 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:21:39,599 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcHibernateImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:21:39,608 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:21:39,846 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:80) 
+ INFO 2012-02-10 11:21:40,746 [TestRunnerThread] - NHibernate 3.2.0.4000 (3.2.0.4000) : (:0) 
+ INFO 2012-02-10 11:21:40,775 [TestRunnerThread] - hibernate-configuration section not found in application configuration file : (:0) 
+ INFO 2012-02-10 11:21:40,776 [TestRunnerThread] - Bytecode provider name : lcg : (:0) 
+ INFO 2012-02-10 11:21:40,778 [TestRunnerThread] - Using reflection optimizer : (:0) 
+ WARN 2012-02-10 11:21:40,792 [TestRunnerThread] - No mapped documents found in assembly: BurritoPOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null : (:0) 
+ INFO 2012-02-10 11:21:40,797 [TestRunnerThread] - checking mappings queue : (:0) 
+ INFO 2012-02-10 11:21:40,798 [TestRunnerThread] - processing one-to-many association mappings : (:0) 
+ INFO 2012-02-10 11:21:40,799 [TestRunnerThread] - processing one-to-one association property references : (:0) 
+ INFO 2012-02-10 11:21:40,799 [TestRunnerThread] - processing foreign key constraints : (:0) 
+ INFO 2012-02-10 11:21:40,800 [TestRunnerThread] - processing filters (second pass) : (:0) 
+ERROR 2012-02-10 11:21:40,825 [TestRunnerThread] - Exception in getSessionFactory: Could not find the dialect in the configuration
+   at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Dialect\Dialect.cs:line 174
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\SettingsFactory.cs:line 35
+   at NHibernate.Cfg.Configuration.BuildSettings() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1721
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1252
+   at BurritoPOS.service.BaseSvcHibernateImpl.getSessionFactory() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:line 25 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BaseSvcHibernateImpl.cs:31) 
+ERROR 2012-02-10 11:21:40,825 [TestRunnerThread] - Exception in storeBurrito: Object reference not set to an instance of an object. : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcHibernateImpl.cs:96) 
+DEBUG 2012-02-10 11:25:00,789 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,815 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,815 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,816 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,816 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,816 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,817 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:25:00,821 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:25:00,822 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:25:00,822 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:25:00,891 [TestRunnerThread] - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:36) 
+DEBUG 2012-02-10 11:25:00,892 [TestRunnerThread] - Exception getting app.config: Object reference not set to an instance of an object.
+   at BurritoPOS.service.BurritoSvcSQLImpl..ctor() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:line 36 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:40) 
+DEBUG 2012-02-10 11:25:00,892 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:25:00,910 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:156) 
+ INFO 2012-02-10 11:25:01,622 [TestRunnerThread] - Updating burrito in database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:174) 
+ INFO 2012-02-10 11:25:01,623 [TestRunnerThread] - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:195) 
+DEBUG 2012-02-10 11:25:01,636 [TestRunnerThread] - Going to read burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:62) 
+ INFO 2012-02-10 11:25:01,638 [TestRunnerThread] - Entering method getBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:52) 
+ INFO 2012-02-10 11:25:01,642 [TestRunnerThread] - Got the 24 fields of the record : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:73) 
+DEBUG 2012-02-10 11:25:01,645 [TestRunnerThread] - Going to update burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:67) 
+ INFO 2012-02-10 11:25:01,645 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:156) 
+ INFO 2012-02-10 11:25:01,645 [TestRunnerThread] - Updating burrito in database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:174) 
+ INFO 2012-02-10 11:25:01,646 [TestRunnerThread] - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:195) 
+DEBUG 2012-02-10 11:25:01,670 [TestRunnerThread] - Going to delete burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:73) 
+ INFO 2012-02-10 11:25:01,670 [TestRunnerThread] - Entering method deleteBurrito | ID:1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:253) 
+DEBUG 2012-02-10 11:32:04,936 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,977 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,977 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,978 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,978 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,978 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,978 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:04,983 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:32:04,984 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:32:04,985 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:32:05,050 [TestRunnerThread] - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:36) 
+DEBUG 2012-02-10 11:32:05,051 [TestRunnerThread] - Exception getting app.config: Object reference not set to an instance of an object.
+   at BurritoPOS.service.BurritoSvcSQLImpl..ctor() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:line 36 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:40) 
+DEBUG 2012-02-10 11:32:05,052 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:32:05,070 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:156) 
+ INFO 2012-02-10 11:32:05,308 [TestRunnerThread] - Inserting burrito into database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:185) 
+ INFO 2012-02-10 11:32:05,308 [TestRunnerThread] - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id) : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:195) 
+DEBUG 2012-02-10 11:32:05,345 [TestRunnerThread] - Going to read burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:62) 
+ INFO 2012-02-10 11:32:05,348 [TestRunnerThread] - Entering method getBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:52) 
+ INFO 2012-02-10 11:32:05,352 [TestRunnerThread] - Got the 24 fields of the record : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:73) 
+DEBUG 2012-02-10 11:32:05,355 [TestRunnerThread] - Going to update burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:67) 
+ INFO 2012-02-10 11:32:05,355 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:156) 
+ INFO 2012-02-10 11:32:05,356 [TestRunnerThread] - Updating burrito in database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:174) 
+ INFO 2012-02-10 11:32:05,356 [TestRunnerThread] - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:195) 
+DEBUG 2012-02-10 11:32:05,360 [TestRunnerThread] - Going to delete burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:73) 
+ INFO 2012-02-10 11:32:05,361 [TestRunnerThread] - Entering method deleteBurrito | ID:1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:253) 
+DEBUG 2012-02-10 11:32:57,851 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcSQLImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,877 [TestRunnerThread] - curKey: ICustomerSvcvalue: BurritoPOS.service.CustomerSvcSQLImplhashmap size: 2 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,877 [TestRunnerThread] - curKey: IEmployeeSvcvalue: BurritoPOS.service.EmployeeSvcSQLImplhashmap size: 3 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,878 [TestRunnerThread] - curKey: IInventorySvcvalue: BurritoPOS.service.InventorySvcSQLImplhashmap size: 4 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,878 [TestRunnerThread] - curKey: IManagerSvcvalue: BurritoPOS.service.ManagerSvcSQLImplhashmap size: 5 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,878 [TestRunnerThread] - curKey: IOrderSvcvalue: BurritoPOS.service.OrderSvcSQLImplhashmap size: 6 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,879 [TestRunnerThread] - curKey: IAuthenticationSvcvalue: BurritoPOS.service.AuthenticationSvcSocketImplhashmap size: 7 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 
+DEBUG 2012-02-10 11:32:57,883 [TestRunnerThread] - Going to get the service implementation : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:54) 
+DEBUG 2012-02-10 11:32:57,885 [TestRunnerThread] - In getServicename: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:50) 
+DEBUG 2012-02-10 11:32:57,885 [TestRunnerThread] - Got BurritoPOS.service.BurritoSvcSQLImpl from properties.xml file for name: IBurritoSvc : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:77) 
+DEBUG 2012-02-10 11:32:57,951 [TestRunnerThread] - connString: user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:36) 
+DEBUG 2012-02-10 11:32:57,952 [TestRunnerThread] - Exception getting app.config: Object reference not set to an instance of an object.
+   at BurritoPOS.service.BurritoSvcSQLImpl..ctor() in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:line 36 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:40) 
+DEBUG 2012-02-10 11:32:57,952 [TestRunnerThread] - Going to create burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:58) 
+ INFO 2012-02-10 11:32:57,972 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:156) 
+ INFO 2012-02-10 11:32:58,183 [TestRunnerThread] - Inserting burrito into database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:185) 
+ INFO 2012-02-10 11:32:58,184 [TestRunnerThread] - SQL Statement: INSERT INTO Burrito (Beef, BlackBeans, BrownRice, Chicken, ChiliTortilla, Cucumber,FlourTortilla, Guacamole, HerbGarlicTortilla, Hummus, JalapenoCheddarTortilla, Jalapenos,Lettuce, Onion, OrderID, PintoBeans, Price, SalsaPico, SalsaSpecial, SalsaVerde, TomatoBasilTortilla,Tomatoes, WheatTortilla, WhiteRice, id) VALUES (@Beef, @BlackBeans, @BrownRice, @Chicken, @ChiliTortilla, @Cucumber,@FlourTortilla, @Guacamole, @HerbGarlicTortilla, @Hummus, @JalapenoCheddarTortilla, @Jalapenos,@Lettuce, @Onion, @OrderID, @PintoBeans, @Price, @SalsaPico, @SalsaSpecial, @SalsaVerde, @TomatoBasilTortilla,@Tomatoes, @WheatTortilla, @WhiteRice, @id) : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:195) 
+DEBUG 2012-02-10 11:32:58,198 [TestRunnerThread] - Going to read burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:62) 
+ INFO 2012-02-10 11:32:58,200 [TestRunnerThread] - Entering method getBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:52) 
+ INFO 2012-02-10 11:32:58,203 [TestRunnerThread] - Got the 24 fields of the record : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:73) 
+DEBUG 2012-02-10 11:32:58,206 [TestRunnerThread] - Going to update burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:67) 
+ INFO 2012-02-10 11:32:58,207 [TestRunnerThread] - Entering method storeBurrito | ID: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:156) 
+ INFO 2012-02-10 11:32:58,208 [TestRunnerThread] - Updating burrito in database : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:174) 
+ INFO 2012-02-10 11:32:58,208 [TestRunnerThread] - SQL Statement: UPDATE Burrito SET Beef=@Beef, BlackBeans=@BlackBeans, BrownRice=@BrownRice, Chicken=@Chicken, ChiliTortilla=@ChiliTortilla, Cucumber=@Cucumber, FlourTortilla=@FlourTortilla, Guacamole=@Guacamole, HerbGarlicTortilla=@HerbGarlicTortilla, Hummus=@Hummus, JalapenoCheddarTortilla=@JalapenoCheddarTortilla, Jalapenos=@Jalapenos, Lettuce=@Lettuce, Onion=@Onion, OrderID=@OrderID, PintoBeans=@PintoBeans, Price=@Price, SalsaPico=@SalsaPico, SalsaSpecial=@SalsaSpecial, SalsaVerde=@SalsaVerde, TomatoBasilTortilla=@TomatoBasilTortilla, Tomatoes=@Tomatoes, WheatTortilla=@WheatTortilla, WhiteRice=@WhiteRice WHERE id=@id : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:195) 
+DEBUG 2012-02-10 11:32:58,209 [TestRunnerThread] - Going to delete burrito : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service.test\BurritoSvcImplTestCase.cs:73) 
+ INFO 2012-02-10 11:32:58,210 [TestRunnerThread] - Entering method deleteBurrito | ID:1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\BurritoSvcSQLImpl.cs:253) 
+DEBUG 2012-02-10 11:39:43,336 [TestRunnerThread] - curKey: IBurritoSvcvalue: BurritoPOS.service.BurritoSvcHibernateImplhashmap size: 1 : (C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\service\Factory.cs:150) 

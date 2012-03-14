@@ -8,6 +8,7 @@ using System.IO;
 using log4net;
 using log4net.Config;
 using BurritoPOS.exception;
+using BurritoPOS.service.Serializable;
 
 namespace BurritoPOS.service
 {
@@ -84,9 +85,9 @@ namespace BurritoPOS.service
 		    return retVal;
 	    }
 
-        //week 3 specific implementation calls
+        //week 3 specific implementation calls (prior to Factory or IoC implementation)
         /// <summary>
-        /// 
+        /// Static call to Serializable implementation of Customer service layer
         /// </summary>
         /// <returns></returns>
 	    public ICustomerSvc getCustomerSvc() {
@@ -94,7 +95,7 @@ namespace BurritoPOS.service
 	    }
 
         /// <summary>
-        /// 
+        /// Static call to Serializable implementation of Burrito service layer
         /// </summary>
         /// <returns></returns>
 	    public IBurritoSvc getBurritoSvc() {
@@ -102,7 +103,7 @@ namespace BurritoPOS.service
 	    }
 
         /// <summary>
-        /// 
+        /// Static call to Serializable implementation of Employee service layer
         /// </summary>
         /// <returns></returns>
 	    public IEmployeeSvc getEmployeeSvc() {
@@ -110,7 +111,7 @@ namespace BurritoPOS.service
 	    }
 
         /// <summary>
-        /// 
+        /// Static call to Serializable implementation of Inventory service layer
         /// </summary>
         /// <returns></returns>
 	    public IInventorySvc getInventorySvc() {
@@ -118,7 +119,7 @@ namespace BurritoPOS.service
 	    }
 
         /// <summary>
-        /// 
+        /// Static call to Serializable implementation of Manager service layer
         /// </summary>
         /// <returns></returns>
 	    public IManagerSvc getManagerSvc() {
@@ -126,7 +127,7 @@ namespace BurritoPOS.service
 	    }
 
         /// <summary>
-        /// 
+        /// Static call to Serializable implementation of Order service layer
         /// </summary>
         /// <returns></returns>
 	    public IOrderSvc getOrderSvc() {

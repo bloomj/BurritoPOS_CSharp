@@ -55,7 +55,7 @@ namespace BurritoPOS.service.test
 			    Assert.True(ics.storeManager(m));
 			
 			    // Then let's read it back in
-                m = ics.getManager(m.employeeID);
+                m = ics.getManager(m.id);
 			    Assert.True(m.validate());
 
                 // Update Manager
@@ -63,7 +63,7 @@ namespace BurritoPOS.service.test
                 Assert.True(ics.storeManager(m));
 			
 			    // Finally, let's cleanup the file that was created
-			    Assert.True(ics.deleteManager(m.employeeID));
+			    Assert.True(ics.deleteManager(m.id));
 		    }
 		    catch(Exception e) {
                 Console.WriteLine("Exception in testStoreManager: " + e.Message + "\n" + e.StackTrace);

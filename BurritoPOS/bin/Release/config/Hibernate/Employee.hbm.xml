@@ -5,11 +5,11 @@
 <hibernate-mapping package="com.burritopos.domain">
    <class name="Employee" table="employee">
    	  <meta attribute="class-description">This class contains employee object information.</meta>
-	  <id name="employeeID" column="employeeid" type="java.lang.Integer" >
+	  <id name="id" column="id" type="java.lang.Integer" >
 		<generator class="increment" />
 	  </id>
           <property name="firstName" column="firstName" type="java.lang.String" />
           <property name="lastName" column="lastName" type="java.lang.String" />
-          <property name="isManager" column="isManager" type="java.lang.Boolean" />
+          <property name="isManager" column="isManager" />
    </class>
 </hibernate-mapping>

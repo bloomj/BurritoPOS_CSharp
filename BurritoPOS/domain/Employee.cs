@@ -9,12 +9,29 @@ namespace BurritoPOS.domain
     /// 
     /// </summary>
     [Serializable]
-    class Employee
+    public class Employee
     {
-        public String firstName { get; set; }
-        public String lastName { get; set; }
-        public Int32 employeeID { get; set; }
-        public Boolean isManager { get; set; }
+        #region Properties
+        /// <summary>
+        /// Employee's first name
+        /// </summary>
+        public virtual String firstName { get; set; }
+        
+        /// <summary>
+        /// Employee's last name
+        /// </summary>
+        public virtual String lastName { get; set; }
+        
+        /// <summary>
+        /// Unique ID of Employee
+        /// </summary>
+        public virtual Int32 id { get; set; }
+        
+        /// <summary>
+        /// Is employee a manager?
+        /// </summary>
+        public virtual Boolean isManager { get; set; }
+        #endregion
 
         /// <summary>
         /// Default constructor
@@ -32,15 +49,16 @@ namespace BurritoPOS.domain
 	    public Employee(String firstName, String lastName, Int32 employeeID) {
 		    this.firstName = firstName;
 		    this.lastName = lastName;
-		    this.employeeID = employeeID;
+		    this.id = employeeID;
 	    }
 
         /// <summary>
         /// validates the object
         /// </summary>
         /// <returns>success or failure</returns>
-	    public Boolean validate() {
-		    if(this.firstName != null && this.lastName != null && !this.employeeID.Equals(null))
+        public virtual Boolean validate()
+        {
+		    if(this.firstName != null && this.lastName != null && !this.id.Equals(null))
 			    return true;
 		    else
 			    return false;
@@ -59,7 +77,7 @@ namespace BurritoPOS.domain
 			    return false;
 		
 	        Employee other = (Employee) obj;
-	        if (this.firstName != other.firstName || this.lastName != other.lastName || this.employeeID != other.employeeID)
+	        if (this.firstName != other.firstName || this.lastName != other.lastName || this.id != other.id)
 	    	    return false;
 	    
 	        return true;

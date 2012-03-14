@@ -9,12 +9,29 @@ namespace BurritoPOS.domain
     /// 
     /// </summary>
     [Serializable]
-    class Customer
+    public class Customer
     {
-        public Int32 id { get; set; }
-        public String firstName { get; set; }
-        public String lastName { get; set; }
-        public String emailAddress { get; set; }
+        #region Properties
+        /// <summary>
+        /// Unique ID of Customer
+        /// </summary>
+        public virtual Int32 id { get; set; }
+        
+        /// <summary>
+        /// Customer's first name
+        /// </summary>
+        public virtual String firstName { get; set; }
+        
+        /// <summary>
+        /// Customer's last name
+        /// </summary>
+        public virtual String lastName { get; set; }
+        
+        /// <summary>
+        /// Customer's email address
+        /// </summary>
+        public virtual String emailAddress { get; set; }
+        #endregion
 
         /// <summary>
         /// Default constructor
@@ -43,7 +60,7 @@ namespace BurritoPOS.domain
         /// validates the object
         /// </summary>
         /// <returns>success or failure</returns>
-        public Boolean validate()
+        public virtual Boolean validate()
         {
             if (this.id > -1 && this.firstName != "" && this.lastName != "" && this.emailAddress != "")
                 return true;

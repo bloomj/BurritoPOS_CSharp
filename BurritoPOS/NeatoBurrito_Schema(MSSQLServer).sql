@@ -107,7 +107,7 @@ IF EXISTS (SELECT * FROM [NeatoBurrito].INFORMATION_SCHEMA.COLUMNS WHERE TABLE_N
 ELSE
 BEGIN
 	CREATE TABLE [NeatoBurrito].[dbo].[employee] (
-	  [employeeID] [varchar](36) NOT NULL CONSTRAINT [DF_employee_id] DEFAULT (newid()),
+	  [id] [varchar](36) NOT NULL CONSTRAINT [DF_employee_id] DEFAULT (newid()),
 	  [firstName] varchar(128) DEFAULT NULL,
 	  [lastName] varchar(128) DEFAULT NULL,
 	  [isManager] [bit]  NOT NULL CONSTRAINT [DF_employee_isManager]  DEFAULT ((0)),
@@ -182,7 +182,7 @@ IF EXISTS (SELECT * FROM [NeatoBurrito].INFORMATION_SCHEMA.COLUMNS WHERE TABLE_N
 ELSE
 BEGIN
 	CREATE TABLE [NeatoBurrito].[dbo].[orders] (
-	  [orderID] [varchar](36) NOT NULL CONSTRAINT [DF_orders_id] DEFAULT (newid()),
+	  [id] [varchar](36) NOT NULL CONSTRAINT [DF_orders_id] DEFAULT (newid()),
 	  [orderDate] datetime DEFAULT NULL,
 	  [totalCost] [smallmoney] DEFAULT NULL,
 	  [inventoryID] [varchar](36) DEFAULT NULL,

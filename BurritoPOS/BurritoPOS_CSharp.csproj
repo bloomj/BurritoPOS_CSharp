@@ -70,10 +70,21 @@
   <PropertyGroup>
     <ManifestKeyFile>BurritoPOS_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>lib\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.2.0.712, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\FluentNHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\..\..\..\..\..\..\Jars\Required_Bins\Iesi.Collections.dll</HintPath>
     </Reference>
@@ -81,8 +92,12 @@
       <HintPath>..\..\..\..\..\..\..\Jars\log4net-1.2.11\bin\net\4.0\release\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\..\..\..\..\..\..\Jars\Required_Bins\NHibernate.dll</HintPath>
+    <Reference Include="NHibernate, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>lib\NHibernate.ByteCode.Castle.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -91,6 +106,9 @@
     <Reference Include="nunit.mocks, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\nunit.mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq">
+      <HintPath>lib\Remotion.Data.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -128,13 +146,20 @@
     <Compile Include="service.test\InventorySvcImplTestCase.cs" />
     <Compile Include="service.test\ManagerSvcImplTestCase.cs" />
     <Compile Include="service.test\OrderSvcImplTestCase.cs" />
-    <Compile Include="service\BaseSvcHibernateImpl.cs" />
-    <Compile Include="service\BurritoSvcFileImpl.cs" />
-    <Compile Include="service\BurritoSvcSQLImpl.cs" />
-    <Compile Include="service\CustomerSvcFileImpl.cs" />
-    <Compile Include="service\CustomerSvcSQLImpl.cs" />
-    <Compile Include="service\EmployeeSvcFileImpl.cs" />
-    <Compile Include="service\EmployeeSvcSQLImpl.cs" />
+    <Compile Include="service\Hibernate\BaseSvcHibernateImpl.cs" />
+    <Compile Include="service\Hibernate\CustomerSvcHibernateImpl.cs" />
+    <Compile Include="service\Hibernate\EmployeeSvcHibernateImpl.cs" />
+    <Compile Include="service\Hibernate\InventorySvcHibernateImpl.cs" />
+    <Compile Include="service\Hibernate\ManagerMappingOverride.cs" />
+    <Compile Include="service\Hibernate\ManagerSvcHibernateImpl.cs" />
+    <Compile Include="service\Hibernate\OrderSvcHibernateImpl.cs" />
+    <Compile Include="service\Serializable\BurritoSvcFileImpl.cs" />
+    <Compile Include="service\Hibernate\BurritoSvcHibernateImpl.cs" />
+    <Compile Include="service\SQL\BurritoSvcSQLImpl.cs" />
+    <Compile Include="service\Serializable\CustomerSvcFileImpl.cs" />
+    <Compile Include="service\SQL\CustomerSvcSQLImpl.cs" />
+    <Compile Include="service\Serializable\EmployeeSvcFileImpl.cs" />
+    <Compile Include="service\SQL\EmployeeSvcSQLImpl.cs" />
     <Compile Include="service\Factory.cs" />
     <Compile Include="service\IAuthenticationSvc.cs" />
     <Compile Include="service\IBurritoSvc.cs" />
@@ -150,14 +175,14 @@
     <Compile Include="service\IEmployeeSvc.cs" />
     <Compile Include="service\IInventorySvc.cs" />
     <Compile Include="service\IManagerSvc.cs" />
-    <Compile Include="service\InventorySvcFileImpl.cs" />
-    <Compile Include="service\InventorySvcSQLImpl.cs" />
+    <Compile Include="service\Serializable\InventorySvcFileImpl.cs" />
+    <Compile Include="service\SQL\InventorySvcSQLImpl.cs" />
     <Compile Include="service\IOrderSvc.cs" />
     <Compile Include="service\IService.cs" />
-    <Compile Include="service\ManagerSvcFileImpl.cs" />
-    <Compile Include="service\ManagerSvcSQLImpl.cs" />
-    <Compile Include="service\OrderSvcFileImpl.cs" />
-    <Compile Include="service\OrderSvcSQLImpl.cs" />
+    <Compile Include="service\Serializable\ManagerSvcFileImpl.cs" />
+    <Compile Include="service\SQL\ManagerSvcSQLImpl.cs" />
+    <Compile Include="service\Serializable\OrderSvcFileImpl.cs" />
+    <Compile Include="service\SQL\OrderSvcSQLImpl.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -168,9 +193,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Resource Include="app.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
+    <EmbeddedResource Include="app.config" />
     <None Include="BurritoPOS_TemporaryKey.pfx" />
     <None Include="default.build" />
     <None Include="lib\nhibernate-configuration.xsd" />
@@ -220,14 +243,18 @@
     <Content Include="config\Hibernate\Burrito.hbm.xml" />
     <Content Include="config\Hibernate\Customer.hbm.xml" />
     <Content Include="config\Hibernate\Employee.hbm.xml" />
-    <Content Include="config\Hibernate\hibernate.cfg.xml" />
+    <Content Include="config\Hibernate\hibernate.cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="config\Hibernate\Inventory.hbm.xml" />
     <Content Include="config\Hibernate\Manager.hbm.xml" />
     <Content Include="config\Hibernate\Order.hbm.xml" />
     <Content Include="config\prices.txt" />
     <Content Include="config\prices.xml" />
     <Content Include="config\properties.txt" />
-    <Content Include="config\properties.xml" />
+    <Content Include="config\properties.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="config\spring.cfg.xml" />
     <Content Include="lib\Iesi.Collections.dll" />
     <Content Include="lib\Iesi.Collections.pdb" />

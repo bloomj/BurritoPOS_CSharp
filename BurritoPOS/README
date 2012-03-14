@@ -7,7 +7,7 @@ Currently demonstrates:
   - C# (4.0)
   - NAnt
   - NUnit
-  - NHibernate
+  - NHibernate (via Fluent NHibernate)
   - Spring.net
   - MS SQL Server 2008
   - Factory Pattern

@@ -35,7 +35,7 @@ namespace BurritoPOS.domain.test
         public void testValidateEmployee() {
 		    try {
 			    Employee e = new Employee();
-                e.employeeID = 1;
+                e.id = 1;
 			    e.firstName = "Jim";
 			    e.lastName = "Bloom";
 

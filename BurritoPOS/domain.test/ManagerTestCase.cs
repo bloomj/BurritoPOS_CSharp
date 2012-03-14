@@ -38,7 +38,7 @@ namespace BurritoPOS.domain.test
         public void testValidateManager() {
 		    try {
 			    Manager m = new Manager();
-			    m.employeeID = 1;
+			    m.id = 1;
 			    m.firstName = "Jim";
 			    m.lastName = "Bloom";
 

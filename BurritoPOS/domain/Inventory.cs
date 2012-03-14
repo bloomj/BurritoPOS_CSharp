@@ -13,48 +13,134 @@ namespace BurritoPOS.domain
     /// 
     /// </summary>
     [Serializable]
-    class Inventory
+    public class Inventory
     {
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-	    //id
-        public Int32 id;
+        #region Properties
+        //id
+        /// <summary>
+        /// Unique ID of Inventory
+        /// </summary>
+        public virtual Int32 id { get; set; }
         
 	    // tortillas
-        public Int32 FlourTortillaQty { get; set; }
-        public Int32 ChiliTortillaQty { get; set; }
-        public Int32 JalapenoCheddarTortillaQty { get; set; }
-        public Int32 TomatoBasilTortillaQty { get; set; }
-        public Int32 HerbGarlicTortillaQty { get; set; }
-        public Int32 WheatTortillaQty { get; set; }
+        /// <summary>
+        /// Quantity of flour tortillas available
+        /// </summary>
+        public virtual Int32 FlourTortillaQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of chili tortillas available
+        /// </summary>
+        public virtual Int32 ChiliTortillaQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of jalapeno cheddar tortillas available
+        /// </summary>
+        public virtual Int32 JalapenoCheddarTortillaQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of tomato basil tortillas available
+        /// </summary>
+        public virtual Int32 TomatoBasilTortillaQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of herb garlic tortillas available
+        /// </summary>
+        public virtual Int32 HerbGarlicTortillaQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of wheat tortillas available
+        /// </summary>
+        public virtual Int32 WheatTortillaQty { get; set; }
 	
 	    // rice
-        public Int32 WhiteRiceQty { get; set; }
-        public Int32 BrownRiceQty { get; set; }
+        /// <summary>
+        /// Quantity of white rice available
+        /// </summary>
+        public virtual Int32 WhiteRiceQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of brown rice available
+        /// </summary>
+        public virtual Int32 BrownRiceQty { get; set; }
 	
 	    // beans
-        public Int32 BlackBeansQty { get; set; }
-        public Int32 PintoBeansQty { get; set; }
+        /// <summary>
+        /// Quantity of black beans available
+        /// </summary>
+        public virtual Int32 BlackBeansQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of pinto beans available
+        /// </summary>
+        public virtual Int32 PintoBeansQty { get; set; }
 	
 	    // meat or meat substitute
-        public Int32 ChickenQty { get; set; }
-        public Int32 BeefQty { get; set; }
-        public Int32 HummusQty { get; set; }
+        /// <summary>
+        /// Quantity of chicken available
+        /// </summary>
+        public virtual Int32 ChickenQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of beef available
+        /// </summary>
+        public virtual Int32 BeefQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of hummus available
+        /// </summary>
+        public virtual Int32 HummusQty { get; set; }
 	
 	    // salsas
-        public Int32 SalsaPicoQty { get; set; }
-        public Int32 SalsaVerdeQty { get; set; }
-        public Int32 SalsaSpecialQty { get; set; }
+        /// <summary>
+        /// Quantity of pico salsa available
+        /// </summary>
+        public virtual Int32 SalsaPicoQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of salsa verde available
+        /// </summary>
+        public virtual Int32 SalsaVerdeQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of salsa of the day available
+        /// </summary>
+        public virtual Int32 SalsaSpecialQty { get; set; }
 	
 	    // guacamole
-        public Int32 GuacamoleQty { get; set; }
+        /// <summary>
+        /// Quantity of guacamole available
+        /// </summary>
+        public virtual Int32 GuacamoleQty { get; set; }
 	
 	    // toppings
-        public Int32 LettuceQty { get; set; }
-        public Int32 JalapenosQty { get; set; }
-        public Int32 TomatoesQty { get; set; }
-        public Int32 CucumberQty { get; set; }
-        public Int32 OnionQty { get; set; }
+        /// <summary>
+        /// Quantity of lettuce available
+        /// </summary>
+        public virtual Int32 LettuceQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of jalapenos available
+        /// </summary>
+        public virtual Int32 JalapenosQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of tomatoes available
+        /// </summary>
+        public virtual Int32 TomatoesQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of cucumber available
+        /// </summary>
+        public virtual Int32 CucumberQty { get; set; }
+        
+        /// <summary>
+        /// Quantity of onion available
+        /// </summary>
+        public virtual Int32 OnionQty { get; set; }
+        #endregion
 
         /// <summary>
         /// Default constructor
@@ -156,7 +242,8 @@ namespace BurritoPOS.domain
         /// validates the object
         /// </summary>
         /// <returns>success or failure</returns>
-	    public Boolean validate() {
+        public virtual Boolean validate()
+        {
 		    if(this.id > -1 && this.FlourTortillaQty >= 0 && this.ChiliTortillaQty >= 0 && this.JalapenoCheddarTortillaQty >= 0 && this.TomatoBasilTortillaQty >= 0 && 
 			    this.HerbGarlicTortillaQty >= 0 && this.WheatTortillaQty >= 0 && this.WhiteRiceQty >= 0 && this.BrownRiceQty >= 0 && 
 				this.BlackBeansQty >= 0 && this.PintoBeansQty >= 0 && this.ChickenQty >= 0 && this.BeefQty >= 0 && this.HummusQty >= 0 && this.SalsaPicoQty >= 0 &&
@@ -204,7 +291,8 @@ namespace BurritoPOS.domain
         /// 
         /// </summary>
         /// <param name="flourTortillaQty"></param>
-	    public void setFlourTortillaQty(Int32 flourTortillaQty) {
+        public virtual void setFlourTortillaQty(Int32 flourTortillaQty)
+        {
 		    if(flourTortillaQty < 0)
 			    throw new InsufficientInventoryException("Insufficient flour tortillas in Inventory to complete request");
 		
@@ -215,7 +303,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="chiliTortillaQty"></param>
-	    public void setChiliTortillaQty(Int32 chiliTortillaQty) {
+        public virtual void setChiliTortillaQty(Int32 chiliTortillaQty)
+        {
 		    if(chiliTortillaQty < 0)
 			    throw new InsufficientInventoryException("Insufficient chili tortillas in Inventory to complete request");
 		
@@ -226,7 +315,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="jalapenoCheddarTortillaQty"></param>
-	    public void setJalapenoCheddarTortillaQty(Int32 jalapenoCheddarTortillaQty)  {
+        public virtual void setJalapenoCheddarTortillaQty(Int32 jalapenoCheddarTortillaQty)
+        {
 		    if(jalapenoCheddarTortillaQty < 0)
 			    throw new InsufficientInventoryException("Insufficient jalapeno tortillas in Inventory to complete request");
 		
@@ -237,7 +327,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="tomatoBasilTortillaQty"></param>
-	    public void setTomatoBasilTortillaQty(Int32 tomatoBasilTortillaQty) {
+        public virtual void setTomatoBasilTortillaQty(Int32 tomatoBasilTortillaQty)
+        {
 		    if(tomatoBasilTortillaQty < 0)
 			    throw new InsufficientInventoryException("Insufficient tomato basil tortillas in Inventory to complete request");
 		
@@ -248,7 +339,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="herbGarlicTortillaQty"></param>
-	    public void setHerbGarlicTortillaQty(Int32 herbGarlicTortillaQty) {
+        public virtual void setHerbGarlicTortillaQty(Int32 herbGarlicTortillaQty)
+        {
 		    if(herbGarlicTortillaQty < 0)
 			    throw new InsufficientInventoryException("Insufficient herb garlic tortillas in Inventory to complete request");
 		
@@ -259,7 +351,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="wheatTortillaQty"></param>
-	    public void setWheatTortillaQty(Int32 wheatTortillaQty) {
+        public virtual void setWheatTortillaQty(Int32 wheatTortillaQty)
+        {
 		    if(wheatTortillaQty < 0)
 			    throw new InsufficientInventoryException("Insufficient wheat tortillas in Inventory to complete request");
 		
@@ -270,7 +363,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="whiteRiceQty"></param>
-	    public  void setWhiteRiceQty(Int32 whiteRiceQty) {
+        public virtual void setWhiteRiceQty(Int32 whiteRiceQty)
+        {
 		    if(whiteRiceQty < 0)
 			    throw new InsufficientInventoryException("Insufficient white rice in Inventory to complete request");
 		
@@ -281,7 +375,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="brownRiceQty"></param>
-	    public  void setBrownRiceQty(Int32 brownRiceQty) {
+        public virtual void setBrownRiceQty(Int32 brownRiceQty)
+        {
 		    if(brownRiceQty < 0)
 			    throw new InsufficientInventoryException("Insufficient brown rice in Inventory to complete request");
 		
@@ -292,7 +387,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="blackBeansQty"></param>
-	    public void setBlackBeansQty(Int32 blackBeansQty) {
+        public virtual void setBlackBeansQty(Int32 blackBeansQty)
+        {
 		    if(blackBeansQty < 0)
 			    throw new InsufficientInventoryException("Insufficient black beans in Inventory to complete request");
 		
@@ -303,7 +399,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="pintoBeansQty"></param>
-	    public void setPintoBeansQty(Int32 pintoBeansQty) {
+        public virtual void setPintoBeansQty(Int32 pintoBeansQty)
+        {
 		    if(pintoBeansQty < 0)
 			    throw new InsufficientInventoryException("Insufficient pinto beans in Inventory to complete request");
 		
@@ -314,7 +411,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="chickenQty"></param>
-	    public void setChickenQty(Int32 chickenQty) {
+        public virtual void setChickenQty(Int32 chickenQty)
+        {
 		    if(chickenQty < 0)
 			    throw new InsufficientInventoryException("Insufficient chicken in Inventory to complete request");
 		
@@ -325,7 +423,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="beefQty"></param>
-	    public void setBeefQty(Int32 beefQty) {
+        public virtual void setBeefQty(Int32 beefQty)
+        {
 		    if(beefQty < 0)
 			    throw new InsufficientInventoryException("Insufficient beef in Inventory to complete request");
 		
@@ -336,7 +435,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="hummusQty"></param>
-	    public void setHummusQty(Int32 hummusQty) {
+        public virtual void setHummusQty(Int32 hummusQty)
+        {
 		    if(hummusQty < 0)
 			    throw new InsufficientInventoryException("Insufficient hummus in Inventory to complete request");
 		
@@ -347,7 +447,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="salsaPicoQty"></param>
-	    public void setSalsaPicoQty(Int32 salsaPicoQty) {
+        public virtual void setSalsaPicoQty(Int32 salsaPicoQty)
+        {
 		    if(salsaPicoQty < 0)
 			    throw new InsufficientInventoryException("Insufficient salsa pico in Inventory to complete request");
 		
@@ -358,7 +459,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="salsaVerdeQty"></param>
-	    public void setSalsaVerdeQty(Int32 salsaVerdeQty) {
+        public virtual void setSalsaVerdeQty(Int32 salsaVerdeQty)
+        {
 		    if(salsaVerdeQty < 0)
 			    throw new InsufficientInventoryException("Insufficient salsa verde in Inventory to complete request");
 		
@@ -369,7 +471,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="salsaSpecialQty"></param>
-	    public void setSalsaSpecialQty(Int32 salsaSpecialQty) {
+        public virtual void setSalsaSpecialQty(Int32 salsaSpecialQty)
+        {
 		    if(salsaSpecialQty < 0)
 			    throw new InsufficientInventoryException("Insufficient salsa special in Inventory to complete request");
 		
@@ -380,7 +483,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="guacamoleQty"></param>
-	    public void setGuacamoleQty(Int32 guacamoleQty) {
+        public virtual void setGuacamoleQty(Int32 guacamoleQty)
+        {
 		    if(guacamoleQty < 0)
 			    throw new InsufficientInventoryException("Insufficient guacamole in Inventory to complete request");
 		
@@ -391,7 +495,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="lettuceQty"></param>
-	    public void setLettuceQty(Int32 lettuceQty) {
+        public virtual void setLettuceQty(Int32 lettuceQty)
+        {
 		    if(lettuceQty < 0)
 			    throw new InsufficientInventoryException("Insufficient lettuce in Inventory to complete request");
 		
@@ -402,7 +507,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="jalapenosQty"></param>
-	    public void setJalapenosQty(Int32 jalapenosQty) {
+        public virtual void setJalapenosQty(Int32 jalapenosQty)
+        {
 		    if(jalapenosQty < 0)
 			    throw new InsufficientInventoryException("Insufficient jalapenos in Inventory to complete request");
 		
@@ -413,7 +519,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="tomatoesQty"></param>
-	    public void setTomatoesQty(Int32 tomatoesQty) {
+        public virtual void setTomatoesQty(Int32 tomatoesQty)
+        {
 		    if(tomatoesQty < 0)
 			    throw new InsufficientInventoryException("Insufficient tomatoes in Inventory to complete request");
 		
@@ -424,7 +531,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="cucumberQty"></param>
-	    public void setCucumberQty(Int32 cucumberQty) {
+        public virtual void setCucumberQty(Int32 cucumberQty)
+        {
 		    if(cucumberQty < 0)
 			    throw new InsufficientInventoryException("Insufficient cucumber in Inventory to complete request");
 		
@@ -435,7 +543,8 @@ namespace BurritoPOS.domain
 	    /// 
 	    /// </summary>
 	    /// <param name="onionQty"></param>
-	    public void setOnionQty(Int32 onionQty) {
+        public virtual void setOnionQty(Int32 onionQty)
+        {
 		    if(onionQty < 0)
 			    throw new InsufficientInventoryException("Insufficient onion in Inventory to complete request");
 		

@@ -42,14 +42,50 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="84480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Antlr3.Runtime.dll" size="117760">
+      <assemblyIdentity name="Antlr3.Runtime" version="3.1.3.42154" publicKeyToken="3A9CAB8F8D22BFB7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+OQUfZto3ZkXJT8SZrXEJ2RAEEU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="95744">
       <assemblyIdentity name="BurritoPOS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>h7HkchJ5ZqxTKb4yp/Qoz+gIBg0=</dsig:DigestValue>
+        <dsig:DigestValue>efuNEvJjGoJzIiga1VEQu4/zk/g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Castle.Core.dll" size="296960">
+      <assemblyIdentity name="Castle.Core" version="2.5.1.0" publicKeyToken="407DD0808D44FBDC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cYTW655vyV6q5ULMrV4ACiFH+Dg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FluentNHibernate.dll" size="559616">
+      <assemblyIdentity name="FluentNHibernate" version="1.2.0.712" publicKeyToken="8AA435E3CB308880" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ecCnWB4VUD6T2QLv+QBQ6GeLsuo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,14 +114,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NHibernate.dll" size="3522048">
-      <assemblyIdentity name="NHibernate" version="3.2.0.4000" publicKeyToken="AA95F207798DFDB4" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NHibernate.dll" size="3016192">
+      <assemblyIdentity name="NHibernate" version="3.1.0.4000" publicKeyToken="AA95F207798DFDB4" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>lFAQ1x5jV9MmYbE46XYQtBljh/U=</dsig:DigestValue>
+        <dsig:DigestValue>rTsXtiXWPvWZnBLZG6D0WpQi0TI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NHibernate.ByteCode.Castle.dll" size="8704">
+      <assemblyIdentity name="NHibernate.ByteCode.Castle" version="3.1.0.4000" publicKeyToken="AA95F207798DFDB4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>I+aSVtFKmlmxVfov9/zrL1Z38/o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -113,13 +161,25 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="config\Hibernate\Burrito.hbm.xml" size="2470" writeableType="applicationData">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Remotion.Data.Linq.dll" size="250880">
+      <assemblyIdentity name="Remotion.Data.Linq" version="1.13.41.2" publicKeyToken="CAB60358AB4081EA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>l92EMuiSXxlPLFnJ+yxnDQGG/vM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="config\Hibernate\Burrito.hbm.xml" size="1548" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>OCcxrdT+iw5liK+b3Guw6qjMff0=</dsig:DigestValue>
+      <dsig:DigestValue>OLHpX7f8ZLLtjJHcXh6UEq+xV2g=</dsig:DigestValue>
     </hash>
   </file>
   <file name="config\Hibernate\Customer.hbm.xml" size="734" writeableType="applicationData">
@@ -131,22 +191,22 @@
       <dsig:DigestValue>b54V9C85fukR8u9nSvgzDhCCBSQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\Hibernate\Employee.hbm.xml" size="745" writeableType="applicationData">
+  <file name="config\Hibernate\Employee.hbm.xml" size="704" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>VnAdto3Y5yso+Qg1U7l1ZQU72D4=</dsig:DigestValue>
+      <dsig:DigestValue>oKjFGIou5m+hD3qJyNPFDdot+qo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\Hibernate\hibernate.cfg.xml" size="1176" writeableType="applicationData">
+  <file name="config\Hibernate\hibernate.cfg.xml" size="999" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>H26u4xqJwjxNBl5GlkvOOFlx4qw=</dsig:DigestValue>
+      <dsig:DigestValue>6bxbEq+NFhUj44YtIug3lrxN3Ks=</dsig:DigestValue>
     </hash>
   </file>
   <file name="config\Hibernate\Inventory.hbm.xml" size="2530" writeableType="applicationData">
@@ -158,22 +218,22 @@
       <dsig:DigestValue>PhNJ9za6W4JiCWVb/qaaazHQpas=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\Hibernate\Manager.hbm.xml" size="743" writeableType="applicationData">
+  <file name="config\Hibernate\Manager.hbm.xml" size="702" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>g8M5SN4w4Kovf+xnMQ/Sa8VWPI0=</dsig:DigestValue>
+      <dsig:DigestValue>DZEf2q29vbs/3c3klSzTWOgjmpA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\Hibernate\Order.hbm.xml" size="1039" writeableType="applicationData">
+  <file name="config\Hibernate\Order.hbm.xml" size="989" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>6TV2nx8+E4JRf4spBa9XZWVobpQ=</dsig:DigestValue>
+      <dsig:DigestValue>Y65Eq8RYkEzfkVFm7ILpFXwGmPg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="config\prices.txt" size="180">
@@ -194,22 +254,22 @@
       <dsig:DigestValue>nYlQcpsV1tJMleklnQ8UragR1U4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\properties.txt" size="320">
+  <file name="config\properties.txt" size="398">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>TanDWYxddYMXkE46N3OWkb293oE=</dsig:DigestValue>
+      <dsig:DigestValue>PzY7vLV4YRdP+WT+vzv12pPHrjo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\properties.xml" size="696" writeableType="applicationData">
+  <file name="config\properties.xml" size="780" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Mv5zCqWvDYyB8dZQS1cIXvHoJ98=</dsig:DigestValue>
+      <dsig:DigestValue>GjOE4ysSGHaHFrA5nRvkK9FeZz0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="config\spring.cfg.xml" size="950" writeableType="applicationData">
@@ -266,31 +326,31 @@
       <dsig:DigestValue>JIIf9gK3jTxGE4R7vRXAHXV3EBQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="lib\NHibernate.dll" size="3522048">
+  <file name="lib\NHibernate.dll" size="3016192">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>lFAQ1x5jV9MmYbE46XYQtBljh/U=</dsig:DigestValue>
+      <dsig:DigestValue>rTsXtiXWPvWZnBLZG6D0WpQi0TI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="lib\NHibernate.pdb" size="9307648">
+  <file name="lib\NHibernate.pdb" size="7775744">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>wZ85nUBMUnGuagy2StTb52wmIvs=</dsig:DigestValue>
+      <dsig:DigestValue>Qe09NjdyeRpvjvkBi48GxRdPtwg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="lib\NHibernate.xml" size="2316101" writeableType="applicationData">
+  <file name="lib\NHibernate.xml" size="2279385" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>YLS1rDSOxHoWghAerhu7vzbxRRM=</dsig:DigestValue>
+      <dsig:DigestValue>kEKg7RmzXKTqaCD5H0ZEi1Dyh+I=</dsig:DigestValue>
     </hash>
   </file>
   <file name="lib\nunit.framework.dll" size="139264">
@@ -320,13 +380,13 @@
       <dsig:DigestValue>+DnC1RtqRdituVVVJiJP1VE2Sg8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NeatoBurrito_Schema(MSSQLServer).sql" size="8573">
+  <file name="NeatoBurrito_Schema(MSSQLServer).sql" size="8560">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>xOF4IHCumPllpnCxIIQXN6nGQuU=</dsig:DigestValue>
+      <dsig:DigestValue>Hhr0JglzpCALnc0qkeXOQctLZ4Y=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

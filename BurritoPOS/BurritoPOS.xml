@@ -4,6 +4,73 @@
         <name>BurritoPOS</name>
     </assembly>
     <members>
+        <member name="T:BurritoPOS.service.SQL.EmployeeSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.getEmployee(System.Int32)">
+            <summary>
+            This method retrieves a employee.
+            </summary>
+            <param name="id">Unique ID of employee to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            This method stores a employee.
+            </summary>
+            <param name="e">The employee object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.deleteEmployee(System.Int32)">
+            <summary>
+            This method deletes a employee.
+            </summary>
+            <param name="id">Unique ID of the employee to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Burrito objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.Hibernate.BaseSvcHibernateImpl">
+            <summary>
+            This is the base implementation for the Hibernate service classes;
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
         <member name="T:BurritoPOS.service.test.OrderSvcImplTestCase">
             <summary>
             Unit test fixture for order service implementation unit tests
@@ -143,6 +210,37 @@
             
             </summary>
         </member>
+        <member name="T:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Inventory objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.getInventory(System.Int32)">
+            <summary>
+            This method retrieves a inventory.
+            </summary>
+            <param name="id">Unique ID of inventory to retrieve</param>
+            <returns>inventory object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            This method stores a inventory.
+            </summary>
+            <param name="i">The inventory object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.deleteInventory(System.Int32)">
+            <summary>
+            This method deletes a inventory.
+            </summary>
+            <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
         <member name="M:BurritoPOS.domain.test.InventoryTestCase.SetUp">
             <summary>
             
@@ -166,6 +264,105 @@
             
             </summary>
             
+        </member>
+        <member name="T:BurritoPOS.service.Serializable.OrderSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.getOrder(System.Int32)">
+            <summary>
+            This method retrieves a order.
+            </summary>
+            <param name="id">Unique ID of order to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            This method stores a order.
+            </summary>
+            <param name="o">The order object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.deleteOrder(System.Int32)">
+            <summary>
+            This method deletes a order.
+            </summary>
+            <param name="id">Unique ID of the order to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.getAllOrders">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BurritoPOS.service.SQL.InventorySvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Inventory objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.getInventory(System.Int32)">
+            <summary>
+            This method retrieves a inventory.
+            </summary>
+            <param name="id">Unique ID of inventory to retrieve</param>
+            <returns>inventory object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            This method stores a inventory.
+            </summary>
+            <param name="i">The inventory object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.deleteInventory(System.Int32)">
+            <summary>
+            This method deletes a inventory.
+            </summary>
+            <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Serializable.ManagerSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Manager objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.Form1">
             <summary>
@@ -259,6 +456,68 @@
             This method parses the configuration xml file
             </summary>
             <param name="filePath">File path to configuration xml</param>
+        </member>
+        <member name="T:BurritoPOS.service.Serializable.CustomerSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Customer objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Manager objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.domain.Burrito">
             <summary>
@@ -446,6 +705,136 @@
             <summary>
             The main entry point for the application.
             </summary>
+        </member>
+        <member name="T:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.getOrder(System.Int32)">
+            <summary>
+            This method retrieves a order.
+            </summary>
+            <param name="id">Unique ID of order to retrieve</param>
+            <returns>order object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            This method stores a order.
+            </summary>
+            <param name="o">The order object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.deleteOrder(System.Int32)">
+            <summary>
+            This method deletes a order.
+            </summary>
+            <param name="id">Unique ID of the order to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.getAllOrders">
+            <summary>
+            This method returns all historical orders.
+            </summary>
+            <returns>ArrayList of order objects</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.getEmployee(System.Int32)">
+            <summary>
+            This method retrieves a employee.
+            </summary>
+            <param name="id">Unique ID of employee to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            This method stores a employee.
+            </summary>
+            <param name="e">The employee object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.deleteEmployee(System.Int32)">
+            <summary>
+            This method deletes a employee.
+            </summary>
+            <param name="id">Unique ID of the employee to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Serializable.InventorySvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Inventory objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.getInventory(System.Int32)">
+            <summary>
+            This method retrieves a inventory.
+            </summary>
+            <param name="id">Unique ID of inventory to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            This method stores a inventory.
+            </summary>
+            <param name="i">The inventory object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.deleteInventory(System.Int32)">
+            <summary>
+            This method deletes a inventory.
+            </summary>
+            <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.service.test.ManagerSvcImplTestCase">
             <summary>
@@ -770,6 +1159,43 @@
             Quantity of onion available
             </summary>
         </member>
+        <member name="T:BurritoPOS.service.SQL.OrderSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.getOrder(System.Int32)">
+            <summary>
+            This method retrieves a order.
+            </summary>
+            <param name="id">Unique ID of order to retrieve</param>
+            <returns>order object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            This method stores a order.
+            </summary>
+            <param name="o">The order object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.deleteOrder(System.Int32)">
+            <summary>
+            This method deletes a order.
+            </summary>
+            <param name="id">Unique ID of the order to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.getAllOrders">
+            <summary>
+            This method returns all historical orders.
+            </summary>
+            <returns>ArrayList of order objects</returns>
+        </member>
         <member name="T:BurritoPOS.domain.test.ManagerTestCase">
             <summary>
             
@@ -801,6 +1227,68 @@
             <summary>
             
             </summary> 
+        </member>
+        <member name="T:BurritoPOS.service.Serializable.EmployeeSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.getEmployee(System.Int32)">
+            <summary>
+            This method retrieves a employee.
+            </summary>
+            <param name="id">Unique ID of employee to retrieve</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            This method stores a employee.
+            </summary>
+            <param name="e">The employee object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.deleteEmployee(System.Int32)">
+            <summary>
+            This method deletes a employee.
+            </summary>
+            <param name="id">Unique ID of the employee to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Serializable.BurritoSvcFileImpl">
+            <summary>
+            This service implementation uses Serializable to do basic CRUD operations with files for Burrito objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.domain.Order">
             <summary>
@@ -928,6 +1416,37 @@
             Will always be true
             </summary>
         </member>
+        <member name="T:BurritoPOS.service.SQL.BurritoSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Burrito objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
         <member name="T:BurritoPOS.service.test.InventorySvcImplTestCase">
             <summary>
             Unit test fixture for inventory service implementation unit tests
@@ -995,6 +1514,68 @@
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
             </summary>
+        </member>
+        <member name="T:BurritoPOS.service.SQL.ManagerSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Manager objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.SQL.CustomerSvcSQLImpl">
+            <summary>
+            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.service.test.EmployeeSvcImplTestCase">
             <summary>
@@ -1072,582 +1653,193 @@
             Is employee a manager?
             </summary>
         </member>
-        <member name="T:BurritoPOS.service.SQL.EmployeeSvcSQLImpl">
+        <member name="T:BurritoPOS.service.Mongo.BurritoSvcMongoImpl">
             <summary>
-            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Burrito objects.
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.#ctor">
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.#ctor">
             <summary>
             Default Constructor
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.getEmployee(System.Int32)">
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.CustomerSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Customer objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.getEmployee(System.Int32)">
             <summary>
             This method retrieves a employee.
             </summary>
             <param name="id">Unique ID of employee to retrieve</param>
-            <returns>customer object</returns>
+            <returns>employee object</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.storeEmployee(BurritoPOS.domain.Employee)">
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.storeEmployee(BurritoPOS.domain.Employee)">
             <summary>
             This method stores a employee.
             </summary>
             <param name="e">The employee object to store</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.deleteEmployee(System.Int32)">
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.deleteEmployee(System.Int32)">
             <summary>
             This method deletes a employee.
             </summary>
             <param name="id">Unique ID of the employee to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="T:BurritoPOS.service.SQL.InventorySvcSQLImpl">
+        <member name="T:BurritoPOS.service.Mongo.InventorySvcMongoImpl">
             <summary>
-            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Inventory objects.
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Inventory objects.
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.#ctor">
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.#ctor">
             <summary>
             Default Constructor
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.getInventory(System.Int32)">
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.getInventory(System.Int32)">
             <summary>
             This method retrieves a inventory.
             </summary>
             <param name="id">Unique ID of inventory to retrieve</param>
             <returns>inventory object</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.storeInventory(BurritoPOS.domain.Inventory)">
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.storeInventory(BurritoPOS.domain.Inventory)">
             <summary>
             This method stores a inventory.
             </summary>
             <param name="i">The inventory object to store</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.InventorySvcSQLImpl.deleteInventory(System.Int32)">
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.deleteInventory(System.Int32)">
             <summary>
             This method deletes a inventory.
             </summary>
             <param name="id">Unique ID of the inventory to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="T:BurritoPOS.service.SQL.OrderSvcSQLImpl">
+        <member name="T:BurritoPOS.service.Mongo.ManagerSvcMongoImpl">
             <summary>
-            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Order objects.
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Manager objects.
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.#ctor">
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.#ctor">
             <summary>
             Default Constructor
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.getOrder(System.Int32)">
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>manager object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.OrderSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.getOrder(System.Int32)">
             <summary>
             This method retrieves a order.
             </summary>
             <param name="id">Unique ID of order to retrieve</param>
             <returns>order object</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.storeOrder(BurritoPOS.domain.Order)">
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.storeOrder(BurritoPOS.domain.Order)">
             <summary>
             This method stores a order.
             </summary>
             <param name="o">The order object to store</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.deleteOrder(System.Int32)">
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.deleteOrder(System.Int32)">
             <summary>
             This method deletes a order.
             </summary>
             <param name="id">Unique ID of the order to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="M:BurritoPOS.service.SQL.OrderSvcSQLImpl.getAllOrders">
-            <summary>
-            This method returns all historical orders.
-            </summary>
-            <returns>ArrayList of order objects</returns>
-        </member>
-        <member name="T:BurritoPOS.service.SQL.BurritoSvcSQLImpl">
-            <summary>
-            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Burrito objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.getBurrito(System.Int32)">
-            <summary>
-            This method retrieves a burrito.
-            </summary>
-            <param name="id">Unique ID of burrito to retrieve</param>
-            <returns>burrito object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.storeBurrito(BurritoPOS.domain.Burrito)">
-            <summary>
-            This method stores a burrito.
-            </summary>
-            <param name="b">The burrito object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.BurritoSvcSQLImpl.deleteBurrito(System.Int32)">
-            <summary>
-            This method deletes a burrito.
-            </summary>
-            <param name="id">Unique ID of the burrito to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.SQL.ManagerSvcSQLImpl">
-            <summary>
-            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Manager objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.getManager(System.Int32)">
-            <summary>
-            This method retrieves a manager.
-            </summary>
-            <param name="id">Unique ID of manager to retrieve</param>
-            <returns>customer object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.storeManager(BurritoPOS.domain.Manager)">
-            <summary>
-            This method stores a manager.
-            </summary>
-            <param name="m">The manager object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.ManagerSvcSQLImpl.deleteManager(System.Int32)">
-            <summary>
-            This method deletes a manager.
-            </summary>
-            <param name="id">Unique ID of the manager to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.SQL.CustomerSvcSQLImpl">
-            <summary>
-            This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.getCustomer(System.Int32)">
-            <summary>
-            This method retrieves a customer.
-            </summary>
-            <param name="id">Unique ID of customer to retrieve</param>
-            <returns>customer object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.storeCustomer(BurritoPOS.domain.Customer)">
-            <summary>
-            This method stores a customer.
-            </summary>
-            <param name="c">The customer object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.SQL.CustomerSvcSQLImpl.deleteCustomer(System.Int32)">
-            <summary>
-            This method deletes a customer.
-            </summary>
-            <param name="id">Unique ID of the customer to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl">
-            <summary>
-            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Burrito objects.
-            </summary>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.BaseSvcHibernateImpl">
-            <summary>
-            This is the base implementation for the Hibernate service classes;
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.getBurrito(System.Int32)">
-            <summary>
-            This method retrieves a burrito.
-            </summary>
-            <param name="id">Unique ID of burrito to retrieve</param>
-            <returns>burrito object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.storeBurrito(BurritoPOS.domain.Burrito)">
-            <summary>
-            This method stores a burrito.
-            </summary>
-            <param name="b">The burrito object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.deleteBurrito(System.Int32)">
-            <summary>
-            This method deletes a burrito.
-            </summary>
-            <param name="id">Unique ID of the burrito to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Serializable.OrderSvcFileImpl">
-            <summary>
-            This service implementation uses Serializable to do basic CRUD operations with files for Order objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.#ctor">
-            <summary>
-            Default constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.getOrder(System.Int32)">
-            <summary>
-            This method retrieves a order.
-            </summary>
-            <param name="id">Unique ID of order to retrieve</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.storeOrder(BurritoPOS.domain.Order)">
-            <summary>
-            This method stores a order.
-            </summary>
-            <param name="o">The order object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.deleteOrder(System.Int32)">
-            <summary>
-            This method deletes a order.
-            </summary>
-            <param name="id">Unique ID of the order to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.getAllOrders">
-            <summary>
-            
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:BurritoPOS.service.Serializable.ManagerSvcFileImpl">
-            <summary>
-            This service implementation uses Serializable to do basic CRUD operations with files for Manager objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.getManager(System.Int32)">
-            <summary>
-            This method retrieves a manager.
-            </summary>
-            <param name="id">Unique ID of manager to retrieve</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.storeManager(BurritoPOS.domain.Manager)">
-            <summary>
-            This method stores a manager.
-            </summary>
-            <param name="m">The manager object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.deleteManager(System.Int32)">
-            <summary>
-            This method deletes a manager.
-            </summary>
-            <param name="id">Unique ID of the manager to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Serializable.CustomerSvcFileImpl">
-            <summary>
-            This service implementation uses Serializable to do basic CRUD operations with files for Customer objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.getCustomer(System.Int32)">
-            <summary>
-            This method retrieves a customer.
-            </summary>
-            <param name="id">Unique ID of customer to retrieve</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.storeCustomer(BurritoPOS.domain.Customer)">
-            <summary>
-            This method stores a customer.
-            </summary>
-            <param name="c">The customer object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.CustomerSvcFileImpl.deleteCustomer(System.Int32)">
-            <summary>
-            This method deletes a customer.
-            </summary>
-            <param name="id">Unique ID of the customer to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Serializable.InventorySvcFileImpl">
-            <summary>
-            This service implementation uses Serializable to do basic CRUD operations with files for Inventory objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.getInventory(System.Int32)">
-            <summary>
-            This method retrieves a inventory.
-            </summary>
-            <param name="id">Unique ID of inventory to retrieve</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.storeInventory(BurritoPOS.domain.Inventory)">
-            <summary>
-            This method stores a inventory.
-            </summary>
-            <param name="i">The inventory object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.InventorySvcFileImpl.deleteInventory(System.Int32)">
-            <summary>
-            This method deletes a inventory.
-            </summary>
-            <param name="id">Unique ID of the inventory to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Serializable.EmployeeSvcFileImpl">
-            <summary>
-            This service implementation uses Serializable to do basic CRUD operations with files for Employee objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.getEmployee(System.Int32)">
-            <summary>
-            This method retrieves a employee.
-            </summary>
-            <param name="id">Unique ID of employee to retrieve</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.storeEmployee(BurritoPOS.domain.Employee)">
-            <summary>
-            This method stores a employee.
-            </summary>
-            <param name="e">The employee object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.EmployeeSvcFileImpl.deleteEmployee(System.Int32)">
-            <summary>
-            This method deletes a employee.
-            </summary>
-            <param name="id">Unique ID of the employee to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Serializable.BurritoSvcFileImpl">
-            <summary>
-            This service implementation uses Serializable to do basic CRUD operations with files for Burrito objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.getBurrito(System.Int32)">
-            <summary>
-            This method retrieves a burrito.
-            </summary>
-            <param name="id">Unique ID of burrito to retrieve</param>
-            <returns>burrito object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.storeBurrito(BurritoPOS.domain.Burrito)">
-            <summary>
-            This method stores a burrito.
-            </summary>
-            <param name="b">The burrito object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Serializable.BurritoSvcFileImpl.deleteBurrito(System.Int32)">
-            <summary>
-            This method deletes a burrito.
-            </summary>
-            <param name="id">Unique ID of the burrito to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl">
-            <summary>
-            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.getCustomer(System.Int32)">
-            <summary>
-            This method retrieves a customer.
-            </summary>
-            <param name="id">Unique ID of customer to retrieve</param>
-            <returns>customer object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.storeCustomer(BurritoPOS.domain.Customer)">
-            <summary>
-            This method stores a customer.
-            </summary>
-            <param name="c">The customer object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl.deleteCustomer(System.Int32)">
-            <summary>
-            This method deletes a customer.
-            </summary>
-            <param name="id">Unique ID of the customer to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl">
-            <summary>
-            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.getEmployee(System.Int32)">
-            <summary>
-            This method retrieves a employee.
-            </summary>
-            <param name="id">Unique ID of employee to retrieve</param>
-            <returns>burrito object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.storeEmployee(BurritoPOS.domain.Employee)">
-            <summary>
-            This method stores a employee.
-            </summary>
-            <param name="e">The employee object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.EmployeeSvcHibernateImpl.deleteEmployee(System.Int32)">
-            <summary>
-            This method deletes a employee.
-            </summary>
-            <param name="id">Unique ID of the employee to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl">
-            <summary>
-            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Inventory objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.getInventory(System.Int32)">
-            <summary>
-            This method retrieves a inventory.
-            </summary>
-            <param name="id">Unique ID of inventory to retrieve</param>
-            <returns>inventory object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.storeInventory(BurritoPOS.domain.Inventory)">
-            <summary>
-            This method stores a inventory.
-            </summary>
-            <param name="i">The inventory object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl.deleteInventory(System.Int32)">
-            <summary>
-            This method deletes a inventory.
-            </summary>
-            <param name="id">Unique ID of the inventory to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl">
-            <summary>
-            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Manager objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.getManager(System.Int32)">
-            <summary>
-            This method retrieves a manager.
-            </summary>
-            <param name="id">Unique ID of manager to retrieve</param>
-            <returns>burrito object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.storeManager(BurritoPOS.domain.Manager)">
-            <summary>
-            This method stores a manager.
-            </summary>
-            <param name="m">The manager object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl.deleteManager(System.Int32)">
-            <summary>
-            This method deletes a manager.
-            </summary>
-            <param name="id">Unique ID of the manager to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl">
-            <summary>
-            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Order objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.getOrder(System.Int32)">
-            <summary>
-            This method retrieves a order.
-            </summary>
-            <param name="id">Unique ID of order to retrieve</param>
-            <returns>order object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.storeOrder(BurritoPOS.domain.Order)">
-            <summary>
-            This method stores a order.
-            </summary>
-            <param name="o">The order object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.deleteOrder(System.Int32)">
-            <summary>
-            This method deletes a order.
-            </summary>
-            <param name="id">Unique ID of the order to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Hibernate.OrderSvcHibernateImpl.getAllOrders">
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.getAllOrders">
             <summary>
             This method returns all historical orders.
             </summary>

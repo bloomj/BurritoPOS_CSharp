@@ -5,7 +5,11 @@ using System.Text;
 
 namespace BurritoPOS.service
 {
-    interface IService
+    /// <summary>
+    /// 
+    /// </summary>
+    public interface IService
     {
+
     }
 }

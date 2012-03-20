@@ -7,13 +7,41 @@ using BurritoPOS.domain;
 
 namespace BurritoPOS.service
 {
-    interface IOrderSvc : IService
+    /// <summary>
+    /// 
+    /// </summary>
+    public interface IOrderSvc : IService
     {
+        /// <summary>
+        /// 
+        /// </summary>
         String NAME { get; }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="o"></param>
+        /// <returns></returns>
         Boolean storeOrder(Order o);
-	    Order getOrder(Int32 id);
-	    Boolean deleteOrder(Int32 id);
-	    ArrayList getAllOrders();
+	    
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Order getOrder(Int32 id);
+	    
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Boolean deleteOrder(Int32 id);
+	    
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        ArrayList getAllOrders();
     }
 }

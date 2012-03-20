@@ -42,6 +42,16 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MongoDB.Bson" version="1.3.1.4349" publicKeyToken="F686731CFB9CC103" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MongoDB.Driver" version="1.3.1.4349" publicKeyToken="F686731CFB9CC103" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Antlr3.Runtime.dll" size="117760">
       <assemblyIdentity name="Antlr3.Runtime" version="3.1.3.42154" publicKeyToken="3A9CAB8F8D22BFB7" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -54,14 +64,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="95744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="131072">
       <assemblyIdentity name="BurritoPOS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>efuNEvJjGoJzIiga1VEQu4/zk/g=</dsig:DigestValue>
+        <dsig:DigestValue>lNaZVxtC8cY31QwniTLTRQEiZPM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -263,13 +273,13 @@
       <dsig:DigestValue>PzY7vLV4YRdP+WT+vzv12pPHrjo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\properties.xml" size="780" writeableType="applicationData">
+  <file name="config\properties.xml" size="744" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>GjOE4ysSGHaHFrA5nRvkK9FeZz0=</dsig:DigestValue>
+      <dsig:DigestValue>2Uy54W/vgIxTn8T4qDJkLlgI4bA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="config\spring.cfg.xml" size="950" writeableType="applicationData">

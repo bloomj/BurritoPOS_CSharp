@@ -9,6 +9,42 @@
             This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
             </summary>
         </member>
+        <member name="T:BurritoPOS.service.IEmployeeSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.IService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.IEmployeeSvc.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IEmployeeSvc.getEmployee(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IEmployeeSvc.deleteEmployee(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.IEmployeeSvc.NAME">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:BurritoPOS.service.SQL.EmployeeSvcSQLImpl.#ctor">
             <summary>
             Default Constructor
@@ -45,6 +81,37 @@
             This is the base implementation for the Hibernate service classes;
             </summary>
         </member>
+        <member name="T:BurritoPOS.service.IBurritoSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.IBurritoSvc.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IBurritoSvc.getBurrito(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IBurritoSvc.deleteBurrito(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.IBurritoSvc.NAME">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:BurritoPOS.service.Hibernate.BurritoSvcHibernateImpl.#ctor">
             <summary>
             Default Constructor
@@ -71,50 +138,290 @@
             <param name="id">Unique ID of the burrito to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="T:BurritoPOS.service.test.OrderSvcImplTestCase">
+        <member name="T:BurritoPOS.service.test.ManagerSvcImplTestCase">
             <summary>
-            Unit test fixture for order service implementation unit tests
+            Unit test fixture for manager service implementation unit tests
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.SetUp">
+        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.SetUp">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.tearDown">
+        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.tearDown">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder">
+        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.testStoreManager">
             <summary>
-            Unit test for order service implementation
+            Unit test for manager service implementation
             </summary>
         </member>
-        <member name="T:BurritoPOS.service.test.CustomerSvcImplTestCase">
+        <member name="M:BurritoPOS.domain.test.EmployeeTestCase.SetUp">
             <summary>
-            Unit test fixture for customer service implementation unit tests
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.EmployeeTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="T:BurritoPOS.business.FactoryManager">
+            <summary>
+            Factory Manager for service objects
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.SetUp">
+        <member name="F:BurritoPOS.business.FactoryManager.factory">
+            <summary>
+            Factory service object
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.FactoryManager.getService(System.String)">
+            <summary>
+            This method get service implementation based on name.
+            </summary>
+            <param name="name">Name of service object</param>
+            <returns>service object</returns>
+        </member>
+        <member name="T:BurritoPOS.business.test.BurritoManagerTestCase">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.tearDown">
+        <member name="M:BurritoPOS.business.test.BurritoManagerTestCase.SetUp">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.testCustomerSvc">
+        <member name="M:BurritoPOS.business.test.BurritoManagerTestCase.tearDown">
             <summary>
-            Unit test for customer service implementation
+            
+            </summary> 
+        </member>
+        <member name="M:BurritoPOS.business.test.BurritoManagerTestCase.testCreateBurrito">
+            <summary>
+            
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.testInvalidGetCustomer">
+        <member name="M:BurritoPOS.business.test.BurritoManagerTestCase.testUpdateBurrito">
             <summary>
-            Unit test for customer service implementation (invalid customer)
+            
             </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.BurritoManagerTestCase.testCalculatePrice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.business.BurritoManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.setBurritoSvc(BurritoPOS.service.IBurritoSvc)">
+            <summary>
+            
+            </summary>
+            <param name="burritoSvc"></param>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.createBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.updateBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.deleteBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.calculatePrice(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.BurritoManager.getBurritoType(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.InventorySvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Inventory objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.IInventorySvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.IInventorySvc.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IInventorySvc.getInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IInventorySvc.deleteInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.IInventorySvc.NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.getInventory(System.Int32)">
+            <summary>
+            This method retrieves a inventory.
+            </summary>
+            <param name="id">Unique ID of inventory to retrieve</param>
+            <returns>inventory object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.storeInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            This method stores a inventory.
+            </summary>
+            <param name="i">The inventory object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.deleteInventory(System.Int32)">
+            <summary>
+            This method deletes a inventory.
+            </summary>
+            <param name="id">Unique ID of the inventory to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.CustomerSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Customer objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.ICustomerSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.ICustomerSvc.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            
+            </summary>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.ICustomerSvc.getCustomer(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.ICustomerSvc.deleteCustomer(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.ICustomerSvc.NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.getCustomer(System.Int32)">
+            <summary>
+            This method retrieves a customer.
+            </summary>
+            <param name="id">Unique ID of customer to retrieve</param>
+            <returns>customer object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.storeCustomer(BurritoPOS.domain.Customer)">
+            <summary>
+            This method stores a customer.
+            </summary>
+            <param name="c">The customer object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.deleteCustomer(System.Int32)">
+            <summary>
+            This method deletes a customer.
+            </summary>
+            <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.BurritoSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Burrito objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.getBurrito(System.Int32)">
+            <summary>
+            This method retrieves a burrito.
+            </summary>
+            <param name="id">Unique ID of burrito to retrieve</param>
+            <returns>burrito object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.storeBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            This method stores a burrito.
+            </summary>
+            <param name="b">The burrito object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.deleteBurrito(System.Int32)">
+            <summary>
+            This method deletes a burrito.
+            </summary>
+            <param name="id">Unique ID of the burrito to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.domain.Customer">
             <summary>
@@ -173,42 +480,93 @@
             Customer's email address
             </summary>
         </member>
-        <member name="T:BurritoPOS.domain.test.OrderTestCase">
+        <member name="T:BurritoPOS.business.OrderManager">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.domain.test.OrderTestCase.SetUp">
-            <summary>
-            
-            </summary>
-            
-        </member>
-        <member name="M:BurritoPOS.domain.test.OrderTestCase.tearDown">
-            <summary>
-            
-            </summary>
-            
-        </member>
-        <member name="M:BurritoPOS.domain.test.OrderTestCase.testValidateOrder">
+        <member name="M:BurritoPOS.business.OrderManager.#ctor">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.domain.test.OrderTestCase.testInvalidOrder">
+        <member name="M:BurritoPOS.business.OrderManager.setOrderSvc(BurritoPOS.service.IOrderSvc)">
             <summary>
             
             </summary>
+            <param name="orderSvc"></param>
         </member>
-        <member name="M:BurritoPOS.domain.test.OrderTestCase.testEqualsOrder">
+        <member name="M:BurritoPOS.business.OrderManager.getOrderHistories">
             <summary>
             
             </summary>
+            <returns></returns>
         </member>
-        <member name="M:BurritoPOS.domain.test.OrderTestCase.testNotEqualsOrder">
+        <member name="M:BurritoPOS.business.OrderManager.createOrder(BurritoPOS.domain.Order)">
             <summary>
             
             </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.updateOrder(BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.deleteOrder(BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.addBurritoToOrder(BurritoPOS.domain.Order,BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.updateBurritoInOrder(BurritoPOS.domain.Order,BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.removeBurritoFromOrder(BurritoPOS.domain.Order,BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.submitOrder(BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.cancelOrder(BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.OrderManager.calculateTotal(BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
         </member>
         <member name="T:BurritoPOS.service.Hibernate.InventorySvcHibernateImpl">
             <summary>
@@ -241,33 +599,73 @@
             <param name="id">Unique ID of the inventory to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="M:BurritoPOS.domain.test.InventoryTestCase.SetUp">
+        <member name="T:BurritoPOS.presentation.MainUI">
             <summary>
             
             </summary>
-            
         </member>
-        <member name="M:BurritoPOS.domain.test.InventoryTestCase.tearDown">
+        <member name="M:BurritoPOS.presentation.MainUI.#ctor">
             <summary>
             
             </summary>
-            
         </member>
-        <member name="M:BurritoPOS.domain.test.EmployeeTestCase.SetUp">
+        <member name="F:BurritoPOS.presentation.MainUI.components">
             <summary>
-            
+            Required designer variable.
             </summary>
-            
         </member>
-        <member name="M:BurritoPOS.domain.test.EmployeeTestCase.tearDown">
+        <member name="M:BurritoPOS.presentation.MainUI.Dispose(System.Boolean)">
             <summary>
-            
+            Clean up any resources being used.
             </summary>
-            
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.presentation.MainUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
         </member>
         <member name="T:BurritoPOS.service.Serializable.OrderSvcFileImpl">
             <summary>
             This service implementation uses Serializable to do basic CRUD operations with files for Order objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.IOrderSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.IOrderSvc.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IOrderSvc.getOrder(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IOrderSvc.deleteOrder(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IOrderSvc.getAllOrders">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.IOrderSvc.NAME">
+            <summary>
+            
             </summary>
         </member>
         <member name="M:BurritoPOS.service.Serializable.OrderSvcFileImpl.#ctor">
@@ -333,9 +731,122 @@
             <param name="id">Unique ID of the inventory to delete</param>
             <returns>Success/Failure</returns>
         </member>
+        <member name="T:BurritoPOS.service.test.BurritoSvcImplTestCase">
+            <summary>
+            Unit test fixture for burrito service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.testBurritoSvc">
+            <summary>
+            Unit test for burrito service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.domain.test.ManagerTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.ManagerTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOS.domain.test.ManagerTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="T:BurritoPOS.business.test.InventoryManagerTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.tearDown">
+            <summary>
+            
+            </summary> 
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.testCreateInventory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.testUpdateInventory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.testRemoveFromInventoryOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.testReturnToInventoryOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.testRemoveFromInventoryBurrito">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.InventoryManagerTestCase.testReturnToInventoryBurrito">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:BurritoPOS.service.Serializable.ManagerSvcFileImpl">
             <summary>
             This service implementation uses Serializable to do basic CRUD operations with files for Manager objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.IManagerSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.IManagerSvc.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IManagerSvc.getManager(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IManagerSvc.deleteManager(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.IManagerSvc.NAME">
+            <summary>
+            
             </summary>
         </member>
         <member name="M:BurritoPOS.service.Serializable.ManagerSvcFileImpl.#ctor">
@@ -364,42 +875,31 @@
             <param name="id">Unique ID of the manager to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="T:BurritoPOS.Form1">
-            <summary>
-            Entry point for Burrito POS Application
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.Form1.#ctor">
-            <summary>
-            Entry point for Burrito POS Application
-            </summary>
-        </member>
-        <member name="F:BurritoPOS.Form1.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.Form1.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:BurritoPOS.Form1.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="T:BurritoPOS.service.Factory">
             <summary>
             This class is a service Factory that provides concrete service implementations.
+            </summary>
+        </member>
+        <member name="F:BurritoPOS.service.Factory.dLog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BurritoPOS.service.Factory.fProperties">
+            <summary>
+            
             </summary>
         </member>
         <member name="M:BurritoPOS.service.Factory.#ctor">
             <summary>
             Default Constructor
             </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Factory.getInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
         </member>
         <member name="M:BurritoPOS.service.Factory.getService(System.String)">
             <summary>
@@ -486,6 +986,37 @@
             This method deletes a customer.
             </summary>
             <param name="id">Unique ID of the customer to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.ManagerSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Manager objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.getManager(System.Int32)">
+            <summary>
+            This method retrieves a manager.
+            </summary>
+            <param name="id">Unique ID of manager to retrieve</param>
+            <returns>manager object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.storeManager(BurritoPOS.domain.Manager)">
+            <summary>
+            This method stores a manager.
+            </summary>
+            <param name="m">The manager object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.deleteManager(System.Int32)">
+            <summary>
+            This method deletes a manager.
+            </summary>
+            <param name="id">Unique ID of the manager to delete</param>
             <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.service.Hibernate.ManagerSvcHibernateImpl">
@@ -701,6 +1232,21 @@
             Burrito has price
             </summary>
         </member>
+        <member name="T:BurritoPOS.domain.test.BurritoTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.BurritoTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.BurritoTestCase.tearDown">
+            <summary>
+            
+            </summary> 
+        </member>
         <member name="M:BurritoPOS.Program.Main">
             <summary>
             The main entry point for the application.
@@ -774,6 +1320,26 @@
             <param name="id">Unique ID of the employee to delete</param>
             <returns>Success/Failure</returns>
         </member>
+        <member name="T:BurritoPOS.service.test.InventorySvcImplTestCase">
+            <summary>
+            Unit test fixture for inventory service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.testStoreInventory">
+            <summary>
+            Unit test for inventory service implementation
+            </summary>
+        </member>
         <member name="T:BurritoPOS.service.Serializable.InventorySvcFileImpl">
             <summary>
             This service implementation uses Serializable to do basic CRUD operations with files for Inventory objects.
@@ -805,6 +1371,43 @@
             <param name="id">Unique ID of the inventory to delete</param>
             <returns>Success/Failure</returns>
         </member>
+        <member name="T:BurritoPOS.service.Mongo.OrderSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Order objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.getOrder(System.Int32)">
+            <summary>
+            This method retrieves a order.
+            </summary>
+            <param name="id">Unique ID of order to retrieve</param>
+            <returns>order object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.storeOrder(BurritoPOS.domain.Order)">
+            <summary>
+            This method stores a order.
+            </summary>
+            <param name="o">The order object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.deleteOrder(System.Int32)">
+            <summary>
+            This method deletes a order.
+            </summary>
+            <param name="id">Unique ID of the order to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.getAllOrders">
+            <summary>
+            This method returns all historical orders.
+            </summary>
+            <returns>ArrayList of order objects</returns>
+        </member>
         <member name="T:BurritoPOS.service.Hibernate.CustomerSvcHibernateImpl">
             <summary>
             This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
@@ -835,26 +1438,6 @@
             </summary>
             <param name="id">Unique ID of the customer to delete</param>
             <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.test.ManagerSvcImplTestCase">
-            <summary>
-            Unit test fixture for manager service implementation unit tests
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.SetUp">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.tearDown">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.test.ManagerSvcImplTestCase.testStoreManager">
-            <summary>
-            Unit test for manager service implementation
-            </summary>
         </member>
         <member name="T:BurritoPOS.domain.Inventory">
             <summary>
@@ -1159,6 +1742,11 @@
             Quantity of onion available
             </summary>
         </member>
+        <member name="T:BurritoPOS.business.Prices">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:BurritoPOS.service.SQL.OrderSvcSQLImpl">
             <summary>
             This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Order objects.
@@ -1196,37 +1784,29 @@
             </summary>
             <returns>ArrayList of order objects</returns>
         </member>
-        <member name="T:BurritoPOS.domain.test.ManagerTestCase">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.domain.test.ManagerTestCase.SetUp">
+        <member name="M:BurritoPOS.domain.test.InventoryTestCase.SetUp">
             <summary>
             
             </summary>
             
         </member>
-        <member name="M:BurritoPOS.domain.test.ManagerTestCase.tearDown">
+        <member name="M:BurritoPOS.domain.test.InventoryTestCase.tearDown">
             <summary>
             
             </summary>
             
         </member>
-        <member name="T:BurritoPOS.domain.test.BurritoTestCase">
+        <member name="M:BurritoPOS.domain.test.CustomerTestCase.SetUp">
             <summary>
             
             </summary>
+            
         </member>
-        <member name="M:BurritoPOS.domain.test.BurritoTestCase.SetUp">
+        <member name="M:BurritoPOS.domain.test.CustomerTestCase.tearDown">
             <summary>
             
             </summary>
-        </member>
-        <member name="M:BurritoPOS.domain.test.BurritoTestCase.tearDown">
-            <summary>
             
-            </summary> 
         </member>
         <member name="T:BurritoPOS.service.Serializable.EmployeeSvcFileImpl">
             <summary>
@@ -1447,57 +2027,93 @@
             <param name="id">Unique ID of the burrito to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="T:BurritoPOS.service.test.InventorySvcImplTestCase">
-            <summary>
-            Unit test fixture for inventory service implementation unit tests
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.SetUp">
+        <member name="T:BurritoPOS.domain.test.OrderTestCase">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.tearDown">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.test.InventorySvcImplTestCase.testStoreInventory">
-            <summary>
-            Unit test for inventory service implementation
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.domain.test.CustomerTestCase.SetUp">
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.SetUp">
             <summary>
             
             </summary>
             
         </member>
-        <member name="M:BurritoPOS.domain.test.CustomerTestCase.tearDown">
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.tearDown">
             <summary>
             
             </summary>
             
         </member>
-        <member name="T:BurritoPOS.service.test.BurritoSvcImplTestCase">
-            <summary>
-            Unit test fixture for burrito service implementation unit tests
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.SetUp">
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testValidateOrder">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.tearDown">
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testInvalidOrder">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.BurritoSvcImplTestCase.testBurritoSvc">
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testEqualsOrder">
             <summary>
-            Unit test for burrito service implementation
+            
             </summary>
+        </member>
+        <member name="M:BurritoPOS.domain.test.OrderTestCase.testNotEqualsOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.EmployeeSvcImplTestCase">
+            <summary>
+            Unit test fixture for employee service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.testStoreEmployee">
+            <summary>
+            Unit test for employee service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Employee objects.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.getEmployee(System.Int32)">
+            <summary>
+            This method retrieves a employee.
+            </summary>
+            <param name="id">Unique ID of employee to retrieve</param>
+            <returns>employee object</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.storeEmployee(BurritoPOS.domain.Employee)">
+            <summary>
+            This method stores a employee.
+            </summary>
+            <param name="e">The employee object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.deleteEmployee(System.Int32)">
+            <summary>
+            This method deletes a employee.
+            </summary>
+            <param name="id">Unique ID of the employee to delete</param>
+            <returns>Success/Failure</returns>
         </member>
         <member name="T:BurritoPOS.Properties.Resources">
             <summary>
@@ -1546,6 +2162,82 @@
             <param name="id">Unique ID of the manager to delete</param>
             <returns>Success/Failure</returns>
         </member>
+        <member name="T:BurritoPOS.business.InventoryManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.setInventorySvc(BurritoPOS.service.IInventorySvc)">
+            <summary>
+            
+            </summary>
+            <param name="inventorySvc"></param>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.createInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.updateInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.deleteInventory(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.removeFromInventory(BurritoPOS.domain.Inventory,BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.returnToInventory(BurritoPOS.domain.Inventory,BurritoPOS.domain.Order)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.removeFromInventory(BurritoPOS.domain.Inventory,BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.returnToInventory(BurritoPOS.domain.Inventory,BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.business.InventoryManager.getInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="T:BurritoPOS.service.SQL.CustomerSvcSQLImpl">
             <summary>
             This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Customer objects.
@@ -1577,24 +2269,109 @@
             <param name="id">Unique ID of the customer to delete</param>
             <returns>Success/Failure</returns>
         </member>
-        <member name="T:BurritoPOS.service.test.EmployeeSvcImplTestCase">
+        <member name="T:BurritoPOS.service.test.OrderSvcImplTestCase">
             <summary>
-            Unit test fixture for employee service implementation unit tests
+            Unit test fixture for order service implementation unit tests
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.SetUp">
+        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.SetUp">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.tearDown">
+        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.tearDown">
             <summary>
             
             </summary>
         </member>
-        <member name="M:BurritoPOS.service.test.EmployeeSvcImplTestCase.testStoreEmployee">
+        <member name="M:BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder">
             <summary>
-            Unit test for employee service implementation
+            Unit test for order service implementation
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.business.test.OrderManagerTestCase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.tearDown">
+            <summary>
+            
+            </summary> 
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testCreateOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testAddBurritoToOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testEditBurritoToOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testRemoveBurritoFromOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testInvalidRemoveBurritoFromOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testSubmitOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testInvalidSubmitOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testCalculateTotal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.business.test.OrderManagerTestCase.testgetOrderHistories">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.service.test.CustomerSvcImplTestCase">
+            <summary>
+            Unit test fixture for customer service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.testCustomerSvc">
+            <summary>
+            Unit test for customer service implementation
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.test.CustomerSvcImplTestCase.testInvalidGetCustomer">
+            <summary>
+            Unit test for customer service implementation (invalid customer)
             </summary>
         </member>
         <member name="T:BurritoPOS.domain.Employee">
@@ -1653,197 +2430,10 @@
             Is employee a manager?
             </summary>
         </member>
-        <member name="T:BurritoPOS.service.Mongo.BurritoSvcMongoImpl">
+        <member name="T:BurritoPOS.business.Encryptor">
             <summary>
-            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Burrito objects.
+            Currently a place holder for crypto functions
             </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.getBurrito(System.Int32)">
-            <summary>
-            This method retrieves a burrito.
-            </summary>
-            <param name="id">Unique ID of burrito to retrieve</param>
-            <returns>burrito object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.storeBurrito(BurritoPOS.domain.Burrito)">
-            <summary>
-            This method stores a burrito.
-            </summary>
-            <param name="b">The burrito object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.BurritoSvcMongoImpl.deleteBurrito(System.Int32)">
-            <summary>
-            This method deletes a burrito.
-            </summary>
-            <param name="id">Unique ID of the burrito to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Mongo.CustomerSvcMongoImpl">
-            <summary>
-            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Customer objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.getCustomer(System.Int32)">
-            <summary>
-            This method retrieves a customer.
-            </summary>
-            <param name="id">Unique ID of customer to retrieve</param>
-            <returns>customer object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.storeCustomer(BurritoPOS.domain.Customer)">
-            <summary>
-            This method stores a customer.
-            </summary>
-            <param name="c">The customer object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.deleteCustomer(System.Int32)">
-            <summary>
-            This method deletes a customer.
-            </summary>
-            <param name="id">Unique ID of the customer to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl">
-            <summary>
-            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Employee objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.getEmployee(System.Int32)">
-            <summary>
-            This method retrieves a employee.
-            </summary>
-            <param name="id">Unique ID of employee to retrieve</param>
-            <returns>employee object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.storeEmployee(BurritoPOS.domain.Employee)">
-            <summary>
-            This method stores a employee.
-            </summary>
-            <param name="e">The employee object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.deleteEmployee(System.Int32)">
-            <summary>
-            This method deletes a employee.
-            </summary>
-            <param name="id">Unique ID of the employee to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Mongo.InventorySvcMongoImpl">
-            <summary>
-            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Inventory objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.getInventory(System.Int32)">
-            <summary>
-            This method retrieves a inventory.
-            </summary>
-            <param name="id">Unique ID of inventory to retrieve</param>
-            <returns>inventory object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.storeInventory(BurritoPOS.domain.Inventory)">
-            <summary>
-            This method stores a inventory.
-            </summary>
-            <param name="i">The inventory object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.InventorySvcMongoImpl.deleteInventory(System.Int32)">
-            <summary>
-            This method deletes a inventory.
-            </summary>
-            <param name="id">Unique ID of the inventory to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Mongo.ManagerSvcMongoImpl">
-            <summary>
-            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Manager objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.getManager(System.Int32)">
-            <summary>
-            This method retrieves a manager.
-            </summary>
-            <param name="id">Unique ID of manager to retrieve</param>
-            <returns>manager object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.storeManager(BurritoPOS.domain.Manager)">
-            <summary>
-            This method stores a manager.
-            </summary>
-            <param name="m">The manager object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.ManagerSvcMongoImpl.deleteManager(System.Int32)">
-            <summary>
-            This method deletes a manager.
-            </summary>
-            <param name="id">Unique ID of the manager to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="T:BurritoPOS.service.Mongo.OrderSvcMongoImpl">
-            <summary>
-            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Order objects.
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.#ctor">
-            <summary>
-            Default Constructor
-            </summary>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.getOrder(System.Int32)">
-            <summary>
-            This method retrieves a order.
-            </summary>
-            <param name="id">Unique ID of order to retrieve</param>
-            <returns>order object</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.storeOrder(BurritoPOS.domain.Order)">
-            <summary>
-            This method stores a order.
-            </summary>
-            <param name="o">The order object to store</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.deleteOrder(System.Int32)">
-            <summary>
-            This method deletes a order.
-            </summary>
-            <param name="id">Unique ID of the order to delete</param>
-            <returns>Success/Failure</returns>
-        </member>
-        <member name="M:BurritoPOS.service.Mongo.OrderSvcMongoImpl.getAllOrders">
-            <summary>
-            This method returns all historical orders.
-            </summary>
-            <returns>ArrayList of order objects</returns>
         </member>
     </members>
 </doc>

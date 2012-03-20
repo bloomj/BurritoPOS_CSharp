@@ -15,9 +15,16 @@ namespace BurritoPOS.service
     /// <summary>
     /// This class is a service Factory that provides concrete service implementations.
     /// </summary>
-    class Factory
+    public class Factory
     {
+        /// <summary>
+        /// 
+        /// </summary>
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        
+        /// <summary>
+        /// 
+        /// </summary>
         private Dictionary<String, String> fProperties = new Dictionary<String, String>();
 
         /// <summary>
@@ -36,6 +43,10 @@ namespace BurritoPOS.service
 
 	    private readonly static Factory factory = new Factory();
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
 	    public static Factory getInstance() {return factory;}
 
         /// <summary>

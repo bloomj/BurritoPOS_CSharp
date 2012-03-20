@@ -83,7 +83,7 @@ namespace BurritoPOS.domain
         public virtual Boolean validate()
         {
             dLog.Debug("orderID: " + this.id + " | burritos: " + this.burritos.Count + " | isSubmitted: " + this.isSubmitted + " | isComplete: " + this.isComplete + " | totalCost: " + this.totalCost);
-            if (this.id > -1 && this.burritos.Count > 0 && Decimal.Floor(this.totalCost) > 0)
+            if (this.id > -1 && this.burritos.Count > 0) // && Decimal.Floor(this.totalCost) > 0)
 			    return true;
 		    else
 			    return false;

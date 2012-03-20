@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using System.IO;
 using log4net;
 using log4net.Config;
+using BurritoPOS.presentation;
 
 namespace BurritoPOS
 {
@@ -19,7 +20,7 @@ namespace BurritoPOS
             XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainUI());
         }
     }
 }

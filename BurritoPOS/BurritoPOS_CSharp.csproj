@@ -126,13 +126,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="domain.test\AllTests.cs" />
-    <Compile Include="domain.test\BurritoTestCase.cs" />
-    <Compile Include="domain.test\CustomerTestCase.cs" />
-    <Compile Include="domain.test\EmployeeTestCase.cs" />
-    <Compile Include="domain.test\InventoryTestCase.cs" />
-    <Compile Include="domain.test\ManagerTestCase.cs" />
-    <Compile Include="domain.test\OrderTestCase.cs" />
+    <Compile Include="business\BurritoManager.cs" />
+    <Compile Include="business\Encryptor.cs" />
+    <Compile Include="business\FactoryManager.cs" />
+    <Compile Include="business\InventoryManager.cs" />
+    <Compile Include="business\OrderManager.cs" />
+    <Compile Include="business\Prices.cs" />
+    <Compile Include="business\test\AllTests.cs" />
+    <Compile Include="business\test\BurritoManagerTestCase.cs" />
+    <Compile Include="business\test\InventoryManagerTestCase.cs" />
+    <Compile Include="business\test\OrderManagerTestCase.cs" />
+    <Compile Include="domain\test\AllTests.cs" />
+    <Compile Include="domain\test\BurritoTestCase.cs" />
+    <Compile Include="domain\test\CustomerTestCase.cs" />
+    <Compile Include="domain\test\EmployeeTestCase.cs" />
+    <Compile Include="domain\test\InventoryTestCase.cs" />
+    <Compile Include="domain\test\ManagerTestCase.cs" />
+    <Compile Include="domain\test\OrderTestCase.cs" />
     <Compile Include="domain\Burrito.cs" />
     <Compile Include="domain\Customer.cs" />
     <Compile Include="domain\Employee.cs" />
@@ -141,13 +151,19 @@
     <Compile Include="domain\Order.cs" />
     <Compile Include="exception\InsufficientInventoryException.cs" />
     <Compile Include="exception\ServiceLoadException.cs" />
-    <Compile Include="service.test\AllTests.cs" />
-    <Compile Include="service.test\BurritoSvcImplTestCase.cs" />
-    <Compile Include="service.test\CustomerSvcImplTestCase.cs" />
-    <Compile Include="service.test\EmployeeSvcImplTestCase.cs" />
-    <Compile Include="service.test\InventorySvcImplTestCase.cs" />
-    <Compile Include="service.test\ManagerSvcImplTestCase.cs" />
-    <Compile Include="service.test\OrderSvcImplTestCase.cs" />
+    <Compile Include="presentation\MainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="service\test\AllTests.cs" />
+    <Compile Include="service\test\BurritoSvcImplTestCase.cs" />
+    <Compile Include="service\test\CustomerSvcImplTestCase.cs" />
+    <Compile Include="service\test\EmployeeSvcImplTestCase.cs" />
+    <Compile Include="service\test\InventorySvcImplTestCase.cs" />
+    <Compile Include="service\test\ManagerSvcImplTestCase.cs" />
+    <Compile Include="service\test\OrderSvcImplTestCase.cs" />
     <Compile Include="service\Hibernate\BaseSvcHibernateImpl.cs" />
     <Compile Include="service\Hibernate\CustomerSvcHibernateImpl.cs" />
     <Compile Include="service\Hibernate\EmployeeSvcHibernateImpl.cs" />
@@ -171,12 +187,6 @@
     <Compile Include="service\Factory.cs" />
     <Compile Include="service\IAuthenticationSvc.cs" />
     <Compile Include="service\IBurritoSvc.cs" />
-    <Compile Include="application\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="application\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="application\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="service\ICustomerSvc.cs" />
@@ -240,9 +250,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="application.test\" />
-    <Folder Include="business.test\" />
-    <Folder Include="business\" />
+    <Folder Include="application\test\" />
+    <Folder Include="presentation\test\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README" />

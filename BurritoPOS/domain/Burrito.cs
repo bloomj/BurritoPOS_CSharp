@@ -225,7 +225,7 @@ namespace BurritoPOS.domain
         public virtual Boolean validate()
         {
             // C# bools/int/decimals will not be null
-            if (this.id > -1 && Decimal.Floor(this.Price) > 0)
+            if (this.id > -1) // && Decimal.Floor(this.Price) > 0)
 			    return true;
 		    else
 			    return false;

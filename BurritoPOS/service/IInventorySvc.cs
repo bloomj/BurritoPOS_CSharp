@@ -6,12 +6,35 @@ using BurritoPOS.domain;
 
 namespace BurritoPOS.service
 {
-    interface IInventorySvc : IService
+    /// <summary>
+    /// 
+    /// </summary>
+    public interface IInventorySvc : IService
     {
+        /// <summary>
+        /// 
+        /// </summary>
         String NAME { get; }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         Boolean storeInventory(Inventory i);
-	    Inventory getInventory(Int32 id);
-	    Boolean deleteInventory(Int32 id);
+	    
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Inventory getInventory(Int32 id);
+	    
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Boolean deleteInventory(Int32 id);
     }
 }

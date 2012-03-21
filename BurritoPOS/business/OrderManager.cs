@@ -29,7 +29,7 @@ namespace BurritoPOS.business
             XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
 
             //will comment out after Spring.NET implementation
-            orderSvc = (IOrderSvc)factory.getService("IOrderSvc");
+            //orderSvc = (IOrderSvc)factory.getService("IOrderSvc");
         }
 
         /// <summary>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOS.shfbproj" started="3/20/2012 10:27:21 AM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOS.shfbproj" started="3/21/2012 3:46:22 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -24,11 +24,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.4476
+    Last step completed in 00:00:00.3036
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1025
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -41,11 +41,11 @@ Generating reflection information...
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:29.8760
+    Last step completed in 00:00:25.9037
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0390
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
@@ -56,7 +56,7 @@ Applying visibility properties to reflection information file
     135 private members noted for removal
     0 private types noted for removal
     Removing previously noted unwanted APIs and elements
-    Last step completed in 00:00:00.9867
+    Last step completed in 00:00:00.3126
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -64,19 +64,19 @@ Transforming reflection output...
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\james.bloom\AppData\Local\Temp\tmpC24A.tmp
+  reflection.org -&gt; C:\Users\james.bloom\AppData\Local\Temp\tmp122F.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\james.bloom\AppData\Local\Temp\tmpC24A.tmp -&gt; reflection.xml
+  C:\Users\james.bloom\AppData\Local\Temp\tmp122F.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:10.0910
+    Last step completed in 00:00:06.6748
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.2075
+    Last step completed in 00:00:00.1010
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -187,16 +187,16 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Whidbey\presentation.css
-    Last step completed in 00:00:03.5722
+    Last step completed in 00:00:01.4508
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0065
+    Last step completed in 00:00:00.0035
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -206,17 +206,17 @@ Generating intermediate table of contents file...
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:02.7971
+    Last step completed in 00:00:00.7692
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4711
+    Last step completed in 00:00:00.3216
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.6496
+    Last step completed in 00:00:00.2475
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -2940,13 +2940,13 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOS.service.test.OrderSvcImplTestCase.tearDown
   Info: BuildAssembler: Building topic M:BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder
   Info: Processed 687 topics
-    Last step completed in 00:04:19.8600
+    Last step completed in 00:03:59.7359
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:01.9204
+    Last step completed in 00:00:00.5951
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -2962,16 +2962,16 @@ Processed 687 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\WebTOC.xml
-    Last step completed in 00:00:14.6584
+    Last step completed in 00:00:01.8144
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0015
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:07.8691
+    Last step completed in 00:00:03.0016
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -3795,15 +3795,15 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\scripts\SplitScreen.js
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\styles\Presentation.css
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Whidbey\presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\styles\Whidbey\presentation.css
-    Last step completed in 00:00:08.4802
+    Last step completed in 00:00:10.6576
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:03.3687
+    Last step completed in 00:00:10.1735
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/20/2012 10:33 AM.  Total time: 00:05:45.7766
+Build completed successfully at 03/21/2012 03:51 PM.  Total time: 00:05:02.9281
 
 </buildStep>
 </shfbBuild>

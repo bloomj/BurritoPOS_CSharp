@@ -6,6 +6,9 @@ using System.IO;
 using System.Configuration;
 using log4net;
 using log4net.Config;
+using Spring;
+using Spring.Context;
+using Spring.Context.Support;
 using BurritoPOS.service;
 using BurritoPOS.domain;
 
@@ -28,7 +31,7 @@ namespace BurritoPOS.business
             XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
 
             //will comment out after Spring.NET implementation
-            burritoSvc = (IBurritoSvc) factory.getService("IBurritoSvc");
+            //burritoSvc = (IBurritoSvc) factory.getService("IBurritoSvc");
         }
 
         /// <summary>

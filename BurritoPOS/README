@@ -8,7 +8,7 @@ Currently demonstrates:
   - NAnt
   - NUnit
   - NHibernate (via Fluent NHibernate)
-  - Spring.net
+  - Spring.net (IoC)
   - MS SQL Server 2008
   - Factory Pattern
   - N-tier architecture

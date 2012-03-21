@@ -28,7 +28,7 @@ namespace BurritoPOS.business
             XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
 
             //will comment out after Spring.NET implementation
-            inventorySvc = (IInventorySvc)factory.getService("IInventorySvc");
+            //inventorySvc = (IInventorySvc)factory.getService("IInventorySvc");
         }
 
         /// <summary>

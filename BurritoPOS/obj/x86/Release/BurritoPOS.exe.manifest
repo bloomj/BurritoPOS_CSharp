@@ -64,14 +64,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="141312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="142848">
       <assemblyIdentity name="BurritoPOS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>sbMno5m9CRBYykdi0PaYLsl9AUY=</dsig:DigestValue>
+        <dsig:DigestValue>lZxMj1ylGXmqu4Ln52sanDUIGXY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,6 +84,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
         <dsig:DigestValue>cYTW655vyV6q5ULMrV4ACiFH+Dg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Common.Logging.dll" size="28672">
+      <assemblyIdentity name="Common.Logging" version="1.2.0.0" publicKeyToken="AF08829B84F0328E" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>k7DdFVdGxT3Njr+gXnW5hEWI5EY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -180,6 +192,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
         <dsig:DigestValue>l92EMuiSXxlPLFnJ+yxnDQGG/vM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spring.Core.dll" size="761856">
+      <assemblyIdentity name="Spring.Core" version="1.3.0.20349" publicKeyToken="65E474D141E25E07" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/OTVTuw5VvuEWmIkY5/JC4v7Vt4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -282,13 +306,13 @@
       <dsig:DigestValue>2Uy54W/vgIxTn8T4qDJkLlgI4bA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="config\spring.cfg.xml" size="950" writeableType="applicationData">
+  <file name="config\spring.cfg.xml" size="795" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>AV8HzlhcBn+MOrx6UxdCbPOWMrw=</dsig:DigestValue>
+      <dsig:DigestValue>qpODsxEdeOaC+5nykPbwWiIMp8M=</dsig:DigestValue>
     </hash>
   </file>
   <file name="lib\Iesi.Collections.dll" size="32768">

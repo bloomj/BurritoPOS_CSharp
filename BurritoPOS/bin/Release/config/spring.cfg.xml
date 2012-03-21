@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.springframework.org/schema/beans
-http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-    <bean id="BurritoManager" class="com.burritopos.business.BurritoManager">
-    	<property name="burritoSvc" ref="burritoSvc"/>
-    </bean>
-	<bean id="burritoSvc" class="com.burritopos.service.BurritoSvcMongoImpl"/>
-    <bean id="InventoryManager" class="com.burritopos.business.InventoryManager">
-    	<property name="inventorySvc" ref="inventorySvc"/>
-    </bean>
-	<bean id="inventorySvc" class="com.burritopos.service.InventorySvcMongoImpl"/>
-    <bean id="OrderManager" class="com.burritopos.business.OrderManager">
-         <property name="orderSvc" ref="orderSvc"/>
-    </bean>
-	<bean id="orderSvc" class="com.burritopos.service.OrderSvcMongoImpl"/>
-</beans>
+<objects xmlns="http://www.springframework.net">
+  <object name="BurritoManager" type="BurritoPOS.business.BurritoManager, BurritoPOS">
+    <property name="burritoSvc" ref="burritoSvc"/>
+  </object>
+  <object name="burritoSvc" type="BurritoPOS.service.Mongo.BurritoSvcMongoImpl"/>
+  <object name="InventoryManager" type="BurritoPOS.business.InventoryManager, BurritoPOS">
+    <property name="inventorySvc" ref="inventorySvc"/>
+  </object>
+  <object name="inventorySvc" type="BurritoPOS.service.Mongo.InventorySvcMongoImpl"/>
+  <object name="OrderManager" type="BurritoPOS.business.OrderManager, BurritoPOS">
+    <property name="orderSvc" ref="orderSvc"/>
+  </object>
+  <object name="orderSvc" type="BurritoPOS.service.Mongo.OrderSvcMongoImpl"/>
+</objects>

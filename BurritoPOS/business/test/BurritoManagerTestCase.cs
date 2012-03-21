@@ -7,6 +7,9 @@ using log4net;
 using log4net.Config;
 using NUnit.Framework;
 using System.Numerics;
+using Spring;
+using Spring.Context;
+using Spring.Context.Support;
 using BurritoPOS.business;
 using BurritoPOS.domain;
 
@@ -35,12 +38,17 @@ namespace BurritoPOS.business.test
 
             try
             {
-                bManager = new BurritoManager();
+                //bManager = new BurritoManager();
+                
+                //Spring.NET
+                XmlApplicationContext ctx = new XmlApplicationContext("config/spring.cfg.xml");
+                bManager = (BurritoManager)ctx.GetObject("BurritoManager");
+                
                 b = new Burrito(rand.Next(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), new Decimal(rand.NextDouble()));
             }
             catch (Exception e)
             {
-                dLog.Error("Unable to initialize service/domain objects: " + e.Message + "\n" + e.StackTrace);
+                dLog.Error("Unable to initialize service/domain objects: " + e.Message + "\n" + e.InnerException + "\n" + e.StackTrace);
             }
             dLog.Info("Finishing BurritoManagerTestCase Setup");
         }

@@ -7,6 +7,9 @@ using log4net;
 using log4net.Config;
 using NUnit.Framework;
 using System.Numerics;
+using Spring;
+using Spring.Context;
+using Spring.Context.Support;
 using BurritoPOS.business;
 using BurritoPOS.domain;
 
@@ -36,8 +39,14 @@ namespace BurritoPOS.business.test
             rand = new Random();
 
             try {
-                oManager = new OrderManager();
-                bManager = new BurritoManager();
+                //oManager = new OrderManager();
+                //bManager = new BurritoManager();
+
+                //Spring.NET
+                XmlApplicationContext ctx = new XmlApplicationContext("config/spring.cfg.xml");
+                oManager = (OrderManager)ctx.GetObject("OrderManager");
+                bManager = (BurritoManager)ctx.GetObject("BurritoManager");
+
                 o = new Order(rand.Next(), new List<Burrito>(), new DateTime(), false, false, new Decimal(0));
                 b = new Burrito(rand.Next(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), new Decimal(rand.NextDouble()));
                 b.Price = bManager.calculatePrice(b);

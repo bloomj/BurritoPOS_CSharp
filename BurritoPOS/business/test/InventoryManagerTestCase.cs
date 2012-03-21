@@ -7,6 +7,9 @@ using log4net;
 using log4net.Config;
 using NUnit.Framework;
 using System.Numerics;
+using Spring;
+using Spring.Context;
+using Spring.Context.Support;
 using BurritoPOS.business;
 using BurritoPOS.domain;
 
@@ -37,8 +40,14 @@ namespace BurritoPOS.business.test
             rand = new Random();
 
             try {
-                iManager = new InventoryManager();
-                oManager = new OrderManager();
+                //iManager = new InventoryManager();
+                //oManager = new OrderManager();
+
+                //Spring.NET
+                XmlApplicationContext ctx = new XmlApplicationContext("config/spring.cfg.xml");
+                iManager = (InventoryManager)ctx.GetObject("InventoryManager");
+                oManager = (OrderManager)ctx.GetObject("OrderManager");
+
                 i = new Inventory(rand.Next(), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250), rand.Next(10, 250));
                 o = new Order(rand.Next(), new List<Burrito>(), new DateTime(), false, false, new Decimal(0));
                 b = new Burrito(rand.Next(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), nextBool(), new Decimal(rand.NextDouble()));

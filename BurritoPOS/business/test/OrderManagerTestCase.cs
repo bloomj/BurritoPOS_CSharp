@@ -208,6 +208,7 @@ namespace BurritoPOS.business.test
                 Assert.True(oManager.createOrder(o));
 
                 b = new Burrito();
+                b.id = -1;
 
                 Assert.False(oManager.removeBurritoFromOrder(o, b));
 

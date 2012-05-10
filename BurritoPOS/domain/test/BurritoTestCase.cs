@@ -75,6 +75,7 @@ namespace BurritoPOS.domain.test
         {
             try {
 			    Burrito b = new Burrito();
+                b.id = -1;
 			
 			    Assert.False(b.validate());
 		    }

@@ -157,11 +157,41 @@
     <Compile Include="domain\Order.cs" />
     <Compile Include="exception\InsufficientInventoryException.cs" />
     <Compile Include="exception\ServiceLoadException.cs" />
+    <Compile Include="presentation\BurritoDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\BurritoDialog.Designer.cs">
+      <DependentUpon>BurritoDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation\LoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\LoginUI.Designer.cs">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="presentation\MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="presentation\MainUI.Designer.cs">
       <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation\OrderUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\OrderUI.Designer.cs">
+      <DependentUpon>OrderUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation\InventoryUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\InventoryUI.Designer.cs">
+      <DependentUpon>InventoryUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation\OrderViewUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\OrderViewUI.Designer.cs">
+      <DependentUpon>OrderViewUI.cs</DependentUpon>
     </Compile>
     <Compile Include="service\test\AllTests.cs" />
     <Compile Include="service\test\BurritoSvcImplTestCase.cs" />
@@ -207,6 +237,21 @@
     <Compile Include="service\SQL\ManagerSvcSQLImpl.cs" />
     <Compile Include="service\Serializable\OrderSvcFileImpl.cs" />
     <Compile Include="service\SQL\OrderSvcSQLImpl.cs" />
+    <EmbeddedResource Include="presentation\BurritoDialog.resx">
+      <DependentUpon>BurritoDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation\InventoryUI.resx">
+      <DependentUpon>InventoryUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation\MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation\OrderUI.resx">
+      <DependentUpon>OrderUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation\OrderViewUI.resx">
+      <DependentUpon>OrderViewUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -258,6 +303,7 @@
   <ItemGroup>
     <Folder Include="application\test\" />
     <Folder Include="presentation\test\" />
+    <Folder Include="Properties\DataSources\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README" />

@@ -16,6 +16,7 @@ namespace BurritoPOS.domain
     public class Order
     {
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private Random rand = new Random();
 
         #region Properties
         /// <summary>
@@ -54,7 +55,7 @@ namespace BurritoPOS.domain
         /// Default constructor
         /// </summary>
 	    public Order() {
-            id = -1;
+            id = rand.Next();
             burritos = new List<Burrito>();
 	    }
 	

@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
 
+  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/2a551ebb-23ef-9269-51e3-528ced0ea2be.htm" />
+  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/41dc25d5-3055-2462-7b9f-f6ebd381975c.htm" />
+  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/701878a2-a865-a9bb-381f-4424cd86ae43.htm" />
+  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/8e95a22c-9ba7-d243-2299-edba5064becb.htm" />
+  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/a164977f-108f-d7a1-5c4a-0398de1d18ad.htm" />
   <HelpKINode Title="AccessibilityNotifyClients method" Url="html/d8a70f82-07a1-99f8-be70-3b28898e0e84.htm" />
   <HelpKINode Title="addBurritoToOrder method" Url="html/1dd6919b-19e3-6fb6-6dbd-f39745237bc1.htm" />
   <HelpKINode Title="AllTests class" Url="html/2ca6c44c-f9d0-4141-c1f1-de9e37464c1c.htm" />
@@ -45,7 +50,12 @@
   <HelpKINode Title="BaseSvcHibernateImpl.getSession method" Url="html/d8082a4b-2b90-150b-fa17-e650061358d2.htm" />
   <HelpKINode Title="Beef property" Url="html/f543eeda-ee58-7146-30a5-a7194da87b51.htm" />
   <HelpKINode Title="BeefQty property" Url="html/721541f9-cccb-62f9-96ba-d50076e43aab.htm" />
+  <HelpKINode Title="BeginInvoke method" Url="html/2ac7f365-322f-e05f-a039-8ebad53b0fc0.htm" />
+  <HelpKINode Title="BeginInvoke method" Url="html/62e79db9-7c70-bcf3-f563-0746bba425e1.htm" />
+  <HelpKINode Title="BeginInvoke method" Url="html/a0be3806-0ebb-2806-ea18-8de15021ec58.htm" />
   <HelpKINode Title="BeginInvoke method" Url="html/d3d83693-b147-daa1-bd52-3ecbcf193f73.htm" />
+  <HelpKINode Title="BeginInvoke method" Url="html/defff726-407b-99ad-9630-259bdfa49698.htm" />
+  <HelpKINode Title="BeginInvoke method" Url="html/f45e4df7-6173-4c7a-17d1-f594e556afc9.htm" />
   <HelpKINode Title="BlackBeans property" Url="html/cca8566d-6159-ba56-80dc-4cd89a56ea2e.htm" />
   <HelpKINode Title="BlackBeansQty property" Url="html/575a587f-a78e-d51b-7c36-b583ad2b1a39.htm" />
   <HelpKINode Title="BrownRice property" Url="html/62bb46fd-85f0-aa42-9ca9-a67b0e5cc733.htm" />
@@ -88,6 +98,39 @@
   <HelpKINode Title="Burrito.validate method" Url="html/2bd2f307-799c-89cf-4ff2-fd4736d159ae.htm" />
   <HelpKINode Title="Burrito.WheatTortilla property" Url="html/2b5f2001-77ea-29fc-19bf-756930c345a8.htm" />
   <HelpKINode Title="Burrito.WhiteRice property" Url="html/08ed3f59-d9c2-66fb-043f-9f3499d3d613.htm" />
+  <HelpKINode Title="BurritoDialog class" Url="html/c399cd29-52cb-e2cc-56b5-088efc9a768c.htm" />
+  <HelpKINode Title="BurritoDialog class" Url="html/e1bfa0b1-4e7a-8036-483d-fdf1fce9cf90.htm" />
+  <HelpKINode Title="BurritoDialog class">
+    <HelpKINode Title="about BurritoDialog class" Url="html/e1bfa0b1-4e7a-8036-483d-fdf1fce9cf90.htm" />
+    <HelpKINode Title="all members" Url="html/c399cd29-52cb-e2cc-56b5-088efc9a768c.htm" />
+    <HelpKINode Title="constructor" Url="html/d103f8b9-0511-eb0b-28d4-4667984425f3.htm" />
+    <HelpKINode Title="events" Url="html/49ffba11-bd7c-7936-bc96-3a60f17bb63c.htm" />
+    <HelpKINode Title="methods" Url="html/2d540163-0769-fc1c-aaab-62993caa50d4.htm" />
+    <HelpKINode Title="properties" Url="html/1b3de4d7-f96b-5a53-ad23-59b724168378.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BurritoDialog.AccessibilityNotifyClients method" Url="html/a164977f-108f-d7a1-5c4a-0398de1d18ad.htm" />
+  <HelpKINode Title="BurritoDialog.BeginInvoke method" Url="html/2ac7f365-322f-e05f-a039-8ebad53b0fc0.htm" />
+  <HelpKINode Title="BurritoDialog.BurritoDialog constructor" Url="html/d103f8b9-0511-eb0b-28d4-4667984425f3.htm" />
+  <HelpKINode Title="BurritoDialog.clearState method" Url="html/fae81489-c48f-36f0-8f96-e7d60862f0fc.htm" />
+  <HelpKINode Title="BurritoDialog.Dispose method" Url="html/10ac7de3-ec3d-bac2-67e6-4a3865bff54c.htm" />
+  <HelpKINode Title="BurritoDialog.getBurritoType method" Url="html/2ca2f14f-7211-7b38-0686-6a0f9ae95e29.htm" />
+  <HelpKINode Title="BurritoDialog.GetChildAtPoint method" Url="html/81c97f7c-94aa-c7c2-9e6a-7530627d1c96.htm" />
+  <HelpKINode Title="BurritoDialog.getNewBurrito method" Url="html/755a42ba-63c6-c51b-c9a9-bfb0a7c9e644.htm" />
+  <HelpKINode Title="BurritoDialog.Invalidate method" Url="html/64ad7517-2d75-f848-1c4d-09d62e4edcf4.htm" />
+  <HelpKINode Title="BurritoDialog.Invoke method" Url="html/0eebf2db-e56a-fd28-868e-81dfd87214ab.htm" />
+  <HelpKINode Title="BurritoDialog.MemberwiseClone method" Url="html/338e5803-c037-b950-cc2d-9fdceac8d357.htm" />
+  <HelpKINode Title="BurritoDialog.PerformLayout method" Url="html/53a8c3f6-2961-d608-da0c-2db1d907ae6c.htm" />
+  <HelpKINode Title="BurritoDialog.ResumeLayout method" Url="html/38b42de0-b3f7-6b1b-4370-87f5cd3651fb.htm" />
+  <HelpKINode Title="BurritoDialog.RtlTranslateAlignment method" Url="html/19ff5a33-eaed-2ad9-9994-958b116c657a.htm" />
+  <HelpKINode Title="BurritoDialog.Scale method" Url="html/3d5b224d-80e8-05dd-525d-5529b934625c.htm" />
+  <HelpKINode Title="BurritoDialog.Select method" Url="html/e361b9b5-a6fa-fa8f-2c1d-cc537f2933fa.htm" />
+  <HelpKINode Title="BurritoDialog.SetBounds method" Url="html/6e456176-0391-f810-435e-6914cd696991.htm" />
+  <HelpKINode Title="BurritoDialog.setBurrito method" Url="html/ab0ad5aa-67ce-6865-dcee-2bf2e7b49d49.htm" />
+  <HelpKINode Title="BurritoDialog.Show method" Url="html/73b8a286-d6e1-0fa2-34c0-879d2891a52e.htm" />
+  <HelpKINode Title="BurritoDialog.ShowDialog method" Url="html/ae325118-d03f-709d-0ef7-93b978833d89.htm" />
+  <HelpKINode Title="BurritoDialog.UpdateBounds method" Url="html/b098ec96-1ab9-be4d-04aa-a9741bcf31e9.htm" />
+  <HelpKINode Title="BurritoDialog.Validate method" Url="html/968a2a91-aa80-62f8-f0a0-c9224327a354.htm" />
+  <HelpKINode Title="BurritoDialog.ValidateChildren method" Url="html/4f12fe90-b93b-7c8b-b44a-560caf8a9e16.htm" />
   <HelpKINode Title="BurritoManager class" Url="html/8bb0236f-7090-63b5-73d8-26737040292a.htm" />
   <HelpKINode Title="BurritoManager class" Url="html/b3b3e73c-7180-c4cd-ba92-6379d3086559.htm" />
   <HelpKINode Title="BurritoManager class">
@@ -175,8 +218,18 @@
   <HelpKINode Title="BurritoPOS.exception.ServiceLoadException class" Url="html/8e098e8b-387e-2f3e-5c35-666b31482e41.htm" />
   <HelpKINode Title="BurritoPOS.exception.ServiceLoadException class" Url="html/dd31c260-ea7d-eb74-1f23-3af9d980cc8c.htm" />
   <HelpKINode Title="BurritoPOS.presentation namespace" Url="html/f0fd15e5-2a11-029d-7683-4e225796e85a.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.BurritoDialog class" Url="html/c399cd29-52cb-e2cc-56b5-088efc9a768c.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.BurritoDialog class" Url="html/e1bfa0b1-4e7a-8036-483d-fdf1fce9cf90.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.InventoryUI class" Url="html/526523f9-d381-cfce-ef92-b42fb86681e2.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.InventoryUI class" Url="html/82b06489-6be3-a45c-6129-32efca644e09.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.LoginUI class" Url="html/1f27e3b8-17d7-d699-fa1f-2db9e8dbb2e1.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.LoginUI class" Url="html/dc818a89-6671-eceb-3c01-ac9144cf09a8.htm" />
   <HelpKINode Title="BurritoPOS.presentation.MainUI class" Url="html/6ce22398-36b9-c244-874c-3d02c834f7e7.htm" />
   <HelpKINode Title="BurritoPOS.presentation.MainUI class" Url="html/a2fe9f28-9d00-f119-a8c9-5c10a54bcca9.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.OrderUI class" Url="html/6389e3be-f5af-9abc-ae86-865f1b9cecb1.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.OrderUI class" Url="html/f7945645-cc29-3bc3-92a0-3c62e1bf08e8.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.OrderViewUI class" Url="html/8d5f585a-a657-65e6-39c4-8bb5ba95d3e2.htm" />
+  <HelpKINode Title="BurritoPOS.presentation.OrderViewUI class" Url="html/dbc87c8c-0882-9299-10e2-0ef114728f99.htm" />
   <HelpKINode Title="BurritoPOS.Program class" Url="html/8005e901-8245-2410-e217-b49a0c830961.htm" />
   <HelpKINode Title="BurritoPOS.service namespace" Url="html/bb6afb5e-fc39-f7d6-ea48-c7d8e958b515.htm" />
   <HelpKINode Title="BurritoPOS.service.Factory class" Url="html/0fb7252c-b13e-86bc-24c0-dcee8afe7406.htm" />
@@ -350,6 +403,7 @@
   <HelpKINode Title="ChickenQty property" Url="html/e8b364f9-832b-bc8a-14d9-65eb5a4bb19a.htm" />
   <HelpKINode Title="ChiliTortilla property" Url="html/6ffca420-a1a2-58ce-1637-36e485163f86.htm" />
   <HelpKINode Title="ChiliTortillaQty property" Url="html/c7344b47-0bde-e58a-2f3f-7bc14c34287d.htm" />
+  <HelpKINode Title="clearState method" Url="html/fae81489-c48f-36f0-8f96-e7d60862f0fc.htm" />
   <HelpKINode Title="Component method" Url="html/c488476d-8c28-0bec-0495-2bf5466e5ebb.htm" />
   <HelpKINode Title="CompositeId method" Url="html/e14dc53f-f620-9442-f72b-ce97ba2535fe.htm" />
   <HelpKINode Title="createBurrito method" Url="html/ec77c18f-baa6-65eb-7ec2-9695a7d77e90.htm" />
@@ -484,7 +538,12 @@
   <HelpKINode Title="deleteOrder method" Url="html/d11d6104-009d-34c2-bb11-9d53ad98e0ac.htm" />
   <HelpKINode Title="deleteOrder method" Url="html/f1c3edf3-648c-bb20-6e3b-1ff16a6ba0bc.htm" />
   <HelpKINode Title="DiscriminateSubClassesOnColumn method" Url="html/7f597a02-9428-b9e6-5df5-1203e99f37f6.htm" />
+  <HelpKINode Title="Dispose method" Url="html/10ac7de3-ec3d-bac2-67e6-4a3865bff54c.htm" />
+  <HelpKINode Title="Dispose method" Url="html/192a1ad2-3c06-b362-1c2c-ca575a79911f.htm" />
+  <HelpKINode Title="Dispose method" Url="html/42a5e0ad-f8c3-2f64-3a88-6a52668904da.htm" />
+  <HelpKINode Title="Dispose method" Url="html/440eb27e-044a-4795-a7e3-7fed44bb732f.htm" />
   <HelpKINode Title="Dispose method" Url="html/4f0d6a03-303b-49f6-d1b9-c5ad7e9cea06.htm" />
+  <HelpKINode Title="Dispose method" Url="html/f5ceea1a-2fcb-8013-76ec-4f8a46356c41.htm" />
   <HelpKINode Title="DynamicComponent method" Url="html/a2eea4c7-f066-b5f3-75e1-23b7789f94af.htm" />
   <HelpKINode Title="emailAddress property" Url="html/8e3036a3-40a5-0562-5b8f-42518385cfa5.htm" />
   <HelpKINode Title="Employee class" Url="html/13e4223d-f8ed-da11-db5d-1cd5c57e4b3d.htm" />
@@ -640,6 +699,12 @@
   <HelpKINode Title="getBurrito method" Url="html/f6a6db55-d0e5-dc1a-9e8f-60b150b21ad5.htm" />
   <HelpKINode Title="getBurritoSvc method" Url="html/af7d232b-a610-f212-4c3a-4e0e9045879a.htm" />
   <HelpKINode Title="getBurritoType method" Url="html/079e9651-b290-5780-3059-7829bd85aa15.htm" />
+  <HelpKINode Title="getBurritoType method" Url="html/2ca2f14f-7211-7b38-0686-6a0f9ae95e29.htm" />
+  <HelpKINode Title="GetChildAtPoint method" Url="html/7d664baa-9c1b-8635-f823-198c15fa2ce9.htm" />
+  <HelpKINode Title="GetChildAtPoint method" Url="html/80e52f28-3a00-551f-3ab3-b834008990ee.htm" />
+  <HelpKINode Title="GetChildAtPoint method" Url="html/81c97f7c-94aa-c7c2-9e6a-7530627d1c96.htm" />
+  <HelpKINode Title="GetChildAtPoint method" Url="html/9e4694d0-2f5e-8bae-7dc5-36411b835f64.htm" />
+  <HelpKINode Title="GetChildAtPoint method" Url="html/a74e4543-cb9b-5822-dc74-9d31fa6cbc4d.htm" />
   <HelpKINode Title="GetChildAtPoint method" Url="html/d7ef5124-9074-62fa-6541-0c84fc20a7ac.htm" />
   <HelpKINode Title="getCustomer method" Url="html/0900d9c7-381f-150c-db25-daf113a7d75d.htm" />
   <HelpKINode Title="getCustomer method" Url="html/5726091d-b78e-b240-75bd-932855fdba8d.htm" />
@@ -674,6 +739,7 @@
   <HelpKINode Title="getManager method" Url="html/c60b6c79-9f33-03ea-e5b7-a5812011ee76.htm" />
   <HelpKINode Title="getManager method" Url="html/eb569173-f1ee-df51-4c68-b12e6a9a9623.htm" />
   <HelpKINode Title="getManagerSvc method" Url="html/e11696e7-7981-cd75-ce1d-10f73597dbca.htm" />
+  <HelpKINode Title="getNewBurrito method" Url="html/755a42ba-63c6-c51b-c9a9-bfb0a7c9e644.htm" />
   <HelpKINode Title="getOrder method" Url="html/10ce9a5d-f15d-ff92-2021-2fea905b83d2.htm" />
   <HelpKINode Title="getOrder method" Url="html/5366b1f9-c703-179c-04fb-f4c945002463.htm" />
   <HelpKINode Title="getOrder method" Url="html/90664f93-cc2a-8352-d67b-59ed84e560b9.htm" />
@@ -782,6 +848,11 @@
   </HelpKINode>
   <HelpKINode Title="InsufficientInventoryException.InsufficientInventoryException constructor" Url="html/0c17f390-845c-cf9d-a948-963e4e871a38.htm" />
   <HelpKINode Title="Invalidate method" Url="html/150dd221-603f-ab09-bd8d-3aeb7b7f045d.htm" />
+  <HelpKINode Title="Invalidate method" Url="html/16ef4f6f-6e73-3fc7-494b-7d9f66a57691.htm" />
+  <HelpKINode Title="Invalidate method" Url="html/21795ad6-3c2c-5e8b-e1ee-c602ee306806.htm" />
+  <HelpKINode Title="Invalidate method" Url="html/3594da44-2c7f-849e-e163-ed622cf4422b.htm" />
+  <HelpKINode Title="Invalidate method" Url="html/64ad7517-2d75-f848-1c4d-09d62e4edcf4.htm" />
+  <HelpKINode Title="Invalidate method" Url="html/8380c958-53ab-c3f1-2079-6ac45bdd80ee.htm" />
   <HelpKINode Title="Inventory class" Url="html/638cc780-2afe-bb27-44d2-87b46865d6c3.htm" />
   <HelpKINode Title="Inventory class" Url="html/ff09ced7-3059-ca46-5133-2d4c23bc6285.htm" />
   <HelpKINode Title="Inventory class">
@@ -949,7 +1020,41 @@
   <HelpKINode Title="InventoryTestCase.testInvalidInventory method" Url="html/b0e74296-37e0-ef2a-9599-8ab4655a01dd.htm" />
   <HelpKINode Title="InventoryTestCase.testNotEqualsInventory method" Url="html/62b0d183-1320-dc75-827a-e2a932c0c7ba.htm" />
   <HelpKINode Title="InventoryTestCase.testValidateInventory method" Url="html/44680f56-522d-fb0b-58c9-450a7babfa06.htm" />
+  <HelpKINode Title="InventoryUI class" Url="html/526523f9-d381-cfce-ef92-b42fb86681e2.htm" />
+  <HelpKINode Title="InventoryUI class" Url="html/82b06489-6be3-a45c-6129-32efca644e09.htm" />
+  <HelpKINode Title="InventoryUI class">
+    <HelpKINode Title="about InventoryUI class" Url="html/82b06489-6be3-a45c-6129-32efca644e09.htm" />
+    <HelpKINode Title="all members" Url="html/526523f9-d381-cfce-ef92-b42fb86681e2.htm" />
+    <HelpKINode Title="constructor" Url="html/703b938a-8792-0679-e4ad-342f8119d4e5.htm" />
+    <HelpKINode Title="events" Url="html/775029f7-0fd5-3d7e-1886-85d7a463d272.htm" />
+    <HelpKINode Title="methods" Url="html/eb7f8b5b-bc64-5351-5d04-a7828a231a98.htm" />
+    <HelpKINode Title="properties" Url="html/6904c5ae-3c9b-95db-35f9-c3944951bc90.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventoryUI.AccessibilityNotifyClients method" Url="html/41dc25d5-3055-2462-7b9f-f6ebd381975c.htm" />
+  <HelpKINode Title="InventoryUI.BeginInvoke method" Url="html/f45e4df7-6173-4c7a-17d1-f594e556afc9.htm" />
+  <HelpKINode Title="InventoryUI.Dispose method" Url="html/42a5e0ad-f8c3-2f64-3a88-6a52668904da.htm" />
+  <HelpKINode Title="InventoryUI.GetChildAtPoint method" Url="html/80e52f28-3a00-551f-3ab3-b834008990ee.htm" />
+  <HelpKINode Title="InventoryUI.Invalidate method" Url="html/16ef4f6f-6e73-3fc7-494b-7d9f66a57691.htm" />
+  <HelpKINode Title="InventoryUI.InventoryUI constructor" Url="html/703b938a-8792-0679-e4ad-342f8119d4e5.htm" />
+  <HelpKINode Title="InventoryUI.Invoke method" Url="html/f2ef4276-9102-3149-390e-4be32606173b.htm" />
+  <HelpKINode Title="InventoryUI.MemberwiseClone method" Url="html/d50a036d-9739-341e-7d9e-2228ec388df2.htm" />
+  <HelpKINode Title="InventoryUI.PerformLayout method" Url="html/a69bba00-6a73-2614-b3a6-a642fbfba5a5.htm" />
+  <HelpKINode Title="InventoryUI.ResumeLayout method" Url="html/bb3ab421-1cf3-35e4-5a5e-361392ffd39a.htm" />
+  <HelpKINode Title="InventoryUI.RtlTranslateAlignment method" Url="html/fc461b7f-614f-457a-cfb2-7dce46b78f5c.htm" />
+  <HelpKINode Title="InventoryUI.Scale method" Url="html/d5d3f069-ef5c-e915-45e2-62eced7a1d71.htm" />
+  <HelpKINode Title="InventoryUI.Select method" Url="html/43619b81-b050-2444-cf4a-49a3dbbb9736.htm" />
+  <HelpKINode Title="InventoryUI.SetBounds method" Url="html/b4cf9de9-4e8b-24d3-6329-c3d948151c76.htm" />
+  <HelpKINode Title="InventoryUI.Show method" Url="html/8ee4a118-0f19-98d3-ae19-aa22f364b0d8.htm" />
+  <HelpKINode Title="InventoryUI.ShowDialog method" Url="html/89390826-c632-1043-f43d-312aebfb16ed.htm" />
+  <HelpKINode Title="InventoryUI.UpdateBounds method" Url="html/b6d0da22-095f-2d14-30a0-7efc7018e87e.htm" />
+  <HelpKINode Title="InventoryUI.Validate method" Url="html/6c3ab5e1-9853-5e06-4e69-d0da44395832.htm" />
+  <HelpKINode Title="InventoryUI.ValidateChildren method" Url="html/d9e4849e-6435-362c-9fb4-88f5c94eda4d.htm" />
+  <HelpKINode Title="Invoke method" Url="html/05443ab8-01db-5c8b-dd39-b8eb85443527.htm" />
+  <HelpKINode Title="Invoke method" Url="html/0eebf2db-e56a-fd28-868e-81dfd87214ab.htm" />
+  <HelpKINode Title="Invoke method" Url="html/11449ae2-21cd-93d4-b683-fe0750849512.htm" />
+  <HelpKINode Title="Invoke method" Url="html/c302835a-2ee8-4acf-bd2a-c489c1473a42.htm" />
   <HelpKINode Title="Invoke method" Url="html/ef702d14-64d0-16c9-de8b-e340b71c3ce3.htm" />
+  <HelpKINode Title="Invoke method" Url="html/f2ef4276-9102-3149-390e-4be32606173b.htm" />
   <HelpKINode Title="IOrderSvc interface" Url="html/156ee10b-99ad-676a-2e16-7c681d4be907.htm" />
   <HelpKINode Title="IOrderSvc interface" Url="html/8d6391ca-b16c-d019-5f60-0a1b7be2842f.htm" />
   <HelpKINode Title="IOrderSvc interface">
@@ -981,6 +1086,35 @@
   <HelpKINode Title="Lettuce property" Url="html/cccf71ec-650d-844d-ef73-f010cd03b190.htm" />
   <HelpKINode Title="LettuceQty property" Url="html/6f0ca666-ecef-ea23-65c2-bfe5f11ed26b.htm" />
   <HelpKINode Title="login method" Url="html/b28e97a4-8b23-671f-8202-aa352355d2ce.htm" />
+  <HelpKINode Title="LoginUI class" Url="html/1f27e3b8-17d7-d699-fa1f-2db9e8dbb2e1.htm" />
+  <HelpKINode Title="LoginUI class" Url="html/dc818a89-6671-eceb-3c01-ac9144cf09a8.htm" />
+  <HelpKINode Title="LoginUI class">
+    <HelpKINode Title="about LoginUI class" Url="html/dc818a89-6671-eceb-3c01-ac9144cf09a8.htm" />
+    <HelpKINode Title="all members" Url="html/1f27e3b8-17d7-d699-fa1f-2db9e8dbb2e1.htm" />
+    <HelpKINode Title="constructor" Url="html/f6dae6d8-f20d-80e2-a8cb-302b5d51d2b7.htm" />
+    <HelpKINode Title="events" Url="html/e59f988a-6df6-8dc7-dc30-29f4b59f7132.htm" />
+    <HelpKINode Title="methods" Url="html/43746433-c7d4-c802-2b80-1cc363707e65.htm" />
+    <HelpKINode Title="properties" Url="html/780c6da8-f228-c77e-8f9f-312a3215b0f9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginUI.AccessibilityNotifyClients method" Url="html/2a551ebb-23ef-9269-51e3-528ced0ea2be.htm" />
+  <HelpKINode Title="LoginUI.BeginInvoke method" Url="html/62e79db9-7c70-bcf3-f563-0746bba425e1.htm" />
+  <HelpKINode Title="LoginUI.Dispose method" Url="html/440eb27e-044a-4795-a7e3-7fed44bb732f.htm" />
+  <HelpKINode Title="LoginUI.GetChildAtPoint method" Url="html/9e4694d0-2f5e-8bae-7dc5-36411b835f64.htm" />
+  <HelpKINode Title="LoginUI.Invalidate method" Url="html/3594da44-2c7f-849e-e163-ed622cf4422b.htm" />
+  <HelpKINode Title="LoginUI.Invoke method" Url="html/11449ae2-21cd-93d4-b683-fe0750849512.htm" />
+  <HelpKINode Title="LoginUI.LoginUI constructor" Url="html/f6dae6d8-f20d-80e2-a8cb-302b5d51d2b7.htm" />
+  <HelpKINode Title="LoginUI.MemberwiseClone method" Url="html/070d2f32-a419-d914-eb62-2c1511bf57ca.htm" />
+  <HelpKINode Title="LoginUI.PerformLayout method" Url="html/abaf0376-563f-7bcd-0b93-dfd8b10feaed.htm" />
+  <HelpKINode Title="LoginUI.ResumeLayout method" Url="html/d12b68ff-acbf-91ab-8faf-0b906f30138e.htm" />
+  <HelpKINode Title="LoginUI.RtlTranslateAlignment method" Url="html/beb738b9-7d75-c6e4-df3d-5a25b2492aa3.htm" />
+  <HelpKINode Title="LoginUI.Scale method" Url="html/c3259cfc-1763-b60e-85ff-6df9b8a0fbfa.htm" />
+  <HelpKINode Title="LoginUI.Select method" Url="html/2f13ea2c-a658-80fc-57f8-143c30d0a081.htm" />
+  <HelpKINode Title="LoginUI.SetBounds method" Url="html/d1846e43-9324-a519-e2ca-8b3578213895.htm" />
+  <HelpKINode Title="LoginUI.Show method" Url="html/ecf58fba-7380-da2f-3ddb-0a7d38f4f918.htm" />
+  <HelpKINode Title="LoginUI.ShowDialog method" Url="html/59d68142-4bb8-9734-b1c6-f480b7585070.htm" />
+  <HelpKINode Title="LoginUI.UpdateBounds method" Url="html/0af4d793-88d6-3312-e9c8-5247c70e2fc4.htm" />
+  <HelpKINode Title="LoginUI.Validate method" Url="html/61792310-3410-5461-e919-ed42b74ad234.htm" />
+  <HelpKINode Title="LoginUI.ValidateChildren method" Url="html/7eeddaaa-0bc3-8db6-c4ef-c3b0986f37b9.htm" />
   <HelpKINode Title="MainUI class" Url="html/6ce22398-36b9-c244-874c-3d02c834f7e7.htm" />
   <HelpKINode Title="MainUI class" Url="html/a2fe9f28-9d00-f119-a8c9-5c10a54bcca9.htm" />
   <HelpKINode Title="MainUI class">
@@ -1130,7 +1264,12 @@
   <HelpKINode Title="ManagerTestCase.testNotEqualsManager method" Url="html/541053f2-3006-6285-a587-6b2486a36866.htm" />
   <HelpKINode Title="ManagerTestCase.testValidateManager method" Url="html/a666ad6c-bb8c-2f2b-9798-2fa298b46f88.htm" />
   <HelpKINode Title="Map method" Url="html/e38a3a51-d14e-ce32-a615-61834d4369d7.htm" />
+  <HelpKINode Title="MemberwiseClone method" Url="html/070d2f32-a419-d914-eb62-2c1511bf57ca.htm" />
+  <HelpKINode Title="MemberwiseClone method" Url="html/338e5803-c037-b950-cc2d-9fdceac8d357.htm" />
+  <HelpKINode Title="MemberwiseClone method" Url="html/a35dec60-d6e0-2eec-cdd9-5cb63b2f19e7.htm" />
+  <HelpKINode Title="MemberwiseClone method" Url="html/b229547f-6b77-bda1-d874-6addfb789596.htm" />
   <HelpKINode Title="MemberwiseClone method" Url="html/b5514c70-f608-f2a4-3538-383f78a232d1.htm" />
+  <HelpKINode Title="MemberwiseClone method" Url="html/d50a036d-9739-341e-7d9e-2228ec388df2.htm" />
   <HelpKINode Title="NAME property" Url="html/0d80d1af-05e2-8d6b-9b62-9071d0e21e7f.htm" />
   <HelpKINode Title="NAME property" Url="html/42c736a2-3f6d-f65e-4433-b155d7d1f978.htm" />
   <HelpKINode Title="NAME property" Url="html/486503fc-badd-cbb8-b5c5-afa6aff05645.htm" />
@@ -1281,9 +1420,72 @@
   <HelpKINode Title="OrderTestCase.testInvalidOrder method" Url="html/1d0ce23a-0ea2-a7c7-9e84-e588ae4b0a8c.htm" />
   <HelpKINode Title="OrderTestCase.testNotEqualsOrder method" Url="html/feee7e44-5ee3-843a-4e9c-a13de20e294b.htm" />
   <HelpKINode Title="OrderTestCase.testValidateOrder method" Url="html/6643fb2c-b0e4-e256-3890-be88b92b2c3a.htm" />
+  <HelpKINode Title="OrderUI class" Url="html/6389e3be-f5af-9abc-ae86-865f1b9cecb1.htm" />
+  <HelpKINode Title="OrderUI class" Url="html/f7945645-cc29-3bc3-92a0-3c62e1bf08e8.htm" />
+  <HelpKINode Title="OrderUI class">
+    <HelpKINode Title="about OrderUI class" Url="html/f7945645-cc29-3bc3-92a0-3c62e1bf08e8.htm" />
+    <HelpKINode Title="all members" Url="html/6389e3be-f5af-9abc-ae86-865f1b9cecb1.htm" />
+    <HelpKINode Title="constructor" Url="html/711b7422-be2d-0cfc-f92d-7b6577a7a3f7.htm" />
+    <HelpKINode Title="events" Url="html/66b5f210-4de2-64db-3f62-99243beb014f.htm" />
+    <HelpKINode Title="methods" Url="html/6bece6a9-9bdc-d025-662f-8bbfe969ef01.htm" />
+    <HelpKINode Title="properties" Url="html/ec8c3f19-ca8b-52e3-b667-9462ab3b8150.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderUI.AccessibilityNotifyClients method" Url="html/8e95a22c-9ba7-d243-2299-edba5064becb.htm" />
+  <HelpKINode Title="OrderUI.BeginInvoke method" Url="html/defff726-407b-99ad-9630-259bdfa49698.htm" />
+  <HelpKINode Title="OrderUI.Dispose method" Url="html/f5ceea1a-2fcb-8013-76ec-4f8a46356c41.htm" />
+  <HelpKINode Title="OrderUI.GetChildAtPoint method" Url="html/a74e4543-cb9b-5822-dc74-9d31fa6cbc4d.htm" />
+  <HelpKINode Title="OrderUI.Invalidate method" Url="html/21795ad6-3c2c-5e8b-e1ee-c602ee306806.htm" />
+  <HelpKINode Title="OrderUI.Invoke method" Url="html/05443ab8-01db-5c8b-dd39-b8eb85443527.htm" />
+  <HelpKINode Title="OrderUI.MemberwiseClone method" Url="html/b229547f-6b77-bda1-d874-6addfb789596.htm" />
+  <HelpKINode Title="OrderUI.OrderUI constructor" Url="html/711b7422-be2d-0cfc-f92d-7b6577a7a3f7.htm" />
+  <HelpKINode Title="OrderUI.PerformLayout method" Url="html/58327cd5-e3ca-e537-bae7-c58184390dd2.htm" />
+  <HelpKINode Title="OrderUI.ResumeLayout method" Url="html/6d471cc9-d7e9-31a2-cacd-0df0dcea5fa5.htm" />
+  <HelpKINode Title="OrderUI.RtlTranslateAlignment method" Url="html/ee6ec81b-bc77-6be4-2e82-63a488665afe.htm" />
+  <HelpKINode Title="OrderUI.Scale method" Url="html/97d69b8f-94a1-5ade-30b9-bad7f080de15.htm" />
+  <HelpKINode Title="OrderUI.Select method" Url="html/1d5010dc-4ce3-2572-dbf1-2d23eb694655.htm" />
+  <HelpKINode Title="OrderUI.SetBounds method" Url="html/cdda6463-c65c-34d4-a90d-ed7be337a0a8.htm" />
+  <HelpKINode Title="OrderUI.Show method" Url="html/bb4407a9-bb73-def1-9c59-019de127be13.htm" />
+  <HelpKINode Title="OrderUI.ShowDialog method" Url="html/a38ad701-b577-8c1c-5b3c-f67291661e29.htm" />
+  <HelpKINode Title="OrderUI.UpdateBounds method" Url="html/13a7c2bf-c132-c349-ccda-1f92227f7dee.htm" />
+  <HelpKINode Title="OrderUI.Validate method" Url="html/82bba097-16a0-b758-cf07-8542a33c7ce3.htm" />
+  <HelpKINode Title="OrderUI.ValidateChildren method" Url="html/27cb0a90-106d-6b25-468f-75d97cfaae74.htm" />
+  <HelpKINode Title="OrderViewUI class" Url="html/8d5f585a-a657-65e6-39c4-8bb5ba95d3e2.htm" />
+  <HelpKINode Title="OrderViewUI class" Url="html/dbc87c8c-0882-9299-10e2-0ef114728f99.htm" />
+  <HelpKINode Title="OrderViewUI class">
+    <HelpKINode Title="about OrderViewUI class" Url="html/dbc87c8c-0882-9299-10e2-0ef114728f99.htm" />
+    <HelpKINode Title="all members" Url="html/8d5f585a-a657-65e6-39c4-8bb5ba95d3e2.htm" />
+    <HelpKINode Title="constructor" Url="html/4aa52c4c-15a6-c832-9733-e1afa7989d87.htm" />
+    <HelpKINode Title="events" Url="html/efb4c67a-ec59-96cb-aa0d-108eaccf9a6a.htm" />
+    <HelpKINode Title="methods" Url="html/59cfaf08-fbd9-fb14-9157-6dbb869fef44.htm" />
+    <HelpKINode Title="properties" Url="html/19930cb9-0d38-a1de-b859-5b617a6b58cf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderViewUI.AccessibilityNotifyClients method" Url="html/701878a2-a865-a9bb-381f-4424cd86ae43.htm" />
+  <HelpKINode Title="OrderViewUI.BeginInvoke method" Url="html/a0be3806-0ebb-2806-ea18-8de15021ec58.htm" />
+  <HelpKINode Title="OrderViewUI.Dispose method" Url="html/192a1ad2-3c06-b362-1c2c-ca575a79911f.htm" />
+  <HelpKINode Title="OrderViewUI.GetChildAtPoint method" Url="html/7d664baa-9c1b-8635-f823-198c15fa2ce9.htm" />
+  <HelpKINode Title="OrderViewUI.Invalidate method" Url="html/8380c958-53ab-c3f1-2079-6ac45bdd80ee.htm" />
+  <HelpKINode Title="OrderViewUI.Invoke method" Url="html/c302835a-2ee8-4acf-bd2a-c489c1473a42.htm" />
+  <HelpKINode Title="OrderViewUI.MemberwiseClone method" Url="html/a35dec60-d6e0-2eec-cdd9-5cb63b2f19e7.htm" />
+  <HelpKINode Title="OrderViewUI.OrderViewUI constructor" Url="html/4aa52c4c-15a6-c832-9733-e1afa7989d87.htm" />
+  <HelpKINode Title="OrderViewUI.PerformLayout method" Url="html/204d7b45-2633-74d3-c231-31d72d9796c2.htm" />
+  <HelpKINode Title="OrderViewUI.ResumeLayout method" Url="html/a9da98f0-1bf8-eac2-cfff-074d404eb506.htm" />
+  <HelpKINode Title="OrderViewUI.RtlTranslateAlignment method" Url="html/873d7083-a21f-2a1e-cd0b-3d7c504f19c2.htm" />
+  <HelpKINode Title="OrderViewUI.Scale method" Url="html/a6fe9d2a-e4fc-455f-2aab-93d44bf9737f.htm" />
+  <HelpKINode Title="OrderViewUI.Select method" Url="html/7b1fccb7-da6f-b15a-8c37-8ec4b48f513a.htm" />
+  <HelpKINode Title="OrderViewUI.SetBounds method" Url="html/e8605dd5-bdb8-f3e7-78a2-b97960a7f416.htm" />
+  <HelpKINode Title="OrderViewUI.Show method" Url="html/cbad2aa0-6399-a7bb-b729-98ed07acfa4d.htm" />
+  <HelpKINode Title="OrderViewUI.ShowDialog method" Url="html/1b45c37b-0841-3778-f2cb-281a993eae45.htm" />
+  <HelpKINode Title="OrderViewUI.UpdateBounds method" Url="html/843e9cd4-8f64-b5bb-4afb-6c6d04a0ca04.htm" />
+  <HelpKINode Title="OrderViewUI.Validate method" Url="html/6d16b29e-0bcd-fc4a-d18a-6d7cda6d531d.htm" />
+  <HelpKINode Title="OrderViewUI.ValidateChildren method" Url="html/ed7deae9-867b-b388-1347-b75c73b8a92a.htm" />
   <HelpKINode Title="Override method" Url="html/34c540d8-b995-da46-a8e7-4e67d64d6210.htm" />
   <HelpKINode Title="parse method" Url="html/034f31e4-b10a-9ee5-e289-7713a4be3f1a.htm" />
+  <HelpKINode Title="PerformLayout method" Url="html/204d7b45-2633-74d3-c231-31d72d9796c2.htm" />
   <HelpKINode Title="PerformLayout method" Url="html/28bb7492-e355-275a-cb59-0b3290adb8ed.htm" />
+  <HelpKINode Title="PerformLayout method" Url="html/53a8c3f6-2961-d608-da0c-2db1d907ae6c.htm" />
+  <HelpKINode Title="PerformLayout method" Url="html/58327cd5-e3ca-e537-bae7-c58184390dd2.htm" />
+  <HelpKINode Title="PerformLayout method" Url="html/a69bba00-6a73-2614-b3a6-a642fbfba5a5.htm" />
+  <HelpKINode Title="PerformLayout method" Url="html/abaf0376-563f-7bcd-0b93-dfd8b10feaed.htm" />
   <HelpKINode Title="Persister method" Url="html/32892478-431e-a824-c0e0-d31c954e0661.htm" />
   <HelpKINode Title="PintoBeans property" Url="html/cc0c4940-8930-5919-fa53-1d77136798e5.htm" />
   <HelpKINode Title="PintoBeansQty property" Url="html/e5f52923-edb2-081f-d4d7-00d7be4d1307.htm" />
@@ -1305,17 +1507,37 @@
   <HelpKINode Title="ReferencesAny method" Url="html/a0572e1a-c51f-5743-94e4-25f8993760ca.htm" />
   <HelpKINode Title="removeBurritoFromOrder method" Url="html/3640ac80-465c-45a4-b59b-0632c7d4ac5b.htm" />
   <HelpKINode Title="removeFromInventory method" Url="html/b41e69bc-5d40-6bc4-b18b-03ba1f0c1eba.htm" />
+  <HelpKINode Title="ResumeLayout method" Url="html/38b42de0-b3f7-6b1b-4370-87f5cd3651fb.htm" />
+  <HelpKINode Title="ResumeLayout method" Url="html/6d471cc9-d7e9-31a2-cacd-0df0dcea5fa5.htm" />
   <HelpKINode Title="ResumeLayout method" Url="html/8eb58e88-e62a-0425-48e0-fbce46ffe7c1.htm" />
+  <HelpKINode Title="ResumeLayout method" Url="html/a9da98f0-1bf8-eac2-cfff-074d404eb506.htm" />
+  <HelpKINode Title="ResumeLayout method" Url="html/bb3ab421-1cf3-35e4-5a5e-361392ffd39a.htm" />
+  <HelpKINode Title="ResumeLayout method" Url="html/d12b68ff-acbf-91ab-8faf-0b906f30138e.htm" />
   <HelpKINode Title="returnToInventory method" Url="html/8586ac45-6429-954b-d9fe-bfc5a91e4e8d.htm" />
+  <HelpKINode Title="RtlTranslateAlignment method" Url="html/19ff5a33-eaed-2ad9-9994-958b116c657a.htm" />
   <HelpKINode Title="RtlTranslateAlignment method" Url="html/5c87e387-d34c-7832-733e-45b8576fa1d2.htm" />
+  <HelpKINode Title="RtlTranslateAlignment method" Url="html/873d7083-a21f-2a1e-cd0b-3d7c504f19c2.htm" />
+  <HelpKINode Title="RtlTranslateAlignment method" Url="html/beb738b9-7d75-c6e4-df3d-5a25b2492aa3.htm" />
+  <HelpKINode Title="RtlTranslateAlignment method" Url="html/ee6ec81b-bc77-6be4-2e82-63a488665afe.htm" />
+  <HelpKINode Title="RtlTranslateAlignment method" Url="html/fc461b7f-614f-457a-cfb2-7dce46b78f5c.htm" />
   <HelpKINode Title="SalsaPico property" Url="html/7ee2745f-a794-9ce1-84f3-0baabab79b82.htm" />
   <HelpKINode Title="SalsaPicoQty property" Url="html/9a13f8f8-1fc8-0b39-9a26-3aa42b247fb8.htm" />
   <HelpKINode Title="SalsaSpecial property" Url="html/3431027b-f1a1-b90a-49ab-78a3aaf7b5d2.htm" />
   <HelpKINode Title="SalsaSpecialQty property" Url="html/87cdad6a-f53e-6f19-ff75-a1180c2d82f5.htm" />
   <HelpKINode Title="SalsaVerde property" Url="html/b0c502ab-33ee-8c11-0896-bede6e8d6689.htm" />
   <HelpKINode Title="SalsaVerdeQty property" Url="html/0ef2dcf0-5939-a89f-e377-421caae5c3a1.htm" />
+  <HelpKINode Title="Scale method" Url="html/3d5b224d-80e8-05dd-525d-5529b934625c.htm" />
   <HelpKINode Title="Scale method" Url="html/6aad7084-da88-ad4c-32ad-cb4fbe621003.htm" />
+  <HelpKINode Title="Scale method" Url="html/97d69b8f-94a1-5ade-30b9-bad7f080de15.htm" />
+  <HelpKINode Title="Scale method" Url="html/a6fe9d2a-e4fc-455f-2aab-93d44bf9737f.htm" />
+  <HelpKINode Title="Scale method" Url="html/c3259cfc-1763-b60e-85ff-6df9b8a0fbfa.htm" />
+  <HelpKINode Title="Scale method" Url="html/d5d3f069-ef5c-e915-45e2-62eced7a1d71.htm" />
+  <HelpKINode Title="Select method" Url="html/1d5010dc-4ce3-2572-dbf1-2d23eb694655.htm" />
+  <HelpKINode Title="Select method" Url="html/2f13ea2c-a658-80fc-57f8-143c30d0a081.htm" />
   <HelpKINode Title="Select method" Url="html/30754a01-e2f6-5a1b-5629-b3b301dc65c7.htm" />
+  <HelpKINode Title="Select method" Url="html/43619b81-b050-2444-cf4a-49a3dbbb9736.htm" />
+  <HelpKINode Title="Select method" Url="html/7b1fccb7-da6f-b15a-8c37-8ec4b48f513a.htm" />
+  <HelpKINode Title="Select method" Url="html/e361b9b5-a6fa-fa8f-2c1d-cc537f2933fa.htm" />
   <HelpKINode Title="ServiceLoadException class" Url="html/8e098e8b-387e-2f3e-5c35-666b31482e41.htm" />
   <HelpKINode Title="ServiceLoadException class" Url="html/dd31c260-ea7d-eb74-1f23-3af9d980cc8c.htm" />
   <HelpKINode Title="ServiceLoadException class">
@@ -1329,8 +1551,14 @@
   <HelpKINode Title="ServiceLoadException.ServiceLoadException constructor" Url="html/1a12dd6a-6fcd-238f-2ffb-f899803ecaf6.htm" />
   <HelpKINode Title="setBeefQty method" Url="html/fcf6b815-174b-4984-3f5b-e2c26be018ad.htm" />
   <HelpKINode Title="setBlackBeansQty method" Url="html/bb08c293-f82b-056a-3d52-23e9529149f3.htm" />
+  <HelpKINode Title="SetBounds method" Url="html/6e456176-0391-f810-435e-6914cd696991.htm" />
   <HelpKINode Title="SetBounds method" Url="html/90895efe-fc4f-37ec-4f4e-a65c9ce2f6db.htm" />
+  <HelpKINode Title="SetBounds method" Url="html/b4cf9de9-4e8b-24d3-6329-c3d948151c76.htm" />
+  <HelpKINode Title="SetBounds method" Url="html/cdda6463-c65c-34d4-a90d-ed7be337a0a8.htm" />
+  <HelpKINode Title="SetBounds method" Url="html/d1846e43-9324-a519-e2ca-8b3578213895.htm" />
+  <HelpKINode Title="SetBounds method" Url="html/e8605dd5-bdb8-f3e7-78a2-b97960a7f416.htm" />
   <HelpKINode Title="setBrownRiceQty method" Url="html/30c13b15-75d5-3fcf-9da7-509f854d63b5.htm" />
+  <HelpKINode Title="setBurrito method" Url="html/ab0ad5aa-67ce-6865-dcee-2bf2e7b49d49.htm" />
   <HelpKINode Title="setBurritoSvc method" Url="html/e9df29ba-4973-190a-5d5d-6f6af3d84c7e.htm" />
   <HelpKINode Title="setChickenQty method" Url="html/95417f64-501d-3dc2-9769-f6b6c652ab79.htm" />
   <HelpKINode Title="setChiliTortillaQty method" Url="html/8e9d2caa-2f2d-5550-dbf8-7ce067b49490.htm" />
@@ -1368,8 +1596,18 @@
   <HelpKINode Title="SetUp method" Url="html/d00f20d4-c1c6-3375-2e56-66c6a84fc232.htm" />
   <HelpKINode Title="setWheatTortillaQty method" Url="html/70e228d3-4b58-2144-1c50-39e3a0778fd2.htm" />
   <HelpKINode Title="setWhiteRiceQty method" Url="html/89130259-fce8-f431-3403-b1804e31f3ba.htm" />
+  <HelpKINode Title="Show method" Url="html/73b8a286-d6e1-0fa2-34c0-879d2891a52e.htm" />
+  <HelpKINode Title="Show method" Url="html/8ee4a118-0f19-98d3-ae19-aa22f364b0d8.htm" />
   <HelpKINode Title="Show method" Url="html/9a9afadd-378e-48e1-93df-385a620e3c2f.htm" />
+  <HelpKINode Title="Show method" Url="html/bb4407a9-bb73-def1-9c59-019de127be13.htm" />
+  <HelpKINode Title="Show method" Url="html/cbad2aa0-6399-a7bb-b729-98ed07acfa4d.htm" />
+  <HelpKINode Title="Show method" Url="html/ecf58fba-7380-da2f-3ddb-0a7d38f4f918.htm" />
+  <HelpKINode Title="ShowDialog method" Url="html/1b45c37b-0841-3778-f2cb-281a993eae45.htm" />
+  <HelpKINode Title="ShowDialog method" Url="html/59d68142-4bb8-9734-b1c6-f480b7585070.htm" />
+  <HelpKINode Title="ShowDialog method" Url="html/89390826-c632-1043-f43d-312aebfb16ed.htm" />
   <HelpKINode Title="ShowDialog method" Url="html/a37ef64a-1a42-eabe-a721-120b0a345d4b.htm" />
+  <HelpKINode Title="ShowDialog method" Url="html/a38ad701-b577-8c1c-5b3c-f67291661e29.htm" />
+  <HelpKINode Title="ShowDialog method" Url="html/ae325118-d03f-709d-0ef7-93b978833d89.htm" />
   <HelpKINode Title="storeBurrito method" Url="html/8b7af383-4f87-6bd4-ef35-9116226c1b6b.htm" />
   <HelpKINode Title="storeBurrito method" Url="html/c0a09606-8ca3-8289-5f8a-4b382823ccfd.htm" />
   <HelpKINode Title="storeBurrito method" Url="html/cf8c6ece-f751-9bb7-e595-597e5d4dfba6.htm" />
@@ -1473,19 +1711,34 @@
   <HelpKINode Title="Tomatoes property" Url="html/123ffe46-3dc4-7b4c-9cf6-45cdfe9c2e50.htm" />
   <HelpKINode Title="TomatoesQty property" Url="html/e22d25f4-9ab5-f48a-0dd4-f0392f77582b.htm" />
   <HelpKINode Title="totalCost property" Url="html/11498437-c92b-9336-0476-93d47768db32.htm" />
+  <HelpKINode Title="UpdateBounds method" Url="html/0af4d793-88d6-3312-e9c8-5247c70e2fc4.htm" />
+  <HelpKINode Title="UpdateBounds method" Url="html/13a7c2bf-c132-c349-ccda-1f92227f7dee.htm" />
   <HelpKINode Title="UpdateBounds method" Url="html/7334e247-bbb1-e3a0-ccd5-46bed04f900a.htm" />
+  <HelpKINode Title="UpdateBounds method" Url="html/843e9cd4-8f64-b5bb-4afb-6c6d04a0ca04.htm" />
+  <HelpKINode Title="UpdateBounds method" Url="html/b098ec96-1ab9-be4d-04aa-a9741bcf31e9.htm" />
+  <HelpKINode Title="UpdateBounds method" Url="html/b6d0da22-095f-2d14-30a0-7efc7018e87e.htm" />
   <HelpKINode Title="updateBurrito method" Url="html/e02b081a-e9a6-f702-0a50-8bcc0d0ef2f9.htm" />
   <HelpKINode Title="updateBurritoInOrder method" Url="html/10f296da-a733-8f31-1ae7-55739cb5375b.htm" />
   <HelpKINode Title="updateInventory method" Url="html/4d0d6450-97c5-f73d-229b-3927e5409724.htm" />
   <HelpKINode Title="updateOrder method" Url="html/66e70ee7-204d-1f85-0108-923c91664a5c.htm" />
-  <HelpKINode Title="validate method" Url="html/2bd2f307-799c-89cf-4ff2-fd4736d159ae.htm" />
-  <HelpKINode Title="validate method" Url="html/4ddf92b5-af32-367a-5089-7ff9381d8f1a.htm" />
   <HelpKINode Title="Validate method" Url="html/35b6e7cc-0378-7792-9913-fe9b358f5725.htm" />
+  <HelpKINode Title="validate method" Url="html/2bd2f307-799c-89cf-4ff2-fd4736d159ae.htm" />
   <HelpKINode Title="validate method" Url="html/4a22e120-839e-caa0-ee66-c5a858d698b3.htm" />
+  <HelpKINode Title="validate method" Url="html/4ddf92b5-af32-367a-5089-7ff9381d8f1a.htm" />
+  <HelpKINode Title="Validate method" Url="html/61792310-3410-5461-e919-ed42b74ad234.htm" />
   <HelpKINode Title="validate method" Url="html/8a737b32-d80c-5afe-7b88-7b1016ba9f95.htm" />
   <HelpKINode Title="validate method" Url="html/9e33e114-51d4-cc76-c733-27424d9f82b5.htm" />
   <HelpKINode Title="validate method" Url="html/ace27eab-e295-5ef3-7683-c2da6d4af9ff.htm" />
+  <HelpKINode Title="Validate method" Url="html/6c3ab5e1-9853-5e06-4e69-d0da44395832.htm" />
+  <HelpKINode Title="Validate method" Url="html/6d16b29e-0bcd-fc4a-d18a-6d7cda6d531d.htm" />
+  <HelpKINode Title="Validate method" Url="html/82bba097-16a0-b758-cf07-8542a33c7ce3.htm" />
+  <HelpKINode Title="Validate method" Url="html/968a2a91-aa80-62f8-f0a0-c9224327a354.htm" />
+  <HelpKINode Title="ValidateChildren method" Url="html/27cb0a90-106d-6b25-468f-75d97cfaae74.htm" />
   <HelpKINode Title="ValidateChildren method" Url="html/4d04c3da-c7a5-60ed-9b41-44764c791e1c.htm" />
+  <HelpKINode Title="ValidateChildren method" Url="html/4f12fe90-b93b-7c8b-b44a-560caf8a9e16.htm" />
+  <HelpKINode Title="ValidateChildren method" Url="html/7eeddaaa-0bc3-8db6-c4ef-c3b0986f37b9.htm" />
+  <HelpKINode Title="ValidateChildren method" Url="html/d9e4849e-6435-362c-9fb4-88f5c94eda4d.htm" />
+  <HelpKINode Title="ValidateChildren method" Url="html/ed7deae9-867b-b388-1347-b75c73b8a92a.htm" />
   <HelpKINode Title="Version method" Url="html/e8c38290-4fad-7981-43a2-353dd8adf4f5.htm" />
   <HelpKINode Title="WheatTortilla property" Url="html/2b5f2001-77ea-29fc-19bf-756930c345a8.htm" />
   <HelpKINode Title="WheatTortillaQty property" Url="html/c0f43869-adb6-c5bb-891e-14808b1f7bd4.htm" />

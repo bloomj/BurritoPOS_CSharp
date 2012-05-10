@@ -37,3 +37,8 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\Spring.Core.pdb
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\Spring.Core.xml
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\Common.Logging.dll
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.BurritoDialog.resources
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.MainUI.resources
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.OrderUI.resources
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.InventoryUI.resources
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.OrderViewUI.resources

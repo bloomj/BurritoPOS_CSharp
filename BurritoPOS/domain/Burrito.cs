@@ -12,6 +12,8 @@ namespace BurritoPOS.domain
     [Serializable]
     public class Burrito
     {
+        private Random rand = new Random();
+
         #region Properties
         // UUID
         /// <summary>
@@ -153,7 +155,7 @@ namespace BurritoPOS.domain
         /// </summary>
         public Burrito()
         {
-            id = -1;
+            id = rand.Next();
         }
 
         /// <summary>

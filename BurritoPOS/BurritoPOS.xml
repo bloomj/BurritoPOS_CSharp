@@ -2435,5 +2435,165 @@
             Currently a place holder for crypto functions
             </summary>
         </member>
+        <member name="T:BurritoPOS.presentation.BurritoDialog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.#ctor(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.setBurrito(BurritoPOS.domain.Burrito)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.clearState(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+            <param name="_i"></param>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.getNewBurrito">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.getBurritoType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:BurritoPOS.presentation.BurritoDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.presentation.BurritoDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.presentation.OrderUI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.OrderUI.#ctor(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BurritoPOS.presentation.OrderUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.OrderUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.presentation.OrderUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.presentation.InventoryUI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.InventoryUI.#ctor(BurritoPOS.domain.Inventory)">
+            <summary>
+            
+            </summary>
+            <param name="_i"></param>
+        </member>
+        <member name="F:BurritoPOS.presentation.InventoryUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.InventoryUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.presentation.InventoryUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.presentation.LoginUI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.LoginUI.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BurritoPOS.presentation.LoginUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.LoginUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.presentation.LoginUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BurritoPOS.presentation.OrderViewUI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.OrderViewUI.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BurritoPOS.presentation.OrderViewUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.OrderViewUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOS.presentation.OrderViewUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
     </members>
 </doc>

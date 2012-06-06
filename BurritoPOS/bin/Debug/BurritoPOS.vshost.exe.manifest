@@ -64,14 +64,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="184832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOS.exe" size="197120">
       <assemblyIdentity name="BurritoPOS" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>MhL6nlGhYXiZ6+05Squm1yDa2vA=</dsig:DigestValue>
+        <dsig:DigestValue>bBvHveDGwQbOshq3KimTgf9Q08c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -35,7 +35,7 @@ namespace BurritoPOS.service.Hibernate
         /// This method retrieves a employee.
         /// </summary>
         /// <param name="id">Unique ID of employee to retrieve</param>
-        /// <returns>burrito object</returns>
+        /// <returns>employee object</returns>
         public Employee getEmployee(Int32 id)
         {
             dLog.Info("Entering method getEmployee | ID: " + id);
@@ -56,7 +56,7 @@ namespace BurritoPOS.service.Hibernate
             }
             catch (Exception e2)
             {
-                dLog.Error("Exception in getBurrito: " + e2.Message + "\n" + e2.StackTrace);
+                dLog.Error("Exception in getEmployee: " + e2.Message + "\n" + e2.StackTrace);
                 e = new Employee();
             }
             finally

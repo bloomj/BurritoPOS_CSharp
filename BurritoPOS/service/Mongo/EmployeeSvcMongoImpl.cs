@@ -22,9 +22,6 @@ using BurritoPOS.domain;
 
 namespace BurritoPOS.service.Mongo
 {
-    /// <summary>
-    /// This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Employee objects.
-    /// </summary>
     class EmployeeSvcMongoImpl: IEmployeeSvc
     {
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);

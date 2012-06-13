@@ -175,7 +175,7 @@ namespace BurritoPOS.presentation
             {
                 if (newOrder.totalCost.CompareTo(new decimal(0)) != 1)
                 {
-                    MessageBox.Show("Please add a burrito to submit an order", "Warning");
+                    MessageBox.Show("Please add a burrito to submit an order", "Warning",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                 }
                 else
                 {
@@ -196,7 +196,7 @@ namespace BurritoPOS.presentation
 
         private void cancelBtn_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to cancel this order?", "Warning", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("Are you sure you want to cancel this order?", "Warning", MessageBoxButtons.YesNo,MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 try
                 {

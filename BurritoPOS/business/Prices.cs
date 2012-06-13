@@ -19,6 +19,11 @@ namespace BurritoPOS.business
     {
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static Decimal getItemPrice(String name)
         {
             XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));

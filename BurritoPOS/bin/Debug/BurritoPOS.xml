@@ -215,6 +215,32 @@
             <param name="name">Name of service object</param>
             <returns>service object</returns>
         </member>
+        <member name="T:BurritoPOS.service.IAuthenticationSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.IAuthenticationSvc.login(BurritoPOS.domain.Employee,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOS.service.IAuthenticationSvc.login(BurritoPOS.domain.Manager,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="m"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOS.service.IAuthenticationSvc.NAME">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:BurritoPOS.presentation.LoginUI">
             <summary>
             
@@ -224,6 +250,12 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="M:BurritoPOS.presentation.LoginUI.setAuthenticationSvc(BurritoPOS.service.IAuthenticationSvc)">
+            <summary>
+            
+            </summary>
+            <param name="authSvc"></param>
         </member>
         <member name="F:BurritoPOS.presentation.LoginUI.components">
             <summary>
@@ -1880,6 +1912,13 @@
             
             </summary>
         </member>
+        <member name="M:BurritoPOS.business.Prices.getItemPrice(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
         <member name="T:BurritoPOS.service.SQL.OrderSvcSQLImpl">
             <summary>
             This service implementation uses ADO.NET libraries to do basic CRUD operations with MS SQL Server 2008 for Order objects.
@@ -2589,6 +2628,164 @@
             <summary>
             Currently a place holder for crypto functions
             </summary>
+        </member>
+        <member name="T:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="T:BCrypt">
+            <summary>BCrypt implements OpenBSD-style Blowfish password hashing
+            using the scheme described in "A Future-Adaptable Password Scheme"
+            by Niels Provos and David Mazieres.</summary>
+            <remarks>
+            <para>This password hashing system tries to thwart offline
+            password cracking using a computationally-intensive hashing
+            algorithm, based on Bruce Schneier's Blowfish cipher. The work
+            factor of the algorithm is parametized, so it can be increased as
+            computers get faster.</para>
+            <para>To hash a password for the first time, call the
+            <c>HashPassword</c> method with a random salt, like this:</para>
+            <code>
+            string hashed = BCrypt.HashPassword(plainPassword, BCrypt.GenerateSalt());
+            </code>
+            <para>To check whether a plaintext password matches one that has
+            been hashed previously, use the <c>CheckPassword</c> method:</para>
+            <code>
+            if (BCrypt.CheckPassword(candidatePassword, storedHash)) {
+                Console.WriteLine("It matches");
+            } else {
+                Console.WriteLine("It does not match");
+            }
+            </code>
+            <para>The <c>GenerateSalt</c> method takes an optional parameter
+            (logRounds) that determines the computational complexity of the
+            hashing:</para>
+            <code>
+            string strongSalt = BCrypt.GenerateSalt(10);
+            string strongerSalt = BCrypt.GenerateSalt(12);
+            </code>
+            <para>
+            The amount of work increases exponentially (2**log_rounds), so
+            each increment is twice as much work. The default log_rounds is
+            10, and the valid range is 4 to 31.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:BCrypt.EncodeBase64(System.Byte[],System.Int32)">
+            <summary>Encode a byte array using bcrypt's slightly-modified
+            Base64 encoding scheme. Note that this is _not_ compatible
+            with the standard MIME-Base64 encoding.</summary>
+            <param name="d">The byte array to encode</param>
+            <param name="length">The number of bytes to encode</param>
+            <returns>A Base64-encoded string</returns>
+        </member>
+        <member name="M:BCrypt.Char64(System.Char)">
+            <summary>Look up the 3 bits base64-encoded by the specified
+            character, range-checking against the conversion
+            table.</summary>
+            <param name="c">The Base64-encoded value</param>
+            <returns>The decoded value of <c>x</c></returns>
+        </member>
+        <member name="M:BCrypt.DecodeBase64(System.String,System.Int32)">
+            <summary>Decode a string encoded using BCrypt's Base64 scheme to a
+            byte array. Note that this is _not_ compatible with the standard
+            MIME-Base64 encoding.</summary>
+            <param name="s">The string to decode</param>
+            <param name="maximumLength">The maximum number of bytes to decode</param>
+            <returns>An array containing the decoded bytes</returns>
+        </member>
+        <member name="M:BCrypt.Encipher(System.UInt32[],System.Int32)">
+            <summary>
+            Blowfish encipher a single 64-bit block encoded as two 32-bit
+            halves.
+            </summary>
+            <param name="block">An array containing the two 32-bit half
+            blocks.</param>
+            <param name="offset">The position in the array of the
+            blocks.</param>
+        </member>
+        <member name="M:BCrypt.StreamToWord(System.Byte[],System.Int32@)">
+            <summary>
+            Cycically extract a word of key material.
+            </summary>
+            <param name="data">The string to extract the data
+            from.</param>
+            <param name="offset">The current offset into data.</param>
+            <returns>The next work of material from data.</returns>
+        </member>
+        <member name="M:BCrypt.InitKey">
+            <summary>
+            Initialize the Blowfish key schedule.
+            </summary>
+        </member>
+        <member name="M:BCrypt.Key(System.Byte[])">
+            <summary>
+            Key the Blowfish cipher.
+            </summary>
+            <param name="key">An array containing the key.</param>
+        </member>
+        <member name="M:BCrypt.EksKey(System.Byte[],System.Byte[])">
+            <summary>
+            Perform the "enhanced key schedule" step described by Provos
+            and Mazieres in "A Future-Adaptable Password Scheme"
+            (http://www.openbsd.org/papers/bcrypt-paper.ps).
+            </summary>
+            <param name="data">Salt information.</param>
+            <param name="key">Password information.</param>
+        </member>
+        <member name="M:BCrypt.CryptRaw(System.Byte[],System.Byte[],System.Int32)">
+            <summary>
+            Perform the central password hashing step in the bcrypt
+            scheme.
+            </summary>
+            <param name="password">The password to hash.</param>
+            <param name="salt">The binary salt to hash with the
+            password.</param>
+            <param name="logRounds">The binary logarithm of the number of
+            rounds of hashing to apply.</param>
+            <returns>An array containing the binary hashed password.</returns>
+        </member>
+        <member name="M:BCrypt.HashPassword(System.String,System.String)">
+            <summary>
+            Hash a password using the OpenBSD bcrypt scheme.
+            </summary>
+            <param name="password">The password to hash.</param>
+            <param name="salt">The salt to hash with (perhaps generated
+            using <c>BCrypt.GenerateSalt</c>).</param>
+            <returns>The hashed password.</returns>
+        </member>
+        <member name="M:BCrypt.GenerateSalt(System.Int32)">
+            <summary>
+            Generate a salt for use with the BCrypt.HashPassword() method.
+            </summary>
+            <param name="logRounds">The log2 of the number of rounds of
+            hashing to apply. The work factor therefore increases as (2 **
+            logRounds).</param>
+            <returns>An encoded salt value.</returns>
+        </member>
+        <member name="M:BCrypt.GenerateSalt">
+            <summary>
+            Generate a salt for use with the <c>BCrypt.HashPassword()</c>
+            method, selecting a reasonable default for the number of hashing
+            rounds to apply.
+            </summary>
+            <returns>An encoded salt value.</returns>
+        </member>
+        <member name="M:BCrypt.CheckPassword(System.String,System.String)">
+            <summary>
+            Check that a plaintext password matches a previously hashed
+            one.
+            </summary>
+            <param name="plaintext">The plaintext password to verify.</param>
+            <param name="hashed">The previously hashed password.</param>
+            <returns><c>true</c> if the passwords, <c>false</c>
+            otherwise.</returns>
         </member>
     </members>
 </doc>

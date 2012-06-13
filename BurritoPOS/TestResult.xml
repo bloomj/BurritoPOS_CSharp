@@ -1,84 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOSTests.nunit" total="49" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-05-10" time="16:03:54">
-  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="ISS201706" user="james.bloom" user-domain="ISSINC" />
+<test-results name="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOSTests.nunit" total="54" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-06-13" time="14:43:05">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="ISS201706" user="james.bloom" user-domain="ISSINC" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Project" name="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOSTests.nunit" executed="True" result="Success" success="True" time="11.369" asserts="0">
+  <test-suite type="Project" name="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOSTests.nunit" executed="True" result="Success" success="True" time="32.770" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.exe" executed="True" result="Success" success="True" time="11.365" asserts="0">
+      <test-suite type="Assembly" name="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\bin\Release\BurritoPOS.exe" executed="True" result="Success" success="True" time="32.766" asserts="0">
         <results>
-          <test-suite type="Namespace" name="BurritoPOS" executed="True" result="Success" success="True" time="11.365" asserts="0">
+          <test-suite type="TestFixture" name="BCryptTest" executed="True" result="Success" success="True" time="21.219" asserts="0">
             <results>
-              <test-suite type="Namespace" name="business" executed="True" result="Success" success="True" time="11.052" asserts="0">
+              <test-case name="BCryptTest.TestCheckPasswordFailure" executed="True" result="Success" success="True" time="3.317" asserts="20" />
+              <test-case name="BCryptTest.TestCheckPasswordSuccess" executed="True" result="Success" success="True" time="3.483" asserts="20" />
+              <test-case name="BCryptTest.TestGenerateSalt" executed="True" result="Success" success="True" time="1.324" asserts="5" />
+              <test-case name="BCryptTest.TestGenerateSaltInt" executed="True" result="Success" success="True" time="9.805" asserts="45" />
+              <test-case name="BCryptTest.TestHashPassword" executed="True" result="Success" success="True" time="3.255" asserts="20" />
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="BurritoPOS" executed="True" result="Success" success="True" time="11.540" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="business" executed="True" result="Success" success="True" time="11.176" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="11.052" asserts="0">
+                  <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="11.176" asserts="0">
                     <results>
-                      <test-suite type="TestFixture" name="BurritoManagerTestCase" executed="True" result="Success" success="True" time="4.332" asserts="0">
+                      <test-suite type="TestFixture" name="BurritoManagerTestCase" executed="True" result="Success" success="True" time="4.589" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.business.test.BurritoManagerTestCase.testCalculatePrice" executed="True" result="Success" success="True" time="3.979" asserts="2" />
-                          <test-case name="BurritoPOS.business.test.BurritoManagerTestCase.testCreateBurrito" executed="True" result="Success" success="True" time="0.286" asserts="2" />
-                          <test-case name="BurritoPOS.business.test.BurritoManagerTestCase.testUpdateBurrito" executed="True" result="Success" success="True" time="0.049" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.BurritoManagerTestCase.testCalculatePrice" executed="True" result="Success" success="True" time="4.393" asserts="2" />
+                          <test-case name="BurritoPOS.business.test.BurritoManagerTestCase.testCreateBurrito" executed="True" result="Success" success="True" time="0.122" asserts="2" />
+                          <test-case name="BurritoPOS.business.test.BurritoManagerTestCase.testUpdateBurrito" executed="True" result="Success" success="True" time="0.067" asserts="3" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="InventoryManagerTestCase" executed="True" result="Success" success="True" time="0.438" asserts="0">
+                      <test-suite type="TestFixture" name="InventoryManagerTestCase" executed="True" result="Success" success="True" time="0.493" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testCreateInventory" executed="True" result="Success" success="True" time="0.042" asserts="2" />
-                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testRemoveFromInventoryBurrito" executed="True" result="Success" success="True" time="0.064" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testRemoveFromInventoryOrder" executed="True" result="Success" success="True" time="0.089" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testReturnToInventoryBurrito" executed="True" result="Success" success="True" time="0.045" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testReturnToInventoryOrder" executed="True" result="Success" success="True" time="0.052" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testUpdateInventory" executed="True" result="Success" success="True" time="0.033" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testCreateInventory" executed="True" result="Success" success="True" time="0.054" asserts="2" />
+                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testRemoveFromInventoryBurrito" executed="True" result="Success" success="True" time="0.044" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testRemoveFromInventoryOrder" executed="True" result="Success" success="True" time="0.131" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testReturnToInventoryBurrito" executed="True" result="Success" success="True" time="0.048" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testReturnToInventoryOrder" executed="True" result="Success" success="True" time="0.126" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.InventoryManagerTestCase.testUpdateInventory" executed="True" result="Success" success="True" time="0.042" asserts="3" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="OrderManagerTestCase" executed="True" result="Success" success="True" time="6.262" asserts="0">
+                      <test-suite type="TestFixture" name="OrderManagerTestCase" executed="True" result="Success" success="True" time="6.075" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testAddBurritoToOrder" executed="True" result="Success" success="True" time="0.477" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testCalculateTotal" executed="True" result="Success" success="True" time="2.041" asserts="6" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testCreateOrder" executed="True" result="Success" success="True" time="0.303" asserts="2" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testEditBurritoToOrder" executed="True" result="Success" success="True" time="0.599" asserts="4" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testgetOrderHistories" executed="True" result="Success" success="True" time="0.366" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testInvalidRemoveBurritoFromOrder" executed="True" result="Success" success="True" time="0.183" asserts="3" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testInvalidSubmitOrder" executed="True" result="Success" success="True" time="0.413" asserts="4" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testRemoveBurritoFromOrder" executed="True" result="Success" success="True" time="0.601" asserts="4" />
-                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testSubmitOrder" executed="True" result="Success" success="True" time="1.057" asserts="4" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testAddBurritoToOrder" executed="True" result="Success" success="True" time="0.557" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testCalculateTotal" executed="True" result="Success" success="True" time="1.475" asserts="6" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testCreateOrder" executed="True" result="Success" success="True" time="0.334" asserts="2" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testEditBurritoToOrder" executed="True" result="Success" success="True" time="0.465" asserts="4" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testgetOrderHistories" executed="True" result="Success" success="True" time="0.687" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testInvalidRemoveBurritoFromOrder" executed="True" result="Success" success="True" time="0.272" asserts="3" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testInvalidSubmitOrder" executed="True" result="Success" success="True" time="0.487" asserts="4" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testRemoveBurritoFromOrder" executed="True" result="Success" success="True" time="0.800" asserts="4" />
+                          <test-case name="BurritoPOS.business.test.OrderManagerTestCase.testSubmitOrder" executed="True" result="Success" success="True" time="0.921" asserts="4" />
                         </results>
                       </test-suite>
                     </results>
                   </test-suite>
                 </results>
               </test-suite>
-              <test-suite type="Namespace" name="domain" executed="True" result="Success" success="True" time="0.085" asserts="0">
+              <test-suite type="Namespace" name="domain" executed="True" result="Success" success="True" time="0.090" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="0.085" asserts="0">
+                  <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="0.089" asserts="0">
                     <results>
-                      <test-suite type="TestFixture" name="BurritoTestCase" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                      <test-suite type="TestFixture" name="BurritoTestCase" executed="True" result="Success" success="True" time="0.011" asserts="0">
                         <results>
                           <test-case name="BurritoPOS.domain.test.BurritoTestCase.testEqualsObject" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.BurritoTestCase.testInvalidBurrito" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.BurritoTestCase.testNotEqualsBurrito" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.BurritoTestCase.testNotEqualsBurrito" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.BurritoTestCase.testValidBurrito" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="CustomerTestCase" executed="True" result="Success" success="True" time="0.008" asserts="0">
+                      <test-suite type="TestFixture" name="CustomerTestCase" executed="True" result="Success" success="True" time="0.014" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.domain.test.CustomerTestCase.testEqualsObject" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.CustomerTestCase.testEqualsObject" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.CustomerTestCase.testInvalidCustomer" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.CustomerTestCase.testNotEqualsCustomer" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.CustomerTestCase.testValidate" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.CustomerTestCase.testValidate" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                         </results>
                       </test-suite>
                       <test-suite type="TestFixture" name="EmployeeTestCase" executed="True" result="Success" success="True" time="0.012" asserts="0">
                         <results>
                           <test-case name="BurritoPOS.domain.test.EmployeeTestCase.testEqualsEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.EmployeeTestCase.testInvalidEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.EmployeeTestCase.testNotEqualsEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.EmployeeTestCase.testNotEqualsEmployee" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.EmployeeTestCase.testValidateEmployee" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="InventoryTestCase" executed="True" result="Success" success="True" time="0.020" asserts="0">
+                      <test-suite type="TestFixture" name="InventoryTestCase" executed="True" result="Success" success="True" time="0.018" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.domain.test.InventoryTestCase.testEqualsInventory" executed="True" result="Success" success="True" time="0.004" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.InventoryTestCase.testInvalidInventory" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.InventoryTestCase.testEqualsInventory" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.InventoryTestCase.testInvalidInventory" executed="True" result="Success" success="True" time="0.003" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.InventoryTestCase.testNotEqualsInventory" executed="True" result="Success" success="True" time="0.004" asserts="1" />
                           <test-case name="BurritoPOS.domain.test.InventoryTestCase.testValidateInventory" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                         </results>
@@ -91,51 +100,51 @@
                           <test-case name="BurritoPOS.domain.test.ManagerTestCase.testValidateManager" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="OrderTestCase" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                      <test-suite type="TestFixture" name="OrderTestCase" executed="True" result="Success" success="True" time="0.014" asserts="0">
                         <results>
                           <test-case name="BurritoPOS.domain.test.OrderTestCase.testEqualsOrder" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.OrderTestCase.testInvalidOrder" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.OrderTestCase.testNotEqualsOrder" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="BurritoPOS.domain.test.OrderTestCase.testValidateOrder" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.OrderTestCase.testInvalidOrder" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.OrderTestCase.testNotEqualsOrder" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="BurritoPOS.domain.test.OrderTestCase.testValidateOrder" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                         </results>
                       </test-suite>
                     </results>
                   </test-suite>
                 </results>
               </test-suite>
-              <test-suite type="Namespace" name="service" executed="True" result="Success" success="True" time="0.191" asserts="0">
+              <test-suite type="Namespace" name="service" executed="True" result="Success" success="True" time="0.244" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="0.191" asserts="0">
+                  <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="0.244" asserts="0">
                     <results>
-                      <test-suite type="TestFixture" name="BurritoSvcImplTestCase" executed="True" result="Success" success="True" time="0.017" asserts="0">
+                      <test-suite type="TestFixture" name="BurritoSvcImplTestCase" executed="True" result="Success" success="True" time="0.065" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.service.test.BurritoSvcImplTestCase.testBurritoSvc" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="BurritoPOS.service.test.BurritoSvcImplTestCase.testBurritoSvc" executed="True" result="Success" success="True" time="0.064" asserts="4" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="CustomerSvcImplTestCase" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                      <test-suite type="TestFixture" name="CustomerSvcImplTestCase" executed="True" result="Success" success="True" time="0.053" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.service.test.CustomerSvcImplTestCase.testCustomerSvc" executed="True" result="Success" success="True" time="0.017" asserts="4" />
-                          <test-case name="BurritoPOS.service.test.CustomerSvcImplTestCase.testInvalidGetCustomer" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                          <test-case name="BurritoPOS.service.test.CustomerSvcImplTestCase.testCustomerSvc" executed="True" result="Success" success="True" time="0.045" asserts="4" />
+                          <test-case name="BurritoPOS.service.test.CustomerSvcImplTestCase.testInvalidGetCustomer" executed="True" result="Success" success="True" time="0.005" asserts="1" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="EmployeeSvcImplTestCase" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                      <test-suite type="TestFixture" name="EmployeeSvcImplTestCase" executed="True" result="Success" success="True" time="0.026" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.service.test.EmployeeSvcImplTestCase.testStoreEmployee" executed="True" result="Success" success="True" time="0.015" asserts="4" />
+                          <test-case name="BurritoPOS.service.test.EmployeeSvcImplTestCase.testStoreEmployee" executed="True" result="Success" success="True" time="0.025" asserts="4" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="InventorySvcImplTestCase" executed="True" result="Success" success="True" time="0.021" asserts="0">
+                      <test-suite type="TestFixture" name="InventorySvcImplTestCase" executed="True" result="Success" success="True" time="0.022" asserts="0">
                         <results>
                           <test-case name="BurritoPOS.service.test.InventorySvcImplTestCase.testStoreInventory" executed="True" result="Success" success="True" time="0.021" asserts="4" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="ManagerSvcImplTestCase" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                      <test-suite type="TestFixture" name="ManagerSvcImplTestCase" executed="True" result="Success" success="True" time="0.019" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.service.test.ManagerSvcImplTestCase.testStoreManager" executed="True" result="Success" success="True" time="0.014" asserts="4" />
+                          <test-case name="BurritoPOS.service.test.ManagerSvcImplTestCase.testStoreManager" executed="True" result="Success" success="True" time="0.018" asserts="4" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="OrderSvcImplTestCase" executed="True" result="Success" success="True" time="0.024" asserts="0">
+                      <test-suite type="TestFixture" name="OrderSvcImplTestCase" executed="True" result="Success" success="True" time="0.042" asserts="0">
                         <results>
-                          <test-case name="BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder" executed="True" result="Success" success="True" time="0.024" asserts="4" />
+                          <test-case name="BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder" executed="True" result="Success" success="True" time="0.041" asserts="4" />
                         </results>
                       </test-suite>
                     </results>

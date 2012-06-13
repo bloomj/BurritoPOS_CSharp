@@ -20,7 +20,7 @@ namespace BurritoPOS
             XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainUI());
+            Application.Run(new LoginUI());
         }
     }
 }

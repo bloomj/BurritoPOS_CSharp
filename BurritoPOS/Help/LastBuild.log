@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOS.shfbproj" started="5/10/2012 4:04:05 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\BurritoPOS.shfbproj" started="6/13/2012 2:43:30 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -24,7 +24,7 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0720
+    Last step completed in 00:00:00.0725
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -36,27 +36,27 @@ Generating reflection information...
   MrefBuilder (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: Loaded 1 assemblies for reflection and 6 dependency assemblies.
-  Info: Wrote information on 13 namespaces, 74 types, and 770 members
+  Info: Wrote information on 14 namespaces, 75 types, and 791 members
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:05.0845
+    Last step completed in 00:00:05.5281
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0575
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     98 attribute nodes removed
-    24 explicit interface implementations removed
-    555 local and base class EII elements removed
-    3060 inherited member elements removed
-    333 private members noted for removal
+    25 explicit interface implementations removed
+    556 local and base class EII elements removed
+    3063 inherited member elements removed
+    348 private members noted for removal
     0 private types noted for removal
     Removing previously noted unwanted APIs and elements
-    Last step completed in 00:00:00.9772
+    Last step completed in 00:00:01.2152
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -64,19 +64,19 @@ Transforming reflection output...
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\james.bloom\AppData\Local\Temp\tmp40A0.tmp
+  reflection.org -&gt; C:\Users\james.bloom\AppData\Local\Temp\tmp2BE4.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\james.bloom\AppData\Local\Temp\tmp40A0.tmp -&gt; reflection.xml
+  C:\Users\james.bloom\AppData\Local\Temp\tmp2BE4.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:05.9087
+    Last step completed in 00:00:05.0040
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.3866
+    Last step completed in 00:00:00.2375
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -187,7 +187,7 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Whidbey\presentation.css
-    Last step completed in 00:00:00.7712
+    Last step completed in 00:00:00.6686
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -196,7 +196,7 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -206,17 +206,17 @@ Generating intermediate table of contents file...
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:02.4670
+    Last step completed in 00:00:00.9342
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1355
+    Last step completed in 00:00:00.0325
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.4071
+    Last step completed in 00:00:00.2030
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -228,7 +228,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 203560 elements in 409 files.
+  Info: CopyFromIndexComponent: Indexed 203570 elements in 409 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -1216,7 +1216,7 @@ Building reference help topics...
   Warn: CopyFromIndexComponent: Entries for the key &#39;P:System.Web.Routing.VirtualPathData.Route&#39; occur in both &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Routing.xml&#39; and &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.xml&#39;. The last entry will be used.
   Warn: CopyFromIndexComponent: Entries for the key &#39;P:System.Web.Routing.VirtualPathData.VirtualPath&#39; occur in both &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Routing.xml&#39; and &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.xml&#39;. The last entry will be used.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\BurritoPOS.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 144538 elements in 127 files.
+  Info: CopyFromIndexComponent: Indexed 144566 elements in 127 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -1297,7 +1297,7 @@ Building reference help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 203560 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 203570 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: BuildAssembler: Building topic N:BurritoPOS
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOS
@@ -2089,6 +2089,9 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:BurritoPOS.presentation.LoginUI.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOS.presentation.LoginUI.#ctor
   Info: BuildAssembler: Building topic M:BurritoPOS.presentation.LoginUI.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic M:BurritoPOS.presentation.LoginUI.setAuthenticationSvc(BurritoPOS.service.IAuthenticationSvc)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOS.presentation.LoginUI.setAuthenticationSvc(BurritoPOS.service.IAuthenticationSvc)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;authSvc&quot;/&gt; documentation for M:BurritoPOS.presentation.LoginUI.setAuthenticationSvc(BurritoPOS.service.IAuthenticationSvc)
   Info: BuildAssembler: Building topic T:BurritoPOS.presentation.MainUI
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOS.presentation.MainUI
   Info: BuildAssembler: Building topic AllMembers.T:BurritoPOS.presentation.MainUI
@@ -2895,6 +2898,7 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.getCustomer(System.Int32)
   Info: BuildAssembler: Building topic M:BurritoPOS.service.Mongo.CustomerSvcMongoImpl.storeCustomer(BurritoPOS.domain.Customer)
   Info: BuildAssembler: Building topic T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl
   Info: BuildAssembler: Building topic AllMembers.T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl
   Info: BuildAssembler: Building topic Methods.T:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl
   Info: BuildAssembler: Building topic M:BurritoPOS.service.Mongo.EmployeeSvcMongoImpl.#ctor
@@ -2970,6 +2974,27 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOS.service.Serializable.OrderSvcFileImpl.getAllOrders
   Info: BuildAssembler: Building topic M:BurritoPOS.service.Serializable.OrderSvcFileImpl.getOrder(System.Int32)
   Info: BuildAssembler: Building topic M:BurritoPOS.service.Serializable.OrderSvcFileImpl.storeOrder(BurritoPOS.domain.Order)
+  Info: BuildAssembler: Building topic N:BurritoPOS.service.Sockets
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOS.service.Sockets
+  Info: BuildAssembler: Building topic T:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl
+  Info: BuildAssembler: Building topic Overload:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login
+  Info: BuildAssembler: Building topic M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.#ctor
+  Info: BuildAssembler: Building topic M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.isConnected
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.isConnected
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.isConnected
+  Info: BuildAssembler: Building topic M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Employee,System.String)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Employee,System.String)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Employee,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Employee,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;password&quot;/&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Employee,System.String)
+  Info: BuildAssembler: Building topic M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Manager,System.String)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Manager,System.String)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Manager,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;m&quot;/&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Manager,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;password&quot;/&gt; documentation for M:BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl.login(BurritoPOS.domain.Manager,System.String)
   Info: BuildAssembler: Building topic N:BurritoPOS.service.SQL
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOS.service.SQL
   Info: BuildAssembler: Building topic T:BurritoPOS.service.SQL.BurritoSvcSQLImpl
@@ -3094,14 +3119,14 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:BurritoPOS.service.test.OrderSvcImplTestCase.tearDown
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOS.service.test.OrderSvcImplTestCase.tearDown
   Info: BuildAssembler: Building topic M:BurritoPOS.service.test.OrderSvcImplTestCase.testStoreOrder
-  Info: Processed 816 topics
-    Last step completed in 00:03:16.4648
+  Info: Processed 826 topics
+    Last step completed in 00:02:48.6102
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.7697
+    Last step completed in 00:00:01.1507
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -3113,20 +3138,20 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website
-Processed 816 HTML files
+Processed 826 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\WebTOC.xml
-    Last step completed in 00:00:03.2336
+    Last step completed in 00:00:02.5670
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:04.2759
+    Last step completed in 00:00:05.3121
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -3236,6 +3261,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1b99b61f-2b94-0e77-cfe7-75cd412c7cee.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1b99b61f-2b94-0e77-cfe7-75cd412c7cee.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1bcebf80-ebdc-f76a-949f-94875b602c2c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1bcebf80-ebdc-f76a-949f-94875b602c2c.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1c6a0106-5e7e-d127-daa9-9a89ddcb3bd3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1c6a0106-5e7e-d127-daa9-9a89ddcb3bd3.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1c80b161-2a9f-f320-6e5b-1f4c5e3eb4bb.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1c80b161-2a9f-f320-6e5b-1f4c5e3eb4bb.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1cd27db1-723a-116b-02b6-d363849d5b74.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1cd27db1-723a-116b-02b6-d363849d5b74.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1d0ce23a-0ea2-a7c7-9e84-e588ae4b0a8c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1d0ce23a-0ea2-a7c7-9e84-e588ae4b0a8c.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\1d15a0f2-2846-fcc8-99bd-44f5a100fcd4.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\1d15a0f2-2846-fcc8-99bd-44f5a100fcd4.htm
@@ -3258,6 +3284,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\226156f2-863c-b1aa-fcf1-6087ff125616.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\226156f2-863c-b1aa-fcf1-6087ff125616.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\2279854c-1eb4-547f-eceb-90fbce6823cc.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\2279854c-1eb4-547f-eceb-90fbce6823cc.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\22b0e5b7-bcfd-032d-6b2c-a5b5962f4cde.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\22b0e5b7-bcfd-032d-6b2c-a5b5962f4cde.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\2396c598-d1f4-1795-b931-58e75b791050.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\2396c598-d1f4-1795-b931-58e75b791050.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\23dd1366-a86d-d2e4-ca4c-0378062dd888.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\23dd1366-a86d-d2e4-ca4c-0378062dd888.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\241202a5-f2b5-3300-06db-6eaa774835ed.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\241202a5-f2b5-3300-06db-6eaa774835ed.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\24b5d110-25d5-2779-5c06-55737ff54126.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\24b5d110-25d5-2779-5c06-55737ff54126.htm
@@ -3303,6 +3330,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\30c13b15-75d5-3fcf-9da7-509f854d63b5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\30c13b15-75d5-3fcf-9da7-509f854d63b5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\30c87ddf-aa1f-705b-2dd2-c7b6463f4579.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\30c87ddf-aa1f-705b-2dd2-c7b6463f4579.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\30dcf008-c684-bc7e-89e1-15f1fb0f54a0.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\30dcf008-c684-bc7e-89e1-15f1fb0f54a0.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\30e869f1-1441-1d88-72d3-85897a67380d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\30e869f1-1441-1d88-72d3-85897a67380d.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\32892478-431e-a824-c0e0-d31c954e0661.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\32892478-431e-a824-c0e0-d31c954e0661.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\32c9de03-bcb8-cc79-ea67-bbbc322746c4.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\32c9de03-bcb8-cc79-ea67-bbbc322746c4.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\33296619-35a4-dd50-fab7-f19517c55bab.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\33296619-35a4-dd50-fab7-f19517c55bab.htm
@@ -3324,6 +3352,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\399aaac7-f5c3-4501-b3ec-50c5d9411970.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\399aaac7-f5c3-4501-b3ec-50c5d9411970.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\3a101481-a1bf-b822-29f4-c5b5698df243.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\3a101481-a1bf-b822-29f4-c5b5698df243.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\3a344e52-8a5e-c1d1-695b-63bffb8ae28b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\3a344e52-8a5e-c1d1-695b-63bffb8ae28b.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\3a5d7010-fc79-a6a4-c7e6-18ecea1a1495.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\3a5d7010-fc79-a6a4-c7e6-18ecea1a1495.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\3a6b38a4-2eff-8cb0-8f0e-e16e6e4df216.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\3a6b38a4-2eff-8cb0-8f0e-e16e6e4df216.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\3a6ba70a-4915-f3ca-fcf9-b6d463ea5845.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\3a6ba70a-4915-f3ca-fcf9-b6d463ea5845.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\3a9fedfd-fe32-3e0a-aa51-953f6ddcaad3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\3a9fedfd-fe32-3e0a-aa51-953f6ddcaad3.htm
@@ -3467,6 +3496,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6bece6a9-9bdc-d025-662f-8bbfe969ef01.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6bece6a9-9bdc-d025-662f-8bbfe969ef01.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6c0bbd12-2860-29a2-1a8a-966315efecb3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6c0bbd12-2860-29a2-1a8a-966315efecb3.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6c3ab5e1-9853-5e06-4e69-d0da44395832.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6c3ab5e1-9853-5e06-4e69-d0da44395832.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6c567286-df97-4ba6-c7a2-569395d6c18e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6c567286-df97-4ba6-c7a2-569395d6c18e.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6cb0f27c-42a3-1fe3-957f-34aaa6a756ee.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6cb0f27c-42a3-1fe3-957f-34aaa6a756ee.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6cd0edf3-dcb0-664d-aaac-83c171c811f5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6cd0edf3-dcb0-664d-aaac-83c171c811f5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\6ce22398-36b9-c244-874c-3d02c834f7e7.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\6ce22398-36b9-c244-874c-3d02c834f7e7.htm
@@ -3686,6 +3716,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a7313c84-7f1e-3947-9f4a-cf83ff33e918.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a7313c84-7f1e-3947-9f4a-cf83ff33e918.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a74e4543-cb9b-5822-dc74-9d31fa6cbc4d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a74e4543-cb9b-5822-dc74-9d31fa6cbc4d.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a79725c0-71e9-794f-541e-6ce5620806e3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a79725c0-71e9-794f-541e-6ce5620806e3.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a7beb00b-7df9-484b-537b-5341c5e333b5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a7beb00b-7df9-484b-537b-5341c5e333b5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a82d591c-2747-7510-b505-441ff1942c8e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a82d591c-2747-7510-b505-441ff1942c8e.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a84e443b-aadf-599f-dc24-df0787904eaa.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a84e443b-aadf-599f-dc24-df0787904eaa.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\a9614ccb-a47a-89fc-ef90-bc8ad5cd319e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\a9614ccb-a47a-89fc-ef90-bc8ad5cd319e.htm
@@ -3707,6 +3738,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\aeddd3fc-4b44-1ac0-06c2-e6df8f94abfe.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\aeddd3fc-4b44-1ac0-06c2-e6df8f94abfe.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\af1ffd0b-7b44-a9b6-5bfd-7809a792c06f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\af1ffd0b-7b44-a9b6-5bfd-7809a792c06f.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\af358d68-cbae-8439-3e6b-0cdc5341c616.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\af358d68-cbae-8439-3e6b-0cdc5341c616.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\af4d6443-a466-d42e-97bc-d5cee8bafa56.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\af4d6443-a466-d42e-97bc-d5cee8bafa56.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\af569f07-6404-4c20-2631-e22c424b855d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\af569f07-6404-4c20-2631-e22c424b855d.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\af7be822-2312-fc40-7ea4-ea1811e8c186.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\af7be822-2312-fc40-7ea4-ea1811e8c186.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\af7d232b-a610-f212-4c3a-4e0e9045879a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\af7d232b-a610-f212-4c3a-4e0e9045879a.htm
@@ -3782,6 +3814,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c488476d-8c28-0bec-0495-2bf5466e5ebb.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c488476d-8c28-0bec-0495-2bf5466e5ebb.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c4b86f85-69c9-29fc-3df3-14e1088d73f7.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c4b86f85-69c9-29fc-3df3-14e1088d73f7.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c54dca24-4d71-2699-6ed1-2278f30c89c5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c54dca24-4d71-2699-6ed1-2278f30c89c5.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c58126dc-cd34-071b-b335-1a39376a4e5c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c58126dc-cd34-071b-b335-1a39376a4e5c.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c5ed89df-2eb9-babc-7db0-895335a7ce0b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c5ed89df-2eb9-babc-7db0-895335a7ce0b.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c60b6c79-9f33-03ea-e5b7-a5812011ee76.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c60b6c79-9f33-03ea-e5b7-a5812011ee76.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\c7344b47-0bde-e58a-2f3f-7bc14c34287d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\c7344b47-0bde-e58a-2f3f-7bc14c34287d.htm
@@ -3830,6 +3863,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d12e6922-3031-c9bc-1022-3832a9d74355.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d12e6922-3031-c9bc-1022-3832a9d74355.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d1846e43-9324-a519-e2ca-8b3578213895.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d1846e43-9324-a519-e2ca-8b3578213895.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d1af9a7a-569c-d0cf-e55b-5b6f436cc3a5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d1af9a7a-569c-d0cf-e55b-5b6f436cc3a5.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d1bec7ff-7091-e40a-0ff6-63c8cce2de8f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d1bec7ff-7091-e40a-0ff6-63c8cce2de8f.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d1c2fd68-f19a-a2b0-2917-3b828d852e0b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d1c2fd68-f19a-a2b0-2917-3b828d852e0b.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d201b4ab-5942-07ab-2a25-b1169a4f17a3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d201b4ab-5942-07ab-2a25-b1169a4f17a3.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\d27155e1-6878-1670-5a1b-67306e977349.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\d27155e1-6878-1670-5a1b-67306e977349.htm
@@ -3954,6 +3988,7 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\f7945645-cc29-3bc3-92a0-3c62e1bf08e8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\f7945645-cc29-3bc3-92a0-3c62e1bf08e8.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\f7dcaf32-69b0-0f5d-0042-1894f5816126.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\f7dcaf32-69b0-0f5d-0042-1894f5816126.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\f83620ea-171a-2114-052f-3a5d7d13afa8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\f83620ea-171a-2114-052f-3a5d7d13afa8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\f895d0ab-52ef-3b0f-0233-c3d4d6ed1cba.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\f895d0ab-52ef-3b0f-0233-c3d4d6ed1cba.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\f8ad2852-a95c-3b75-e72c-8ea9aa4bbd47.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\f8ad2852-a95c-3b75-e72c-8ea9aa4bbd47.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\f8d3550b-63ee-87c8-6539-175fe604532e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\f8d3550b-63ee-87c8-6539-175fe604532e.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\html\fae81489-c48f-36f0-8f96-e7d60862f0fc.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\html\fae81489-c48f-36f0-8f96-e7d60862f0fc.htm
@@ -4079,15 +4114,15 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\scripts\SplitScreen.js
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\styles\Presentation.css
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\Working\Output\Website\styles\Whidbey\presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\Help\styles\Whidbey\presentation.css
-    Last step completed in 00:00:04.5944
+    Last step completed in 00:00:08.7512
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:07.6790
+    Last step completed in 00:00:03.6127
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 05/10/2012 04:07 PM.  Total time: 00:03:53.7047
+Build completed successfully at 06/13/2012 02:46 PM.  Total time: 00:03:24.0223
 
 </buildStep>
 </shfbBuild>

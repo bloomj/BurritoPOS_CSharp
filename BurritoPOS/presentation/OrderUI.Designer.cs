@@ -166,7 +166,6 @@
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nAMEDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label priceLbl;
         private System.Windows.Forms.Button removeBurritoBtn;
         private System.Windows.Forms.Button editBurritoBtn;

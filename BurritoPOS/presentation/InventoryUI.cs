@@ -133,9 +133,9 @@ namespace BurritoPOS.presentation
                     curInventory.setTomatoesQty(Int32.Parse(tomatoTxt.Text));
 
                 if (curInventory.validate() && iManager.updateInventory(curInventory))
-                    MessageBox.Show("Inventory Successfully updated");
+                    MessageBox.Show("Inventory Successfully updated","Success",MessageBoxButtons.OK,MessageBoxIcon.Information);
                 else
-                    MessageBox.Show("Failed to update Inventory");
+                    MessageBox.Show("Failed to update Inventory", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception err)
             {

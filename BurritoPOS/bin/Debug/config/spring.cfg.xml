@@ -12,4 +12,5 @@
     <property name="orderSvc" ref="orderSvc"/>
   </object>
   <object name="orderSvc" type="BurritoPOS.service.Mongo.OrderSvcMongoImpl"/>
+  <object name="authSvc" type="BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl"/>
 </objects>

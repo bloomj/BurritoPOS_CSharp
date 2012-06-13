@@ -193,7 +193,10 @@
     <Compile Include="presentation\OrderViewUI.Designer.cs">
       <DependentUpon>OrderViewUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="service\Crypto\BCrypt.cs" />
+    <Compile Include="service\Sockets\AuthenticationSvcSocketImpl.cs" />
     <Compile Include="service\test\AllTests.cs" />
+    <Compile Include="service\test\BCryptTest.cs" />
     <Compile Include="service\test\BurritoSvcImplTestCase.cs" />
     <Compile Include="service\test\CustomerSvcImplTestCase.cs" />
     <Compile Include="service\test\EmployeeSvcImplTestCase.cs" />
@@ -242,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="presentation\InventoryUI.resx">
       <DependentUpon>InventoryUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation\LoginUI.resx">
+      <DependentUpon>LoginUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="presentation\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>

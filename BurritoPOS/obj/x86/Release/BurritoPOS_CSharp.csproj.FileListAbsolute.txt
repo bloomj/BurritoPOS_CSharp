@@ -42,3 +42,4 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.OrderUI.resources
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.InventoryUI.resources
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.OrderViewUI.resources
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOS\BurritoPOS\obj\x86\Release\BurritoPOS.presentation.LoginUI.resources

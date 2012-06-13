@@ -15,6 +15,7 @@ namespace BurritoPOS.service.test
             get
             {
                 ArrayList suite = new ArrayList();
+                suite.Add(new BCryptTest());
                 suite.Add(new BurritoSvcImplTestCase());
                 suite.Add(new CustomerSvcImplTestCase());
                 suite.Add(new EmployeeSvcImplTestCase());

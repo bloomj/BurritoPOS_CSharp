@@ -38,6 +38,17 @@
   <HelpKINode Title="AllTests.Suite property" Url="html/6986c6fd-13ee-30c8-7cad-febddc13dba5.htm" />
   <HelpKINode Title="AllTests.Suite property" Url="html/6993ba2f-c22b-68ad-cb26-a33694af93c3.htm" />
   <HelpKINode Title="ApplyFilter method" Url="html/1bcebf80-ebdc-f76a-949f-94875b602c2c.htm" />
+  <HelpKINode Title="AuthenticationSvcSocketImpl class" Url="html/2396c598-d1f4-1795-b931-58e75b791050.htm" />
+  <HelpKINode Title="AuthenticationSvcSocketImpl class" Url="html/c58126dc-cd34-071b-b335-1a39376a4e5c.htm" />
+  <HelpKINode Title="AuthenticationSvcSocketImpl class">
+    <HelpKINode Title="about AuthenticationSvcSocketImpl class" Url="html/c58126dc-cd34-071b-b335-1a39376a4e5c.htm" />
+    <HelpKINode Title="all members" Url="html/2396c598-d1f4-1795-b931-58e75b791050.htm" />
+    <HelpKINode Title="constructor" Url="html/d1bec7ff-7091-e40a-0ff6-63c8cce2de8f.htm" />
+    <HelpKINode Title="methods" Url="html/6c567286-df97-4ba6-c7a2-569395d6c18e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthenticationSvcSocketImpl.AuthenticationSvcSocketImpl constructor" Url="html/d1bec7ff-7091-e40a-0ff6-63c8cce2de8f.htm" />
+  <HelpKINode Title="AuthenticationSvcSocketImpl.isConnected method" Url="html/af4d6443-a466-d42e-97bc-d5cee8bafa56.htm" />
+  <HelpKINode Title="AuthenticationSvcSocketImpl.login method" Url="html/f895d0ab-52ef-3b0f-0233-c3d4d6ed1cba.htm" />
   <HelpKINode Title="BaseSvcHibernateImpl class" Url="html/22b0e5b7-bcfd-032d-6b2c-a5b5962f4cde.htm" />
   <HelpKINode Title="BaseSvcHibernateImpl class" Url="html/30c87ddf-aa1f-705b-2dd2-c7b6463f4579.htm" />
   <HelpKINode Title="BaseSvcHibernateImpl class">
@@ -292,6 +303,9 @@
   <HelpKINode Title="BurritoPOS.service.Serializable.ManagerSvcFileImpl class" Url="html/ecf74d5d-f5d6-dcab-41f3-eadc4946901d.htm" />
   <HelpKINode Title="BurritoPOS.service.Serializable.OrderSvcFileImpl class" Url="html/96bab209-ce5b-6df0-3134-8268dcbe8b77.htm" />
   <HelpKINode Title="BurritoPOS.service.Serializable.OrderSvcFileImpl class" Url="html/e1c498a6-8261-0745-af0e-2383ad9481ed.htm" />
+  <HelpKINode Title="BurritoPOS.service.Sockets namespace" Url="html/30e869f1-1441-1d88-72d3-85897a67380d.htm" />
+  <HelpKINode Title="BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl class" Url="html/2396c598-d1f4-1795-b931-58e75b791050.htm" />
+  <HelpKINode Title="BurritoPOS.service.Sockets.AuthenticationSvcSocketImpl class" Url="html/c58126dc-cd34-071b-b335-1a39376a4e5c.htm" />
   <HelpKINode Title="BurritoPOS.service.SQL namespace" Url="html/b6a44de1-147d-6e5f-efc4-8e139e2eefa9.htm" />
   <HelpKINode Title="BurritoPOS.service.SQL.BurritoSvcSQLImpl class" Url="html/4fccdc7d-643e-b1c1-c8c8-ae1821998fb3.htm" />
   <HelpKINode Title="BurritoPOS.service.SQL.BurritoSvcSQLImpl class" Url="html/9112d4e9-a470-e2ee-35a2-a0867ff91ada.htm" />
@@ -1069,6 +1083,7 @@
   <HelpKINode Title="IOrderSvc.NAME property" Url="html/42c736a2-3f6d-f65e-4433-b155d7d1f978.htm" />
   <HelpKINode Title="IOrderSvc.storeOrder method" Url="html/1dbe69dd-bfa1-c951-79d3-601074b8c548.htm" />
   <HelpKINode Title="isComplete property" Url="html/c0e14b13-a4f5-0247-809d-249f23af50f7.htm" />
+  <HelpKINode Title="isConnected method" Url="html/af4d6443-a466-d42e-97bc-d5cee8bafa56.htm" />
   <HelpKINode Title="IService interface" Url="html/412b24a8-bfda-7420-2f25-1b9b848cce04.htm" />
   <HelpKINode Title="IService interface">
     <HelpKINode Title="about IService interface" Url="html/412b24a8-bfda-7420-2f25-1b9b848cce04.htm" />
@@ -1086,6 +1101,7 @@
   <HelpKINode Title="Lettuce property" Url="html/cccf71ec-650d-844d-ef73-f010cd03b190.htm" />
   <HelpKINode Title="LettuceQty property" Url="html/6f0ca666-ecef-ea23-65c2-bfe5f11ed26b.htm" />
   <HelpKINode Title="login method" Url="html/b28e97a4-8b23-671f-8202-aa352355d2ce.htm" />
+  <HelpKINode Title="login method" Url="html/f895d0ab-52ef-3b0f-0233-c3d4d6ed1cba.htm" />
   <HelpKINode Title="LoginUI class" Url="html/1f27e3b8-17d7-d699-fa1f-2db9e8dbb2e1.htm" />
   <HelpKINode Title="LoginUI class" Url="html/dc818a89-6671-eceb-3c01-ac9144cf09a8.htm" />
   <HelpKINode Title="LoginUI class">
@@ -1109,6 +1125,7 @@
   <HelpKINode Title="LoginUI.RtlTranslateAlignment method" Url="html/beb738b9-7d75-c6e4-df3d-5a25b2492aa3.htm" />
   <HelpKINode Title="LoginUI.Scale method" Url="html/c3259cfc-1763-b60e-85ff-6df9b8a0fbfa.htm" />
   <HelpKINode Title="LoginUI.Select method" Url="html/2f13ea2c-a658-80fc-57f8-143c30d0a081.htm" />
+  <HelpKINode Title="LoginUI.setAuthenticationSvc method" Url="html/a7beb00b-7df9-484b-537b-5341c5e333b5.htm" />
   <HelpKINode Title="LoginUI.SetBounds method" Url="html/d1846e43-9324-a519-e2ca-8b3578213895.htm" />
   <HelpKINode Title="LoginUI.Show method" Url="html/ecf58fba-7380-da2f-3ddb-0a7d38f4f918.htm" />
   <HelpKINode Title="LoginUI.ShowDialog method" Url="html/59d68142-4bb8-9734-b1c6-f480b7585070.htm" />
@@ -1549,6 +1566,7 @@
     <HelpKINode Title="properties" Url="html/c2dddc06-a4e7-1681-61e4-01d447eab843.htm" />
   </HelpKINode>
   <HelpKINode Title="ServiceLoadException.ServiceLoadException constructor" Url="html/1a12dd6a-6fcd-238f-2ffb-f899803ecaf6.htm" />
+  <HelpKINode Title="setAuthenticationSvc method" Url="html/a7beb00b-7df9-484b-537b-5341c5e333b5.htm" />
   <HelpKINode Title="setBeefQty method" Url="html/fcf6b815-174b-4984-3f5b-e2c26be018ad.htm" />
   <HelpKINode Title="setBlackBeansQty method" Url="html/bb08c293-f82b-056a-3d52-23e9529149f3.htm" />
   <HelpKINode Title="SetBounds method" Url="html/6e456176-0391-f810-435e-6914cd696991.htm" />
@@ -1721,18 +1739,18 @@
   <HelpKINode Title="updateBurritoInOrder method" Url="html/10f296da-a733-8f31-1ae7-55739cb5375b.htm" />
   <HelpKINode Title="updateInventory method" Url="html/4d0d6450-97c5-f73d-229b-3927e5409724.htm" />
   <HelpKINode Title="updateOrder method" Url="html/66e70ee7-204d-1f85-0108-923c91664a5c.htm" />
-  <HelpKINode Title="Validate method" Url="html/35b6e7cc-0378-7792-9913-fe9b358f5725.htm" />
-  <HelpKINode Title="validate method" Url="html/2bd2f307-799c-89cf-4ff2-fd4736d159ae.htm" />
   <HelpKINode Title="validate method" Url="html/4a22e120-839e-caa0-ee66-c5a858d698b3.htm" />
+  <HelpKINode Title="validate method" Url="html/9e33e114-51d4-cc76-c733-27424d9f82b5.htm" />
+  <HelpKINode Title="Validate method" Url="html/35b6e7cc-0378-7792-9913-fe9b358f5725.htm" />
   <HelpKINode Title="validate method" Url="html/4ddf92b5-af32-367a-5089-7ff9381d8f1a.htm" />
   <HelpKINode Title="Validate method" Url="html/61792310-3410-5461-e919-ed42b74ad234.htm" />
-  <HelpKINode Title="validate method" Url="html/8a737b32-d80c-5afe-7b88-7b1016ba9f95.htm" />
-  <HelpKINode Title="validate method" Url="html/9e33e114-51d4-cc76-c733-27424d9f82b5.htm" />
-  <HelpKINode Title="validate method" Url="html/ace27eab-e295-5ef3-7683-c2da6d4af9ff.htm" />
   <HelpKINode Title="Validate method" Url="html/6c3ab5e1-9853-5e06-4e69-d0da44395832.htm" />
+  <HelpKINode Title="validate method" Url="html/8a737b32-d80c-5afe-7b88-7b1016ba9f95.htm" />
+  <HelpKINode Title="validate method" Url="html/2bd2f307-799c-89cf-4ff2-fd4736d159ae.htm" />
   <HelpKINode Title="Validate method" Url="html/6d16b29e-0bcd-fc4a-d18a-6d7cda6d531d.htm" />
-  <HelpKINode Title="Validate method" Url="html/82bba097-16a0-b758-cf07-8542a33c7ce3.htm" />
   <HelpKINode Title="Validate method" Url="html/968a2a91-aa80-62f8-f0a0-c9224327a354.htm" />
+  <HelpKINode Title="validate method" Url="html/ace27eab-e295-5ef3-7683-c2da6d4af9ff.htm" />
+  <HelpKINode Title="Validate method" Url="html/82bba097-16a0-b758-cf07-8542a33c7ce3.htm" />
   <HelpKINode Title="ValidateChildren method" Url="html/27cb0a90-106d-6b25-468f-75d97cfaae74.htm" />
   <HelpKINode Title="ValidateChildren method" Url="html/4d04c3da-c7a5-60ed-9b41-44764c791e1c.htm" />
   <HelpKINode Title="ValidateChildren method" Url="html/4f12fe90-b93b-7c8b-b44a-560caf8a9e16.htm" />

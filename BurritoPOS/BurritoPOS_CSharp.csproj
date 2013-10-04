@@ -95,8 +95,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\BurritoPOSServer\BurritoPOSServer\lib\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="MongoDB.Bson, Version=1.3.1.4349, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL" />
-    <Reference Include="MongoDB.Driver, Version=1.3.1.4349, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL" />
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MongoDB\CSharpDriver 1.6.1\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MongoDB\CSharpDriver 1.6.1\MongoDB.Driver.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\NHibernate.dll</HintPath>
@@ -112,6 +116,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\nunit.mocks.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="Remotion.Data.Linq">
       <HintPath>lib\Remotion.Data.Linq.dll</HintPath>
     </Reference>
@@ -130,6 +136,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="business\BurritoManager.cs" />
@@ -157,41 +165,44 @@
     <Compile Include="domain\Order.cs" />
     <Compile Include="exception\InsufficientInventoryException.cs" />
     <Compile Include="exception\ServiceLoadException.cs" />
-    <Compile Include="presentation\BurritoDialog.cs">
+    <Compile Include="presentation\WinForm\BurritoDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\BurritoDialog.Designer.cs">
+    <Compile Include="presentation\WinForm\BurritoDialog.Designer.cs">
       <DependentUpon>BurritoDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="presentation\LoginUI.cs">
+    <Compile Include="presentation\WinForm\LoginUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\LoginUI.Designer.cs">
+    <Compile Include="presentation\WinForm\LoginUI.Designer.cs">
       <DependentUpon>LoginUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="presentation\MainUI.cs">
+    <Compile Include="presentation\WinForm\MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\MainUI.Designer.cs">
+    <Compile Include="presentation\WinForm\MainUI.Designer.cs">
       <DependentUpon>MainUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="presentation\OrderUI.cs">
+    <Compile Include="presentation\WinForm\OrderUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\OrderUI.Designer.cs">
+    <Compile Include="presentation\WinForm\OrderUI.Designer.cs">
       <DependentUpon>OrderUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="presentation\InventoryUI.cs">
+    <Compile Include="presentation\WinForm\InventoryUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\InventoryUI.Designer.cs">
+    <Compile Include="presentation\WinForm\InventoryUI.Designer.cs">
       <DependentUpon>InventoryUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="presentation\OrderViewUI.cs">
+    <Compile Include="presentation\WinForm\OrderViewUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\OrderViewUI.Designer.cs">
+    <Compile Include="presentation\WinForm\OrderViewUI.Designer.cs">
       <DependentUpon>OrderViewUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation\WPF\LoginUI.xaml.cs">
+      <DependentUpon>LoginUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="service\Crypto\BCrypt.cs" />
     <Compile Include="service\Sockets\AuthenticationSvcSocketImpl.cs" />
@@ -240,22 +251,22 @@
     <Compile Include="service\SQL\ManagerSvcSQLImpl.cs" />
     <Compile Include="service\Serializable\OrderSvcFileImpl.cs" />
     <Compile Include="service\SQL\OrderSvcSQLImpl.cs" />
-    <EmbeddedResource Include="presentation\BurritoDialog.resx">
+    <EmbeddedResource Include="presentation\WinForm\BurritoDialog.resx">
       <DependentUpon>BurritoDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="presentation\InventoryUI.resx">
+    <EmbeddedResource Include="presentation\WinForm\InventoryUI.resx">
       <DependentUpon>InventoryUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="presentation\LoginUI.resx">
+    <EmbeddedResource Include="presentation\WinForm\LoginUI.resx">
       <DependentUpon>LoginUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="presentation\MainUI.resx">
+    <EmbeddedResource Include="presentation\WinForm\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="presentation\OrderUI.resx">
+    <EmbeddedResource Include="presentation\WinForm\OrderUI.resx">
       <DependentUpon>OrderUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="presentation\OrderViewUI.resx">
+    <EmbeddedResource Include="presentation\WinForm\OrderViewUI.resx">
       <DependentUpon>OrderViewUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -270,7 +281,9 @@
     </Compile>
     <EmbeddedResource Include="app.config" />
     <None Include="BurritoPOS_TemporaryKey.pfx" />
-    <None Include="default.build" />
+    <None Include="default.build">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="lib\nhibernate-configuration.xsd" />
     <None Include="lib\nhibernate-mapping.xsd" />
     <None Include="Properties\app.manifest" />
@@ -344,6 +357,12 @@
     <Content Include="lib\nunit.mocks.dll" />
     <Content Include="NeatoBurrito_Schema%28MSSQLServer%29.sql" />
     <None Include="config\log4net.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="presentation\WPF\LoginUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

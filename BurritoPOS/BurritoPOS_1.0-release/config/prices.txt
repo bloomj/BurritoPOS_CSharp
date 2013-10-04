@@ -1,9 +1,0 @@
-BeefBurrito = 6.50
-ChickenBurrito = 6.00
-HummusBurrito = 5.00
-FlavoredTortilla = 0.50
-ExtraRice = 0.50
-ExtraBeans = 0.50
-ExtraMeat = 1.25
-ExtraSalsa = 0.75
-Guacamole = 1.00
